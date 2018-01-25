@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B6459B15-95E5-4ADC-8FF8-6FE70D0C02D2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GlobalInfoProtocol</RootNamespace>
+    <AssemblyName>GlobalInfoProtocol</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Activation.aspx" />
+    <Content Include="AddCMailBox.aspx" />
+    <Content Include="AddCompany.aspx" />
+    <Content Include="AddData.aspx" />
+    <Content Include="AddRequest.aspx" />
+    <Content Include="Advertisment.aspx" />
+    <Content Include="BlockClientForCompany.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="DeleteCompany.aspx" />
+    <Content Include="DeleteData.aspx" />
+    <Content Include="EMailInvatation.aspx" />
+    <Content Include="GetBillingForThisMonth.aspx" />
+    <Content Include="GetTableFileds.aspx" />
+    <Content Include="GetTables.aspx" />
+    <Content Include="GetWaitingMails.aspx" />
+    <Content Include="Images\action_cancel_small.png" />
+    <Content Include="Images\arrow_down.png" />
+    <Content Include="Images\CMailBox.jpg" />
+    <Content Include="Images\CMailBox2.jpg" />
+    <Content Include="Images\icon_add.png" />
+    <Content Include="Images\icon_note5.gif" />
+    <Content Include="Images\Key-icon-16.png" />
+    <Content Include="Images\maximize.gif" />
+    <Content Include="Images\Memo.png" />
+    <Content Include="Images\minimize.gif" />
+    <Content Include="Images\note-edit-icon2.png" />
+    <Content Include="Images\spacer.png" />
+    <Content Include="Images\unique_icon.png" />
+    <Content Include="InvatationSend.aspx" />
+    <Content Include="GetData.aspx" />
+    <Content Include="GetGUIDFileExt.aspx" />
+    <Content Include="GetNotPaid.aspx" />
+    <Content Include="GetTermUse.aspx" />
+    <Content Include="IsActive.aspx" />
+    <Content Include="IsClientBlockedForCompany.aspx" />
+    <Content Include="IsCompanyHasCCToPay.aspx" />
+    <Content Include="IsCompanyPaid.aspx" />
+    <Content Include="IsCompanyCommercial.aspx" />
+    <Content Include="IsCompanyExist.aspx" />
+    <Content Include="Ping.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="SendData.aspx" />
+    <Content Include="ServiceAction.aspx" />
+    <Content Include="ShowTable.aspx" />
+    <Content Include="ShowTableFileds.aspx" />
+    <Content Include="TransactionConfirmedReaden.aspx" />
+    <Content Include="TransactionReaden.aspx" />
+    <Content Include="TransFTPToDB.aspx" />
+    <Content Include="UnBlockClientForCompany.aspx" />
+    <Content Include="UpdateCompany.aspx" />
+    <Content Include="UpdatePayment.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activation.aspx.cs">
+      <DependentUpon>Activation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activation.aspx.designer.cs">
+      <DependentUpon>Activation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCMailBox.aspx.cs">
+      <DependentUpon>AddCMailBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCMailBox.aspx.designer.cs">
+      <DependentUpon>AddCMailBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCompany.aspx.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCompany.aspx.designer.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddData.aspx.cs">
+      <DependentUpon>AddData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddData.aspx.designer.cs">
+      <DependentUpon>AddData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddRequest.aspx.cs">
+      <DependentUpon>AddRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddRequest.aspx.designer.cs">
+      <DependentUpon>AddRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Advertisment.aspx.cs">
+      <DependentUpon>Advertisment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Advertisment.aspx.designer.cs">
+      <DependentUpon>Advertisment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlockClientForCompany.aspx.cs">
+      <DependentUpon>BlockClientForCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlockClientForCompany.aspx.designer.cs">
+      <DependentUpon>BlockClientForCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Billing.cs" />
+    <Compile Include="Classes\CMailBox.cs" />
+    <Compile Include="Classes\Company.cs" />
+    <Compile Include="Classes\DBLayer.cs" />
+    <Compile Include="Classes\Logger.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCompany.aspx.cs">
+      <DependentUpon>DeleteCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteCompany.aspx.designer.cs">
+      <DependentUpon>DeleteCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteData.aspx.cs">
+      <DependentUpon>DeleteData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteData.aspx.designer.cs">
+      <DependentUpon>DeleteData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EMailInvatation.aspx.cs">
+      <DependentUpon>EMailInvatation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EMailInvatation.aspx.designer.cs">
+      <DependentUpon>EMailInvatation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetBillingForThisMonth.aspx.cs">
+      <DependentUpon>GetBillingForThisMonth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetBillingForThisMonth.aspx.designer.cs">
+      <DependentUpon>GetBillingForThisMonth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetTableFileds.aspx.cs">
+      <DependentUpon>GetTableFileds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetTableFileds.aspx.designer.cs">
+      <DependentUpon>GetTableFileds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetTables.aspx.cs">
+      <DependentUpon>GetTables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetTables.aspx.designer.cs">
+      <DependentUpon>GetTables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetWaitingMails.aspx.cs">
+      <DependentUpon>GetWaitingMails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetWaitingMails.aspx.designer.cs">
+      <DependentUpon>GetWaitingMails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InvatationSend.aspx.cs">
+      <DependentUpon>InvatationSend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InvatationSend.aspx.designer.cs">
+      <DependentUpon>InvatationSend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetData.aspx.cs">
+      <DependentUpon>GetData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetData.aspx.designer.cs">
+      <DependentUpon>GetData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetGUIDFileExt.aspx.cs">
+      <DependentUpon>GetGUIDFileExt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetGUIDFileExt.aspx.designer.cs">
+      <DependentUpon>GetGUIDFileExt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetNotPaid.aspx.cs">
+      <DependentUpon>GetNotPaid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetNotPaid.aspx.designer.cs">
+      <DependentUpon>GetNotPaid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetTermUse.aspx.cs">
+      <DependentUpon>GetTermUse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetTermUse.aspx.designer.cs">
+      <DependentUpon>GetTermUse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IsActive.aspx.cs">
+      <DependentUpon>IsActive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsActive.aspx.designer.cs">
+      <DependentUpon>IsActive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IsClientBlockedForCompany.aspx.cs">
+      <DependentUpon>IsClientBlockedForCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsClientBlockedForCompany.aspx.designer.cs">
+      <DependentUpon>IsClientBlockedForCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IsCompanyHasCCToPay.aspx.cs">
+      <DependentUpon>IsCompanyHasCCToPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsCompanyHasCCToPay.aspx.designer.cs">
+      <DependentUpon>IsCompanyHasCCToPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IsCompanyPaid.aspx.cs">
+      <DependentUpon>IsCompanyPaid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsCompanyPaid.aspx.designer.cs">
+      <DependentUpon>IsCompanyPaid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IsCompanyCommercial.aspx.cs">
+      <DependentUpon>IsCompanyCommercial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsCompanyCommercial.aspx.designer.cs">
+      <DependentUpon>IsCompanyCommercial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IsCompanyExist.aspx.cs">
+      <DependentUpon>IsCompanyExist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsCompanyExist.aspx.designer.cs">
+      <DependentUpon>IsCompanyExist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ping.aspx.cs">
+      <DependentUpon>Ping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ping.aspx.designer.cs">
+      <DependentUpon>Ping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendData.aspx.cs">
+      <DependentUpon>SendData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendData.aspx.designer.cs">
+      <DependentUpon>SendData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceAction.aspx.cs">
+      <DependentUpon>ServiceAction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceAction.aspx.designer.cs">
+      <DependentUpon>ServiceAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTable.aspx.cs">
+      <DependentUpon>ShowTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowTable.aspx.designer.cs">
+      <DependentUpon>ShowTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTableFileds.aspx.cs">
+      <DependentUpon>ShowTableFileds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowTableFileds.aspx.designer.cs">
+      <DependentUpon>ShowTableFileds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionConfirmedReaden.aspx.cs">
+      <DependentUpon>TransactionConfirmedReaden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TransactionConfirmedReaden.aspx.designer.cs">
+      <DependentUpon>TransactionConfirmedReaden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionReaden.aspx.cs">
+      <DependentUpon>TransactionReaden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TransactionReaden.aspx.designer.cs">
+      <DependentUpon>TransactionReaden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TransFTPToDB.aspx.cs">
+      <DependentUpon>TransFTPToDB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TransFTPToDB.aspx.designer.cs">
+      <DependentUpon>TransFTPToDB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnBlockClientForCompany.aspx.cs">
+      <DependentUpon>UnBlockClientForCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnBlockClientForCompany.aspx.designer.cs">
+      <DependentUpon>UnBlockClientForCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCompany.aspx.cs">
+      <DependentUpon>UpdateCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateCompany.aspx.designer.cs">
+      <DependentUpon>UpdateCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePayment.aspx.cs">
+      <DependentUpon>UpdatePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdatePayment.aspx.designer.cs">
+      <DependentUpon>UpdatePayment.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3305</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

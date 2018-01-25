@@ -1,0 +1,65 @@
+I:\Documents and Settings\yanivz\My Documents\visual studio 2010\Projects\FTP24CP\bin\Debug\FTP24CP.exe
+I:\Documents and Settings\yanivz\My Documents\visual studio 2010\Projects\FTP24CP\bin\Debug\FTP24CP.pdb
+I:\Documents and Settings\yanivz\My Documents\visual studio 2010\Projects\FTP24CP\obj\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\visual studio 2010\Projects\FTP24CP\obj\Debug\FTP24CP.Form1.resources
+I:\Documents and Settings\yanivz\My Documents\visual studio 2010\Projects\FTP24CP\obj\Debug\FTP24CP.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\visual studio 2010\Projects\FTP24CP\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\visual studio 2010\Projects\FTP24CP\obj\Debug\GenerateResource-ResGen.write.1.tlog
+I:\Documents and Settings\yanivz\My Documents\visual studio 2010\Projects\FTP24CP\obj\Debug\FTP24CP.exe
+I:\Documents and Settings\yanivz\My Documents\visual studio 2010\Projects\FTP24CP\obj\Debug\FTP24CP.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\bin\Debug\FTP24CP.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\bin\Debug\FTP24CP.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\FTP24CP.Form1.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\FTP24CP.frmProgress.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\FTP24CP.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\GenerateResource-ResGen.read.4.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\GenerateResource-ResGen.write.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\FTP24CP.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\FTP24CP.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\FTP24CP\obj\Debug\GenerateResource-ResGen.read.6.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\FTP24CP.exe
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\FTP24CP.pdb
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\bin\Debug\FTP24CP.exe
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\bin\Debug\FTP24CP.pdb
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\FTP24CP.Form1.resources
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\FTP24CP.frmProgress.resources
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\FTP24CP.Properties.Resources.resources
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource-ResGen.read.4.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource-ResGen.read.6.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource-ResGen.write.1.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.read.33.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.read.35.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.read.36.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.write.36.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.read.77.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.read.79.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.read.90.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.read.118.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.read.124.tlog
+I:\Documents and Settings\yanivz\Desktop\FTP24CP\obj\Debug\GenerateResource.read.135.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\bin\Debug\FTP24CP.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\bin\Debug\FTP24CP.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.Form1.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.frmProgress.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\GenerateResource-ResGen.read.6.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.exe
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.pdb
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.Form1.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.frmProgress.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\FTP24CP.Properties.Resources.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\GenerateResource-ResGen.read.6.tlog
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\bin\Debug\FTP24CP.exe
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\FTP24CP\bin\Debug\FTP24CP.pdb

@@ -1,0 +1,12 @@
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\bin\Release\TestUploader.exe.config
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Release\TestUploader.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Release\TestUploader.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Release\TestUploader.XmlSerializers.dll
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\bin\Release\TestUploader.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\bin\Release\TestUploader.XmlSerializers.dll
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\bin\Release\TestUploader.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Release\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Release\TestUploader.Form1.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Release\TestUploader.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Release\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Release\GenerateResource-ResGen.write.1.tlog

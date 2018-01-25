@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="\\berg\c$\Inetpub\GlobalInfoProtocol" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="IsCompanyPaid.aspx" publishTime="03/14/2013 14:26:10" />
+    <file relUrl="Images/Key-icon-16.png" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="UnBlockClientForCompany.aspx" publishTime="02/03/2013 11:51:33" />
+    <file relUrl="GetTableFileds.aspx" publishTime="04/17/2013 09:44:35" />
+    <file relUrl="bin/GlobalInfoProtocol.pdb" publishTime="05/13/2013 11:39:20" />
+    <file relUrl="Activation.aspx" publishTime="10/22/2012 12:56:57" />
+    <file relUrl="AddRequest.aspx" publishTime="02/18/2013 11:55:48" />
+    <file relUrl="Images/CMailBox.jpg" publishTime="03/21/2013 13:54:38" />
+    <file relUrl="UpdatePayment.aspx" publishTime="03/14/2013 13:58:04" />
+    <file relUrl="AddCMailBox.aspx" publishTime="03/14/2013 09:48:00" />
+    <file relUrl="IsActive.aspx" publishTime="10/29/2012 10:29:31" />
+    <file relUrl="GetTables.aspx" publishTime="04/17/2013 10:39:36" />
+    <file relUrl="AddCompany.aspx" publishTime="08/26/2012 11:33:03" />
+    <file relUrl="Images/unique_icon.png" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="DeleteData.aspx" publishTime="08/26/2012 12:38:30" />
+    <file relUrl="Images/CMailBox2.jpg" publishTime="03/21/2013 14:09:08" />
+    <file relUrl="GetWaitingMails.aspx" publishTime="05/13/2013 11:20:58" />
+    <file relUrl="bin/GlobalInfoProtocol.dll" publishTime="05/13/2013 11:39:20" />
+    <file relUrl="ServiceAction.aspx" publishTime="04/15/2013 10:21:18" />
+    <file relUrl="IsCompanyCommercial.aspx" publishTime="03/14/2013 13:09:15" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="08/23/2012 14:13:24" />
+    <file relUrl="EMailInvatation.aspx" publishTime="03/21/2013 14:15:08" />
+    <file relUrl="DeleteCompany.aspx" publishTime="08/26/2012 12:18:43" />
+    <file relUrl="Advertisment.aspx" publishTime="04/10/2013 13:21:49" />
+    <file relUrl="TransFTPToDB.aspx" publishTime="01/17/2013 09:23:36" />
+    <file relUrl="GetGUIDFileExt.aspx" publishTime="01/23/2013 15:25:46" />
+    <file relUrl="Default.aspx" publishTime="08/23/2012 14:13:24" />
+    <file relUrl="TransactionConfirmedReaden.aspx" publishTime="12/24/2012 15:25:00" />
+    <file relUrl="Images/note-edit-icon2.png" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="GetData.aspx" publishTime="08/26/2012 14:44:29" />
+    <file relUrl="Images/icon_add.png" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="IsClientBlockedForCompany.aspx" publishTime="02/03/2013 12:28:33" />
+    <file relUrl="ShowTableFileds.aspx" publishTime="04/17/2013 09:42:45" />
+    <file relUrl="UpdateCompany.aspx" publishTime="01/31/2013 14:11:03" />
+    <file relUrl="Images/maximize.gif" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="Images/arrow_down.png" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="BlockClientForCompany.aspx" publishTime="02/03/2013 11:05:22" />
+    <file relUrl="IsCompanyHasCCToPay.aspx" publishTime="05/13/2013 10:52:21" />
+    <file relUrl="SendData.aspx" publishTime="10/31/2012 10:10:32" />
+    <file relUrl="Images/spacer.png" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="GetBillingForThisMonth.aspx" publishTime="05/13/2013 10:09:48" />
+    <file relUrl="GetTermUse.aspx" publishTime="03/14/2013 11:33:37" />
+    <file relUrl="TransactionReaden.aspx" publishTime="10/28/2012 14:26:23" />
+    <file relUrl="IsCompanyExist.aspx" publishTime="01/23/2013 09:31:05" />
+    <file relUrl="Web.config" publishTime="05/13/2013 11:39:26" />
+    <file relUrl="ShowTable.aspx" publishTime="04/17/2013 10:48:22" />
+    <file relUrl="Ping.aspx" publishTime="02/17/2013 12:13:37" />
+    <file relUrl="GetNotPaid.aspx" publishTime="02/10/2013 12:44:52" />
+    <file relUrl="InvatationSend.aspx" publishTime="03/21/2013 12:53:21" />
+    <file relUrl="AddData.aspx" publishTime="08/26/2012 12:32:59" />
+    <file relUrl="Images/action_cancel_small.png" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="08/23/2012 14:13:24" />
+    <file relUrl="Images/Memo.png" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="Images/icon_note5.gif" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="Images/minimize.gif" publishTime="04/17/2013 10:41:20" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="08/23/2012 14:13:24" />
+  </publishProfile>
+</publishData>

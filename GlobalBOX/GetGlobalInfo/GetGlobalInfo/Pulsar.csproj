@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A61CA4D-7158-41B5-A563-145D73E35D83}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pulsar</RootNamespace>
+    <AssemblyName>Pulsar</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/GetGlobalInfo/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>pulsar128.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>E:\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.Office.Interop.Outlook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BallonTip\FMSBalloonTip.cs" />
+    <Compile Include="BallonTip\FMSEditTip.cs" />
+    <Compile Include="BallonTip\FMSInPlaceTip.cs" />
+    <Compile Include="BallonTip\FMSMessageTip.cs" />
+    <Compile Include="Classes\ActiveLayout.cs" />
+    <Compile Include="App_Data\LocalInfoProtocolDataSet.cs">
+      <DependentUpon>LocalInfoProtocolDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Data\LocalInfoProtocolDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalInfoProtocolDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Arguments.cs" />
+    <Compile Include="Classes\BitmapRegion.cs" />
+    <Compile Include="Classes\BuisnessInfo.cs" />
+    <Compile Include="Classes\CipherUtility.cs" />
+    <Compile Include="Classes\Company.cs" />
+    <Compile Include="Classes\CompanyIdentification.cs" />
+    <Compile Include="Classes\CompanyInfo.cs" />
+    <Compile Include="Classes\CompanyType.cs" />
+    <Compile Include="Classes\Cryptographer.cs" />
+    <Compile Include="Classes\DBCopy.cs" />
+    <Compile Include="Classes\DBLayer.cs" />
+    <Compile Include="Classes\GetClassProperties.cs" />
+    <Compile Include="Classes\IsraeliID.cs" />
+    <Compile Include="Classes\IsValidCC.cs" />
+    <Compile Include="Classes\ListViewColumnSorter.cs" />
+    <Compile Include="Classes\OutlookContact.cs" />
+    <Compile Include="Classes\ShareUtils.cs" />
+    <Compile Include="Classes\ShuratHaklada.cs" />
+    <Compile Include="Classes\SugTnua.cs" />
+    <Compile Include="Classes\ComboboxItem.cs" />
+    <Compile Include="Classes\DataTypesList.cs" />
+    <Compile Include="Classes\TochenTnua.cs" />
+    <Compile Include="Classes\Win32.cs" />
+    <Compile Include="Classes\WriteCodeRequest.cs" />
+    <Compile Include="Classes\ControlsValidator.cs" />
+    <Compile Include="Controls\DateTimeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DateTimeControl.Designer.cs">
+      <DependentUpon>DateTimeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FiledHolder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FiledHolder.Designer.cs">
+      <DependentUpon>FiledHolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ServerStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ServerStatus.Designer.cs">
+      <DependentUpon>ServerStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FiledStructure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FiledStructure.Designer.cs">
+      <DependentUpon>FiledStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDataStructure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDataStructure.Designer.cs">
+      <DependentUpon>frmDataStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDownload.Designer.cs">
+      <DependentUpon>frmDownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHaklada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHaklada.Designer.cs">
+      <DependentUpon>frmHaklada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHakladaInbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHakladaInbox.Designer.cs">
+      <DependentUpon>frmHakladaInbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHakladaInboxTochenTnua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHakladaInboxTochenTnua.Designer.cs">
+      <DependentUpon>frmHakladaInboxTochenTnua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmActionType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmActionType.Designer.cs">
+      <DependentUpon>frmActionType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBuisnessIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBuisnessIndex.Designer.cs">
+      <DependentUpon>frmBuisnessIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBuisnessIndexTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBuisnessIndexTable.Designer.cs">
+      <DependentUpon>frmBuisnessIndexTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCloudBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCloudBox.Designer.cs">
+      <DependentUpon>frmCloudBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPayment.Designer.cs">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProcessRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProcessRequest.Designer.cs">
+      <DependentUpon>frmProcessRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ExternalDataManager.cs" />
+    <Compile Include="Classes\IniFile.cs" />
+    <Compile Include="Classes\KoteretPratim.cs" />
+    <Compile Include="Classes\KoteretTnua.cs" />
+    <Compile Include="Classes\InputBox.cs" />
+    <Compile Include="Controls\NumericTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Parser.cs" />
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Forms\frmRequests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRequests.Designer.cs">
+      <DependentUpon>frmRequests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ListViewEx.Designer.cs">
+      <DependentUpon>ListViewEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTermUse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTermUse.Designer.cs">
+      <DependentUpon>frmTermUse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSocialShare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSocialShare.Designer.cs">
+      <DependentUpon>frmSocialShare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHakladaTochenTnua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHakladaTochenTnua.Designer.cs">
+      <DependentUpon>frmHakladaTochenTnua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\RecordHeader.cs" />
+    <Compile Include="Classes\RegionAndLanguageHelper.cs" />
+    <Compile Include="Classes\SendOutboxData.cs" />
+    <Compile Include="Controls\TitleBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TitleBar.Designer.cs">
+      <DependentUpon>TitleBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Upload.cs" />
+    <Compile Include="Classes\UploadUsage.cs" />
+    <Compile Include="Scan\Classes\DriveSettings.cs" />
+    <Compile Include="Scan\Forms\frmCheckInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan\Forms\frmCheckInfo.designer.cs">
+      <DependentUpon>frmCheckInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scan\Forms\frmEMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan\Forms\frmEMail.designer.cs">
+      <DependentUpon>frmEMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scan\Forms\frmGetData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan\Forms\frmGetData.designer.cs">
+      <DependentUpon>frmGetData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scan\Forms\frmZoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan\Forms\frmZoom.designer.cs">
+      <DependentUpon>frmZoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scan\Classes\GdiPlusLib.cs" />
+    <Compile Include="Scan\Forms\InfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan\Forms\MainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan\Forms\PicForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan\Classes\SendFileTo.cs" />
+    <Compile Include="Scan\Classes\TwainDefs.cs" />
+    <Compile Include="Scan\Classes\TwainLib.cs" />
+    <EmbeddedResource Include="Controls\DateTimeControl.resx">
+      <DependentUpon>DateTimeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FiledHolder.resx">
+      <DependentUpon>FiledHolder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ServerStatus.resx">
+      <DependentUpon>ServerStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FiledStructure.resx">
+      <DependentUpon>FiledStructure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDataStructure.resx">
+      <DependentUpon>frmDataStructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDownload.resx">
+      <DependentUpon>frmDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHaklada.resx">
+      <DependentUpon>frmHaklada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHakladaInbox.resx">
+      <DependentUpon>frmHakladaInbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHakladaInboxTochenTnua.resx">
+      <DependentUpon>frmHakladaInboxTochenTnua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmActionType.resx">
+      <DependentUpon>frmActionType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBuisnessIndex.resx">
+      <DependentUpon>frmBuisnessIndex.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBuisnessIndexTable.resx">
+      <DependentUpon>frmBuisnessIndexTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCloudBox.resx">
+      <DependentUpon>frmCloudBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPayment.resx">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProcessRequest.resx">
+      <DependentUpon>frmProcessRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRequests.resx">
+      <DependentUpon>frmRequests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTermUse.resx">
+      <DependentUpon>frmTermUse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSocialShare.resx">
+      <DependentUpon>frmSocialShare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHakladaTochenTnua.resx">
+      <DependentUpon>frmHakladaTochenTnua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TitleBar.resx">
+      <DependentUpon>TitleBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scan\Forms\frmCheckInfo.resx">
+      <DependentUpon>frmCheckInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scan\Forms\frmEMail.resx">
+      <DependentUpon>frmEMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scan\Forms\frmGetData.resx">
+      <DependentUpon>frmGetData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scan\Forms\frmZoom.resx">
+      <DependentUpon>frmZoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scan\Forms\InfoForm.resx">
+      <DependentUpon>InfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scan\Forms\MainFrame.resx">
+      <DependentUpon>MainFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scan\Forms\PicForm.resx">
+      <DependentUpon>PicForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Data\LocalInfoProtocolDataSet.xsc">
+      <DependentUpon>LocalInfoProtocolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="App_Data\LocalInfoProtocolDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>LocalInfoProtocolDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Data\LocalInfoProtocolDataSet.xss">
+      <DependentUpon>LocalInfoProtocolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\LocalInfoProtocol.mdb" />
+    <Content Include="ICO\Download.ico" />
+    <None Include="Resources\Export.gif" />
+    <None Include="Resources\Export.png" />
+    <Content Include="ICO\email_transfer.ico" />
+    <None Include="Resources\email_transfer.png" />
+    <None Include="Resources\active.png" />
+    <None Include="Resources\inactive.png" />
+    <None Include="Resources\notactive.png" />
+    <None Include="Resources\seek.gif" />
+    <None Include="Resources\block_16.png" />
+    <None Include="Resources\icon_block.png" />
+    <None Include="Resources\block_14.png" />
+    <None Include="Resources\icon_message.png" />
+    <None Include="Resources\icon_post_message.png" />
+    <None Include="Resources\request-icon.gif" />
+    <None Include="Resources\request_icon.png" />
+    <None Include="Resources\blocked_16.png" />
+    <None Include="Resources\blocked_16x12.png" />
+    <None Include="Resources\registration2_16x16.png" />
+    <None Include="Resources\Filter24.png" />
+    <None Include="Resources\anti_teft_cc.png" />
+    <None Include="Resources\931335561515715650.png" />
+    <None Include="Resources\cvv.png" />
+    <None Include="Resources\Credit_card.png" />
+    <None Include="Resources\ID.png" />
+    <None Include="Resources\calender.png" />
+    <None Include="Resources\24_tag_pencil.png" />
+    <None Include="Resources\credit_card_24.png" />
+    <None Include="Resources\online.png" />
+    <None Include="Resources\offline.png" />
+    <None Include="Resources\mail_reply22.png" />
+    <None Include="Resources\system-log-out22.png" />
+    <None Include="Resources\exit22.png" />
+    <None Include="Resources\scanner_accept.png" />
+    <None Include="Resources\scanner_remove.png" />
+    <None Include="Resources\scannerNormal.png" />
+    <None Include="Resources\SearchSmall.png" />
+    <None Include="Resources\SaveOff.bmp" />
+    <None Include="Resources\SaveOn.bmp" />
+    <None Include="Resources\scanner2.png" />
+    <None Include="Resources\scanner24.png" />
+    <None Include="Resources\help_small_24.png" />
+    <None Include="Resources\help24.png" />
+    <None Include="Resources\email-continuity-icon.png" />
+    <None Include="Resources\network-share-icon24.png" />
+    <None Include="Resources\network-share-icon16.png" />
+    <None Include="Resources\earth_hand_internet_share_icon24.png" />
+    <None Include="Resources\gear_stop_24.png" />
+    <None Include="Resources\gear_run_24.png" />
+    <None Include="Resources\gear_stop_16.png" />
+    <None Include="Resources\gear_run_16.png" />
+    <None Include="Resources\gear_stop_22.png" />
+    <None Include="Resources\gear_run_22.png" />
+    <None Include="Resources\Clock.ico" />
+    <None Include="Resources\advancedsettings16.png" />
+    <Content Include="pulsar128.ico" />
+    <Content Include="Resources\pulsar128.ico" />
+    <None Include="Resources\pulsar128.png" />
+    <Content Include="SoundResources\Door.wav" />
+    <Content Include="SoundResources\Knock.wav" />
+    <Content Include="SoundResources\Message.wav" />
+    <Content Include="SoundResources\Pow.wav" />
+    <None Include="Resources\icon128.png" />
+    <None Include="Resources\inbox.png" />
+    <None Include="Resources\outbox_icon.png" />
+    <None Include="Resources\page_white_link.png" />
+    <None Include="Resources\application_form_edit.png" />
+    <None Include="Resources\work_icon.png" />
+    <None Include="Resources\filter_data_date_32.png" />
+    <None Include="Resources\ActionIcon.png" />
+    <None Include="Resources\ActionIcon16.png" />
+    <None Include="Resources\attachment-icon.png" />
+    <None Include="Resources\closedhand.cur" />
+    <None Include="Resources\Cancel-icon16.png" />
+    <Content Include="Resources\CMailBox.ico" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\icon_add.png" />
+    <None Include="Resources\edit_icon.png" />
+    <None Include="Resources\save_icon1.gif" />
+    <None Include="Resources\Reload16.png" />
+    <None Include="Resources\icon_delete.png" />
+    <None Include="Resources\icon_new.png" />
+    <None Include="Resources\filter_data_date_32_Inbox.png" />
+    <None Include="Resources\filter_data_date_32_Outbox.png" />
+    <None Include="Resources\icon_download.png" />
+    <None Include="Resources\icon_eye.gif" />
+    <None Include="Resources\icon_ticket_history.gif" />
+    <None Include="Resources\icon_upload.png" />
+    <None Include="Resources\mail-attachment.png" />
+    <None Include="Resources\icon_download_disable.png" />
+    <None Include="Resources\icon_eye_disable.png" />
+    <None Include="Resources\icon_ticket_history_disable.png" />
+    <None Include="Resources\icon_pan.png" />
+    <None Include="Resources\import.png" />
+    <None Include="Resources\enter_login_icon_16.png" />
+    <None Include="Resources\please_wait450x138.gif" />
+    <None Include="Resources\openhand.cur" />
+    <None Include="Resources\please_wait450x138.png" />
+    <Content Include="Resources\reload.png" />
+    <None Include="Resources\TransferMailLeft.png" />
+    <None Include="Resources\search_green.png" />
+    <Content Include="ICO\sign.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ping.aspx.cs" Inherits="GlobalInfoProtocol.Ping" %>

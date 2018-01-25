@@ -1,0 +1,5 @@
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\Uploader\bin\Uploader.dll
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\Uploader\bin\Uploader.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\Uploader\obj\Release\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\Uploader\obj\Release\Uploader.dll
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\Uploader\obj\Release\Uploader.pdb

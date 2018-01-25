@@ -1,0 +1,298 @@
+22/01/2018 9:58:24 PM ==> Created.
+22/01/2018 9:58:24 PM
+IsCompanyHasCCToPay.aspx Request
+
+22/01/2018 9:58:24 PM
+LoginKey.aspx Request
+
+22/01/2018 9:58:24 PM
+CountryID.aspx Request
+
+22/01/2018 9:58:24 PM
+CompanyVAT.aspx Request
+
+22/01/2018 9:58:24 PM
+ReadCode.aspx Request
+
+22/01/2018 9:58:24 PM
+WriteCode.aspx Request
+
+22/01/2018 9:58:24 PM
+WriteCode.aspx Request
+
+22/01/2018 9:58:25 PM
+GetCompanyReadable.aspx Request
+
+22/01/2018 9:58:25 PM
+company.aspx Request
+
+22/01/2018 9:58:25 PM
+Active.aspx Request
+
+22/01/2018 9:58:25 PM
+CompanySerialNumber.aspx Request
+
+22/01/2018 9:58:25 PM
+Loading page GetData.aspx.cs
+
+22/01/2018 9:58:25 PM
+TransactionReaden.aspx Request
+
+22/01/2018 9:58:25 PM
+TransactionReaden.aspx Parse Data
+
+22/01/2018 9:58:25 PM
+TransactionReaden.aspx LoginKey
+
+22/01/2018 9:58:25 PM
+TransactionReaden.aspx TransactionGUID
+
+22/01/2018 9:58:25 PM
+TransactionReaden.aspx WriteCode
+
+22/01/2018 9:58:25 PM
+UPDATE SendData SET Readen ='1' WHERE TransactionGUID = '{73dc0d55-3f9f-414e-8b04-d1e2614f7052}'
+
+22/01/2018 10:02:38 PM
+IsCompanyHasCCToPay.aspx Request
+
+22/01/2018 10:02:38 PM
+LoginKey.aspx Request
+
+22/01/2018 10:02:38 PM
+CountryID.aspx Request
+
+22/01/2018 10:02:38 PM
+CompanyVAT.aspx Request
+
+22/01/2018 10:02:38 PM
+ReadCode.aspx Request
+
+22/01/2018 10:02:38 PM
+WriteCode.aspx Request
+
+22/01/2018 10:02:38 PM
+WriteCode.aspx Request
+
+22/01/2018 10:02:38 PM
+GetCompanyReadable.aspx Request
+
+22/01/2018 10:02:38 PM
+company.aspx Request
+
+22/01/2018 10:02:38 PM
+Active.aspx Request
+
+22/01/2018 10:02:38 PM
+CompanySerialNumber.aspx Request
+
+22/01/2018 10:02:38 PM
+Loading page GetData.aspx.cs
+
+22/01/2018 10:03:34 PM
+IsCompanyHasCCToPay.aspx Request
+
+22/01/2018 10:03:34 PM
+LoginKey.aspx Request
+
+22/01/2018 10:03:34 PM
+CountryID.aspx Request
+
+22/01/2018 10:03:34 PM
+CompanyVAT.aspx Request
+
+22/01/2018 10:03:34 PM
+ReadCode.aspx Request
+
+22/01/2018 10:03:34 PM
+WriteCode.aspx Request
+
+22/01/2018 10:03:34 PM
+WriteCode.aspx Request
+
+22/01/2018 10:03:34 PM
+GetCompanyReadable.aspx Request
+
+22/01/2018 10:03:34 PM
+company.aspx Request
+
+22/01/2018 10:03:34 PM
+Active.aspx Request
+
+22/01/2018 10:03:34 PM
+CompanySerialNumber.aspx Request
+
+22/01/2018 10:07:26 PM
+IsCompanyHasCCToPay.aspx Request
+
+22/01/2018 10:07:26 PM
+LoginKey.aspx Request
+
+22/01/2018 10:07:26 PM
+CountryID.aspx Request
+
+22/01/2018 10:07:26 PM
+CompanyVAT.aspx Request
+
+22/01/2018 10:07:26 PM
+ReadCode.aspx Request
+
+22/01/2018 10:07:26 PM
+WriteCode.aspx Request
+
+22/01/2018 10:07:26 PM
+WriteCode.aspx Request
+
+22/01/2018 10:07:26 PM
+GetCompanyReadable.aspx Request
+
+22/01/2018 10:07:26 PM
+company.aspx Request
+
+22/01/2018 10:07:26 PM
+Active.aspx Request
+
+22/01/2018 10:07:26 PM
+CompanySerialNumber.aspx Request
+
+22/01/2018 10:07:26 PM
+Loading page GetData.aspx.cs
+
+22/01/2018 10:08:18 PM
+IsCompanyHasCCToPay.aspx Request
+
+22/01/2018 10:08:18 PM
+LoginKey.aspx Request
+
+22/01/2018 10:08:18 PM
+CountryID.aspx Request
+
+22/01/2018 10:08:18 PM
+CompanyVAT.aspx Request
+
+22/01/2018 10:08:18 PM
+ReadCode.aspx Request
+
+22/01/2018 10:08:18 PM
+WriteCode.aspx Request
+
+22/01/2018 10:08:18 PM
+WriteCode.aspx Request
+
+22/01/2018 10:08:18 PM
+GetCompanyReadable.aspx Request
+
+22/01/2018 10:08:18 PM
+company.aspx Request
+
+22/01/2018 10:08:18 PM
+Active.aspx Request
+
+22/01/2018 10:08:18 PM
+CompanySerialNumber.aspx Request
+
+22/01/2018 10:08:45 PM
+IsCompanyHasCCToPay.aspx Request
+
+22/01/2018 10:08:45 PM
+LoginKey.aspx Request
+
+22/01/2018 10:08:45 PM
+CountryID.aspx Request
+
+22/01/2018 10:08:45 PM
+CompanyVAT.aspx Request
+
+22/01/2018 10:08:45 PM
+ReadCode.aspx Request
+
+22/01/2018 10:08:45 PM
+WriteCode.aspx Request
+
+22/01/2018 10:08:45 PM
+WriteCode.aspx Request
+
+22/01/2018 10:08:45 PM
+GetCompanyReadable.aspx Request
+
+22/01/2018 10:08:45 PM
+company.aspx Request
+
+22/01/2018 10:08:45 PM
+Active.aspx Request
+
+22/01/2018 10:08:45 PM
+CompanySerialNumber.aspx Request
+
+22/01/2018 10:08:45 PM
+Loading page GetData.aspx.cs
+
+22/01/2018 10:10:57 PM
+IsCompanyHasCCToPay.aspx Request
+
+22/01/2018 10:10:57 PM
+LoginKey.aspx Request
+
+22/01/2018 10:10:57 PM
+CountryID.aspx Request
+
+22/01/2018 10:10:57 PM
+CompanyVAT.aspx Request
+
+22/01/2018 10:10:57 PM
+ReadCode.aspx Request
+
+22/01/2018 10:10:57 PM
+WriteCode.aspx Request
+
+22/01/2018 10:10:57 PM
+WriteCode.aspx Request
+
+22/01/2018 10:10:57 PM
+GetCompanyReadable.aspx Request
+
+22/01/2018 10:10:57 PM
+company.aspx Request
+
+22/01/2018 10:10:57 PM
+Active.aspx Request
+
+22/01/2018 10:10:57 PM
+CompanySerialNumber.aspx Request
+
+22/01/2018 10:10:57 PM
+Loading page GetData.aspx.cs
+
+22/01/2018 10:11:44 PM
+IsCompanyHasCCToPay.aspx Request
+
+22/01/2018 10:11:44 PM
+LoginKey.aspx Request
+
+22/01/2018 10:11:44 PM
+CountryID.aspx Request
+
+22/01/2018 10:11:44 PM
+CompanyVAT.aspx Request
+
+22/01/2018 10:11:44 PM
+ReadCode.aspx Request
+
+22/01/2018 10:11:44 PM
+WriteCode.aspx Request
+
+22/01/2018 10:11:44 PM
+WriteCode.aspx Request
+
+22/01/2018 10:11:44 PM
+GetCompanyReadable.aspx Request
+
+22/01/2018 10:11:44 PM
+company.aspx Request
+
+22/01/2018 10:11:44 PM
+Active.aspx Request
+
+22/01/2018 10:11:44 PM
+CompanySerialNumber.aspx Request
+

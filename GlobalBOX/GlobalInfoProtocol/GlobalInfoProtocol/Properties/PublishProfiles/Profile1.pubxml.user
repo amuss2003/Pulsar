@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2013-05-13T13:39:26.7343750+03:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>\\berg\c$\Pulsar\GlobalInfoProtocol</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Activation.aspx">
+      <publishTime>10/22/2012 14:56:57</publishTime>
+    </File>
+    <File Include="AddCMailBox.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="AddCompany.aspx">
+      <publishTime>08/26/2012 13:33:03</publishTime>
+    </File>
+    <File Include="AddData.aspx">
+      <publishTime>08/26/2012 14:32:59</publishTime>
+    </File>
+    <File Include="AddRequest.aspx">
+      <publishTime>02/18/2013 13:55:48</publishTime>
+    </File>
+    <File Include="Advertisment.aspx">
+      <publishTime>04/10/2013 15:21:49</publishTime>
+    </File>
+    <File Include="bin/GlobalInfoProtocol.dll">
+      <publishTime>01/22/2018 23:16:11</publishTime>
+    </File>
+    <File Include="BlockClientForCompany.aspx">
+      <publishTime>02/03/2013 13:05:22</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>08/23/2012 16:13:24</publishTime>
+    </File>
+    <File Include="DeleteCompany.aspx">
+      <publishTime>08/26/2012 14:18:43</publishTime>
+    </File>
+    <File Include="DeleteData.aspx">
+      <publishTime>08/26/2012 14:38:30</publishTime>
+    </File>
+    <File Include="EMailInvatation.aspx">
+      <publishTime>03/21/2013 16:15:08</publishTime>
+    </File>
+    <File Include="GetBillingForThisMonth.aspx">
+      <publishTime>05/13/2013 12:09:48</publishTime>
+    </File>
+    <File Include="GetData.aspx">
+      <publishTime>08/26/2012 16:44:29</publishTime>
+    </File>
+    <File Include="GetGUIDFileExt.aspx">
+      <publishTime>01/23/2013 17:25:46</publishTime>
+    </File>
+    <File Include="GetNotPaid.aspx">
+      <publishTime>02/10/2013 14:44:52</publishTime>
+    </File>
+    <File Include="GetTableFileds.aspx">
+      <publishTime>04/17/2013 11:44:35</publishTime>
+    </File>
+    <File Include="GetTables.aspx">
+      <publishTime>04/17/2013 12:39:36</publishTime>
+    </File>
+    <File Include="GetTermUse.aspx">
+      <publishTime>03/14/2013 13:33:37</publishTime>
+    </File>
+    <File Include="GetWaitingMails.aspx">
+      <publishTime>05/13/2013 13:20:58</publishTime>
+    </File>
+    <File Include="Images/action_cancel_small.png">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/arrow_down.png">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/CMailBox.jpg">
+      <publishTime>03/21/2013 15:54:38</publishTime>
+    </File>
+    <File Include="Images/CMailBox2.jpg">
+      <publishTime>03/21/2013 16:09:08</publishTime>
+    </File>
+    <File Include="Images/icon_add.png">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/icon_note5.gif">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/Key-icon-16.png">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/maximize.gif">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/Memo.png">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/minimize.gif">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/note-edit-icon2.png">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/spacer.png">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="Images/unique_icon.png">
+      <publishTime>04/17/2013 12:41:20</publishTime>
+    </File>
+    <File Include="InvatationSend.aspx">
+      <publishTime>03/21/2013 14:53:21</publishTime>
+    </File>
+    <File Include="IsActive.aspx">
+      <publishTime>10/29/2012 12:29:31</publishTime>
+    </File>
+    <File Include="IsClientBlockedForCompany.aspx">
+      <publishTime>02/03/2013 14:28:33</publishTime>
+    </File>
+    <File Include="IsCompanyCommercial.aspx">
+      <publishTime>03/14/2013 15:09:15</publishTime>
+    </File>
+    <File Include="IsCompanyExist.aspx">
+      <publishTime>01/23/2013 11:31:05</publishTime>
+    </File>
+    <File Include="IsCompanyHasCCToPay.aspx">
+      <publishTime>05/13/2013 12:52:21</publishTime>
+    </File>
+    <File Include="IsCompanyPaid.aspx">
+      <publishTime>03/14/2013 16:26:10</publishTime>
+    </File>
+    <File Include="Ping.aspx">
+      <publishTime>02/17/2013 14:13:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>08/23/2012 16:13:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>08/23/2012 16:13:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>08/23/2012 16:13:24</publishTime>
+    </File>
+    <File Include="SendData.aspx">
+      <publishTime>10/31/2012 12:10:32</publishTime>
+    </File>
+    <File Include="ServiceAction.aspx">
+      <publishTime>04/15/2013 12:21:18</publishTime>
+    </File>
+    <File Include="ShowTable.aspx">
+      <publishTime>04/17/2013 12:48:22</publishTime>
+    </File>
+    <File Include="ShowTableFileds.aspx">
+      <publishTime>04/17/2013 11:42:45</publishTime>
+    </File>
+    <File Include="TransactionConfirmedReaden.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="TransactionReaden.aspx">
+      <publishTime>10/28/2012 16:26:23</publishTime>
+    </File>
+    <File Include="TransFTPToDB.aspx">
+      <publishTime>01/17/2013 11:23:36</publishTime>
+    </File>
+    <File Include="UnBlockClientForCompany.aspx">
+      <publishTime>02/03/2013 13:51:33</publishTime>
+    </File>
+    <File Include="UpdateCompany.aspx">
+      <publishTime>01/31/2013 16:11:03</publishTime>
+    </File>
+    <File Include="UpdatePayment.aspx">
+      <publishTime>03/14/2013 15:58:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/08/2018 21:26:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

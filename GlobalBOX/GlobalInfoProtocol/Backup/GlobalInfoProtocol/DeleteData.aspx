@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteData.aspx.cs" Inherits="GlobalInfoProtocol.DeleteData" %>

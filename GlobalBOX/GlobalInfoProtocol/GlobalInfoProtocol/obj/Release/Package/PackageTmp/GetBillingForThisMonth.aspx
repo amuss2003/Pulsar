@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetBillingForThisMonth.aspx.cs" Inherits="GlobalInfoProtocol.GetBillingForThisMonth" %>

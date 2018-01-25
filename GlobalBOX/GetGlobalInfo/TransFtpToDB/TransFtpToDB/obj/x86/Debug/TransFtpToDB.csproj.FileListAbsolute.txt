@@ -1,0 +1,29 @@
+i:\documents and settings\yanivz\my documents\visual studio 2010\Projects\TransFtpToDB\TransFtpToDB\bin\Debug\TransFtpToDB.exe
+i:\documents and settings\yanivz\my documents\visual studio 2010\Projects\TransFtpToDB\TransFtpToDB\bin\Debug\TransFtpToDB.pdb
+i:\documents and settings\yanivz\my documents\visual studio 2010\Projects\TransFtpToDB\TransFtpToDB\obj\x86\Debug\ResolveAssemblyReference.cache
+i:\documents and settings\yanivz\my documents\visual studio 2010\Projects\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.Properties.Resources.resources
+i:\documents and settings\yanivz\my documents\visual studio 2010\Projects\TransFtpToDB\TransFtpToDB\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+i:\documents and settings\yanivz\my documents\visual studio 2010\Projects\TransFtpToDB\TransFtpToDB\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+i:\documents and settings\yanivz\my documents\visual studio 2010\Projects\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.exe
+i:\documents and settings\yanivz\my documents\visual studio 2010\Projects\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.pdb
+i:\documents and settings\yanivz\my documents\visual studio 2010\Projects\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.frmTransFtpToDB.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\TransFtpToDB\TransFtpToDB\bin\Debug\TransFtpToDB.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\TransFtpToDB\TransFtpToDB\bin\Debug\TransFtpToDB.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\TransFtpToDB\TransFtpToDB\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.frmTransFtpToDB.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\TransFtpToDB\TransFtpToDB\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Adirim Projects\Shikuf Site\TransFtpToDB\TransFtpToDB\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+I:\Documents and Settings\yanivz\Desktop\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.exe
+I:\Documents and Settings\yanivz\Desktop\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\TransFtpToDB\TransFtpToDB\bin\Debug\TransFtpToDB.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\TransFtpToDB\TransFtpToDB\bin\Debug\TransFtpToDB.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\TransFtpToDB\TransFtpToDB\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.frmTransFtpToDB.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\TransFtpToDB\TransFtpToDB\obj\x86\Debug\TransFtpToDB.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\TransFtpToDB\TransFtpToDB\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\TransFtpToDB\TransFtpToDB\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog

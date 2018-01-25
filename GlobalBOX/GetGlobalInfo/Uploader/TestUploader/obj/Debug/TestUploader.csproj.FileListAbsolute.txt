@@ -1,0 +1,17 @@
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\bin\Debug\TestUploader.exe.config
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\TestUploader.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\TestUploader.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\bin\Debug\TestUploader.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\bin\Debug\TestUploader.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\TestUploader.Form1.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\TestUploader.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\GenerateResource-ResGen.write.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\GenerateResource.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\UploadAnyfilePack\Uploader\TestUploader\bin\Debug\TestUploader.exe.config
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\TestUploader.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\UploadAnyfilePack\Uploader\TestUploader\obj\Debug\TestUploader.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\Uploader\TestUploader\bin\Debug\TestUploader.exe.config
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\Uploader\TestUploader\obj\Debug\TestUploader.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\Uploader\TestUploader\obj\Debug\TestUploader.pdb

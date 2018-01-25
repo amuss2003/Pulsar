@@ -1,0 +1,29 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\bin\Debug\VegasCommands.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\bin\Debug\VegasCommands.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\bin\Debug\VegasCommands.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\bin\Debug\VegasCommands.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.Form1.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Vegas Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Vegas Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Vegas Projects\VegasCommands\VegasGetOrders\bin\Debug\VegasCommands.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Vegas Projects\VegasCommands\VegasGetOrders\bin\Debug\VegasCommands.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Vegas Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Vegas Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.Form1.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Vegas Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Vegas Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\Vegas Projects\VegasCommands\VegasGetOrders\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\HttpCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\HttpCommands\VegasGetOrders\obj\x86\Debug\VegasCommands.pdb

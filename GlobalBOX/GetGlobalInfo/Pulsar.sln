@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulsar", "GetGlobalInfo\Pulsar.csproj", "{4A61CA4D-7158-41B5-A563-145D73E35D83}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CMailBox", "CMailBox\CMailBox.vdproj", "{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Debug|x86.ActiveCfg = Debug|x86
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Debug|x86.Build.0 = Debug|x86
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Release|Any CPU.ActiveCfg = Release|x86
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Release|Mixed Platforms.Build.0 = Release|x86
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Release|x86.ActiveCfg = Release|x86
+		{4A61CA4D-7158-41B5-A563-145D73E35D83}.Release|x86.Build.0 = Release|x86
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Debug|Any CPU.ActiveCfg = Debug
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Debug|Any CPU.Build.0 = Debug
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Debug|Mixed Platforms.Build.0 = Debug
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Debug|x86.ActiveCfg = Debug
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Release|Any CPU.ActiveCfg = Release
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Release|Any CPU.Build.0 = Release
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Release|Mixed Platforms.ActiveCfg = Release
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Release|Mixed Platforms.Build.0 = Release
+		{C2B8AF44-0797-4CE9-8A6B-C93BE79CC1BB}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

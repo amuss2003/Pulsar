@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SendData.aspx.cs" Inherits="GlobalInfoProtocol.SendData" %>

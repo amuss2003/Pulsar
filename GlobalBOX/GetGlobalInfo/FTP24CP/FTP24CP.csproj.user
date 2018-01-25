@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>"/ftpServerIP:adirim.info" "/ftpUserID:adi" "/ftpPassword:9363" "/filename:{9454a0f0-2841-4312-bef8-c4b869f52970}.pdf" "/targetfilename:{9454a0f0-2841-4312-bef8-c4b869f52970}.pdf" "/cmd:upload" "/path:c:\temp/" "/targetpath:GlobalInfoTransfer/" "/countryid:117" "/companyvat:058005455"</StartArguments>
+  </PropertyGroup>
+</Project>

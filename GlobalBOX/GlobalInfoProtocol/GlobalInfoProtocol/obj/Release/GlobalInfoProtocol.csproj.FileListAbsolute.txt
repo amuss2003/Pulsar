@@ -1,0 +1,4 @@
+C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.dll
+C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.pdb
+C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Release\GlobalInfoProtocol.dll
+C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Release\GlobalInfoProtocol.pdb

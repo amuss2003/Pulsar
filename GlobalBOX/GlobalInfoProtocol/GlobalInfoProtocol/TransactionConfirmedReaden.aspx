@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TransactionConfirmedReaden.aspx.cs" Inherits="GlobalInfoProtocol.TransactionConfirmedReaden" %>

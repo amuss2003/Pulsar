@@ -1,0 +1,24 @@
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.dll
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.dll
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.dll
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.dll
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.pdb
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.dll
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.pdb
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.dll
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.pdb
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.dll
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.pdb
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.csprojResolveAssemblyReference.cache
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.dll
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.pdb
+C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.dll
+C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.pdb
+C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.dll
+C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.pdb

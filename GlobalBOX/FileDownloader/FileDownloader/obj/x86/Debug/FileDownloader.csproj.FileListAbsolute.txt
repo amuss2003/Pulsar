@@ -1,0 +1,9 @@
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\FileDownloader\FileDownloader\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\FileDownloader\FileDownloader\obj\x86\Debug\FileDownloader.Form1.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\FileDownloader\FileDownloader\obj\x86\Debug\FileDownloader.Properties.Resources.resources
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\FileDownloader\FileDownloader\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\FileDownloader\FileDownloader\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\FileDownloader\FileDownloader\bin\Debug\FileDownloader.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\FileDownloader\FileDownloader\bin\Debug\FileDownloader.pdb
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\FileDownloader\FileDownloader\obj\x86\Debug\FileDownloader.exe
+I:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\FileDownloader\FileDownloader\obj\x86\Debug\FileDownloader.pdb

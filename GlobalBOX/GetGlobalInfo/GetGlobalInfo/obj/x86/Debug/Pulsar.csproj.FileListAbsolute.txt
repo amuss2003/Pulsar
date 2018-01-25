@@ -1,0 +1,125 @@
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Properties.Resources.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Pulsar.exe.config
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.DateTimeControl.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Controls.FiledHolder.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Controls.ServerStatus.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.FiledStructure.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmDataStructure.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmDownload.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHaklada.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHakladaInbox.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmHakladaInboxTochenTnua.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHelp.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmMain.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmActionType.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmBusinessIndex.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmBusinessIndexTable.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmCloudBox.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmSettings.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmPayment.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmProcessRequest.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmReport.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmRequests.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmTermUse.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmSocialShare.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHakladaTochenTnua.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.TitleBar.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmCheckInfo.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmEMail.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmGetData.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmZoom.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.InfoForm.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.MainFrame.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.PicForm.resources
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\App_Data\LocalInfoProtocol.mdb
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Pulsar.exe
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Pulsar.pdb
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\office.dll
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\office.xml
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.exe
+C:\Documents and Settings\yanivz\My Documents\Visual Studio 2010\Projects\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.pdb
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Pulsar.exe.config
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.exe
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.pdb
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.csprojResolveAssemblyReference.cache
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.DateTimeControl.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Controls.FiledHolder.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Controls.ServerStatus.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.FiledStructure.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmDataStructure.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmDownload.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHaklada.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHakladaInbox.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmHakladaInboxTochenTnua.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHelp.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmMain.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmActionType.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmBusinessIndex.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmBusinessIndexTable.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmCloudBox.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmSettings.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmPayment.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmProcessRequest.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmRequests.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmTermUse.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmSocialShare.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHakladaTochenTnua.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Properties.Resources.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.TitleBar.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmCheckInfo.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmEMail.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmGetData.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmZoom.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.InfoForm.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.MainFrame.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.PicForm.resources
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.csproj.GenerateResource.Cache
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\App_Data\LocalInfoProtocol.mdb
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Pulsar.exe
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Pulsar.pdb
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\office.dll
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Users\odedi\Desktop\שולחן עבודה קודם\pulsar\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\office.xml
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Pulsar.exe.config
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Pulsar.exe
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\bin\Debug\Pulsar.pdb
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.DateTimeControl.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Controls.FiledHolder.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Controls.ServerStatus.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.FiledStructure.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmDataStructure.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmDownload.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHaklada.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHakladaInbox.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmHakladaInboxTochenTnua.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHelp.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmMain.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmActionType.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmBusinessIndex.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmBusinessIndexTable.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmCloudBox.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmSettings.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmPayment.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmProcessRequest.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmRequests.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmTermUse.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Forms.frmSocialShare.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmHakladaTochenTnua.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.Properties.Resources.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.TitleBar.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmCheckInfo.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmEMail.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmGetData.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.frmZoom.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.InfoForm.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.MainFrame.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.PicForm.resources
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.csproj.GenerateResource.Cache
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.exe
+C:\GlobalBOX\GetGlobalInfo\GetGlobalInfo\obj\x86\Debug\Pulsar.pdb

@@ -1,0 +1,1 @@
+move "E:\FTP\adi\GlobalInfoTransfer\*.*", "C:\Inetpub\GlobalInfoProtocol\TransientStorage\."

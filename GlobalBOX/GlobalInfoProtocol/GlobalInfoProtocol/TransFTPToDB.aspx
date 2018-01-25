@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TransFTPToDB.aspx.cs" Inherits="GlobalInfoProtocol.TransFTPToDB" %>

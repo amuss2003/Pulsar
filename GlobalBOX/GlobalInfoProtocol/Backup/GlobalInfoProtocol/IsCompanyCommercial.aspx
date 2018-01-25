@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IsCompanyCommercial.aspx.cs" Inherits="GlobalInfoProtocol.IsCompanyCommercial" %>

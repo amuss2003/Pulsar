@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GlobalBOX",
+    "\\GlobalBOX\\GetGlobalInfo"
   ],
-  "SelectedNode": "\\GlobalBOX",
+  "SelectedNode": "\\GlobalBOX\\GetGlobalInfo\\Pulsar.sln",
   "PreviewInSolutionExplorer": false
 }

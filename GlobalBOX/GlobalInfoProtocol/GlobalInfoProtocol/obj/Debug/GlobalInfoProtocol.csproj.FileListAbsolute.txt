@@ -22,3 +22,10 @@ C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.dll
 C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.pdb
 C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.dll
 C:\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.pdb
+E:\Repos\Pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.dll.config
+E:\Repos\Pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.dll
+E:\Repos\Pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\bin\GlobalInfoProtocol.pdb
+E:\Repos\Pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.csprojResolveAssemblyReference.cache
+E:\Repos\Pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.csproj.CoreCompileInputs.cache
+E:\Repos\Pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.dll
+E:\Repos\Pulsar\GlobalBOX\GlobalInfoProtocol\GlobalInfoProtocol\obj\Debug\GlobalInfoProtocol.pdb

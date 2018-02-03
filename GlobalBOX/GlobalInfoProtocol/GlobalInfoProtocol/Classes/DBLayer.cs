@@ -203,9 +203,10 @@ namespace GlobalInfoProtocol
             //connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + server_path + @"\app_data\GlobalInfoProtocol.mdb;User Id=;Password=;";
             //C:\Pulsar\GlobalInfoProtocol\App_Data\GlobalInfoProtocol.mdb
             //connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + server_path + @"app_data\GlobalInfoProtocol.mdb;User Id=;Password=;";
-            connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Pulsar\GlobalInfoProtocol\App_Data\GlobalInfoProtocol.mdb;User Id=;Password=;";
+            DBName = server_path + @"App_Data\GlobalInfoProtocol.mdb";
+            connectionString = string.Format(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={0};User Id=;Password=;", DBName);
             //DBName = server_path + @"app_data\GlobalInfoProtocol.mdb";
-            DBName = @"C:\Pulsar\GlobalInfoProtocol\App_Data\GlobalInfoProtocol.mdb";
+            
             //}
             //else
             //{

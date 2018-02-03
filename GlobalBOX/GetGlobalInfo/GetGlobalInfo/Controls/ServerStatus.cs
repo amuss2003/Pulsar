@@ -32,6 +32,7 @@ namespace Pulsar.Controls
                 ServerOnline = parser.Ping();
                 this.BackgroundImage = ServerOnline ? global::Pulsar.Properties.Resources.online : global::Pulsar.Properties.Resources.offline;
                 tmrServerOnline.Enabled = !ServerOnline;
+                Program.IsServerOnline = ServerOnline;
             }
         }
 

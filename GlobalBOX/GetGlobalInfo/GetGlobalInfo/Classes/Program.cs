@@ -7,6 +7,8 @@ namespace Pulsar
 {
     static class Program
     {
+        public static bool IsServerOnline;
+        
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

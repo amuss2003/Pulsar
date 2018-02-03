@@ -8,6 +8,7 @@ using System.IO;
 using System.Net;
 using System.Net.NetworkInformation;
 using Pulsar.Classes;
+using System.Configuration;
 
 namespace Pulsar
 {
@@ -72,23 +73,25 @@ namespace Pulsar
 
         public void SetHost(HostType hostType)
         {
-            switch (hostType)
-            {
-                case HostType.localHost:
-                    host = @"http://localhost:3305/";
-                    break;
-                case HostType.realHost:
-                    //host = @"http://212.150.1.51/GlobalInfoProtocol/";
-                    host = @"http://10.9.10.250/GlobalInfoProtocol/";
-                    break;
-                default:
-                    break;
-            }
+            host = ConfigurationManager.AppSettings["ServerUrl"];
+            //switch (hostType)
+            //{
+            //    case HostType.localHost:
+            //        host = @"http://localhost:3305/";
+            //        break;
+            //    case HostType.realHost:
+            //        //host = @"http://212.150.1.51/GlobalInfoProtocol/";
+            //        host = @"http://10.9.10.250/GlobalInfoProtocol/";
+            //        break;
+            //    default:
+            //        break;
+            //}
         }
 
         public bool Ping()
         {
-            return CommandExecute(host, "Ping.aspx?").ToLower() == "pong";
+            var response = CommandExecute(host, "Ping.aspx?");
+            return !string.IsNullOrEmpty(response) && response.ToLower() == "pong";
         }
 
         public bool GetCMailBox(String CMailBoxInstallID)
@@ -198,8 +201,10 @@ namespace Pulsar
             return (CommandExecute(host, "IsCompanyPaid.aspx?CountryID=" + CountryID + "&CompanyVAT=" + CompanyVAT).ToLower() == "ok");
         }
 
+        //TODO: does not work when server is offline
         public bool IsCompanyCommercial(String CountryID, String CompanyVAT)
         {
+            if (!Program.IsServerOnline) return false;
             return (CommandExecute(host, "IsCompanyCommercial.aspx?CountryID=" + CountryID + "&CompanyVAT=" + CompanyVAT).ToLower() == "ok");
         }
 
@@ -259,31 +264,44 @@ namespace Pulsar
         }
 
         private String CommandExecute(String URL, String SqlCommand)
-        {   
+        {
+            //return null;
+
             web_content = null;
-            // Create a WebBrowser instance. 
-            WebBrowser webBrowser = new WebBrowser();
-
-            // Add an event handler that prints the document after it loads.
-            webBrowser.DocumentCompleted += new WebBrowserDocumentCompletedEventHandler(SurfedDocument);
-
-            // Set the Url property to load the document.
-            webBrowser.Url = new Uri(URL + SqlCommand + "&LoginKey=" + KEY);
-
-            while (webBrowser.IsBusy)
+            WebClient client = new WebClient();
+            try
             {
-                Application.DoEvents();
+                web_content = client.DownloadString(new Uri(URL + SqlCommand + "&LoginKey=" + KEY));
+                if (web_content.ToLower().IndexOf("<html>") != -1)
+                    web_content = null;
             }
-
-            while (web_content == null)
-            {
-                Application.DoEvents();
-            }
-
-            if (web_content.ToLower().IndexOf("<html>") != -1)
+            catch (Exception e)
             {
                 web_content = null;
             }
+
+            //// Create a WebBrowser instance. 
+            //WebBrowser webBrowser = new WebBrowser();
+            //// Add an event handler that prints the document after it loads.
+            //webBrowser.DocumentCompleted += new WebBrowserDocumentCompletedEventHandler(SurfedDocument);
+
+            //// Set the Url property to load the document.
+            //webBrowser.Url = new Uri(URL + SqlCommand + "&LoginKey=" + KEY);
+
+            //while (webBrowser.IsBusy)
+            //{
+            //    Application.DoEvents();
+            //}
+
+            //while (web_content == null)
+            //{
+            //    Application.DoEvents();
+            //}
+
+            //if (web_content.ToLower().IndexOf("<html>") != -1)
+            //{
+            //    web_content = null;
+            //}
 
             return web_content;
         }

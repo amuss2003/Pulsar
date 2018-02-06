@@ -131,7 +131,7 @@ namespace Pulsar
 
         public void AddData(String TransactionGUID, String CountryID, String CompanyVAT, String CountryIDTo, String CompanyVATTo, String WriteCode, String Data, String CompanySerialNumber, String FileName)
         {
-            CommandExecute(host, "AddData.aspx?TransactionGUID=" + TransactionGUID + "&CountryIDFrom=" + CountryID + "&CompanyVATFrom=" + CompanyVAT + "&CountryIDTo=" + CountryIDTo + "&CompanyVATTo=" + CompanyVATTo + "&WriteCode=" + WriteCode + "&Data=" + Uri.EscapeDataString(Data) + "&CompanySerialNumber=" + CompanySerialNumber, FileName);
+            CommandExecuteFileTransfer(host, "AddData.aspx?TransactionGUID=" + TransactionGUID + "&CountryIDFrom=" + CountryID + "&CompanyVATFrom=" + CompanyVAT + "&CountryIDTo=" + CountryIDTo + "&CompanyVATTo=" + CompanyVATTo + "&WriteCode=" + WriteCode + "&Data=" + Uri.EscapeDataString(Data) + "&CompanySerialNumber=" + CompanySerialNumber, FileName);
         }
 
         public void AddRequest(String TransactionGUID, String CountryID, String CompanyVAT, String CountryIDTo, String CompanyVATTo, String Data, String CompanySerialNumber)
@@ -141,7 +141,7 @@ namespace Pulsar
 
         public void AddRequest(String TransactionGUID, String CountryID, String CompanyVAT, String CountryIDTo, String CompanyVATTo, String Data, String CompanySerialNumber, String FileName)
         {
-            CommandExecute(host, "AddRequest.aspx?TransactionGUID=" + TransactionGUID + "&CountryIDFrom=" + CountryID + "&CompanyVATFrom=" + CompanyVAT + "&CountryIDTo=" + CountryIDTo + "&CompanyVATTo=" + CompanyVATTo + "&Data=" + Uri.EscapeDataString(Data) + "&CompanySerialNumber=" + CompanySerialNumber, FileName);
+            CommandExecuteFileTransfer(host, "AddRequest.aspx?TransactionGUID=" + TransactionGUID + "&CountryIDFrom=" + CountryID + "&CompanyVATFrom=" + CompanyVAT + "&CountryIDTo=" + CountryIDTo + "&CompanyVATTo=" + CompanyVATTo + "&Data=" + Uri.EscapeDataString(Data) + "&CompanySerialNumber=" + CompanySerialNumber, FileName);
         }
 
         public void DeleteCompany(String CountryID, String CompanyVAT, String ReadCode, String WriteCode, String EMail)
@@ -246,22 +246,27 @@ namespace Pulsar
 
         public String TransFTPToDB(CompanyInfo company_info, String FileName)
         {
+            WebClient myWebClient = new WebClient();            
+            string _path = Application.StartupPath;
+
+            myWebClient.UploadFile(_path, FileName);
+
             return CommandExecute(host, "TransFTPToDB.aspx?CountryID=" + company_info.CompanyCountryID + "&CompanyVAT=" + company_info.CompanyVAT + "&FileName=" + FileName);
         }
 
         public String SiteURL { get; set; }
 
-        private string CommandExecute(string url, string sqlCommand, string fileName)
+        private string CommandExecuteFileTransfer(string url, string sqlCommand, string fileName)
         {
             web_content = null;
             var urlWithData = new Uri(url + sqlCommand + "&LoginKey=" + KEY);
 
             WebClient client = new WebClient();
-            byte[] responseBinary = client.UploadFile(urlWithData, fileName);           
+            byte[] responseBinary = client.UploadFile(urlWithData, fileName);
             web_content = Encoding.UTF8.GetString(responseBinary);
 
             return web_content;
-        }
+        } 
 
         private String CommandExecute(String URL, String SqlCommand)
         {

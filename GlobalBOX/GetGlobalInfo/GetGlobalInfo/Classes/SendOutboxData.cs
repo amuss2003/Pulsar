@@ -58,13 +58,15 @@ namespace Pulsar
                 //parser.AddData(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, record[3].ToString(), record[4].ToString(), record[9].ToString(), record[5].ToString());
                 //parser.AddData(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, Company_To.CountryID.ToString(), Company_To.CompanyVAT, Company_To.WriteCode, record[5].ToString(), Company_Info.CompanySerialNumber);
                 String FileName = record[12].ToString();
-                //parser.AddData(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, Company_To.CountryID.ToString(), Company_To.CompanyVAT, Company_To.WriteCode, record[5].ToString(), Company_Info.CompanySerialNumber, FileName);
-                parser.AddData(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, Company_To.CountryID.ToString(), Company_To.CompanyVAT, Company_To.WriteCode, record[5].ToString(), Company_Info.CompanySerialNumber);
                 if (File.Exists(FileName))
-                {
-                    UploadFileFTP(FileName, record[0].ToString(), record[3].ToString(), record[4].ToString());
-                    parser.TransFTPToDB(Company_Info, FileName);
-                }
+                    parser.AddData(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, Company_To.CountryID.ToString(), Company_To.CompanyVAT, Company_To.WriteCode, record[5].ToString(), Company_Info.CompanySerialNumber, FileName);
+                else
+                    parser.AddData(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, Company_To.CountryID.ToString(), Company_To.CompanyVAT, Company_To.WriteCode, record[5].ToString(), Company_Info.CompanySerialNumber);
+                //if (File.Exists(FileName))
+                //{
+                //    UploadFileFTP(FileName, record[0].ToString(), record[3].ToString(), record[4].ToString());
+                //    parser.TransFTPToDB(Company_Info, FileName);
+                //}
             }
         }
 
@@ -79,16 +81,16 @@ namespace Pulsar
                 Company Company_To = dblayer.GetCompany(record[3].ToString(), record[4].ToString());
                 //parser.AddData(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, record[3].ToString(), record[4].ToString(), record[9].ToString(), record[5].ToString());
                 String FileName = record[12].ToString();
-                //if (File.Exists(FileName))                
-                //    parser.AddRequest(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, Company_To.CountryID.ToString(), Company_To.CompanyVAT, record[5].ToString(), Company_Info.CompanySerialNumber, FileName);
-                //else
+                if (File.Exists(FileName))
+                    parser.AddRequest(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, Company_To.CountryID.ToString(), Company_To.CompanyVAT, record[5].ToString(), Company_Info.CompanySerialNumber, FileName);
+                else
                     parser.AddRequest(record[0].ToString(), Company_Info.CompanyCountryID.ToString(), Company_Info.CompanyVAT, Company_To.CountryID.ToString(), Company_To.CompanyVAT, record[5].ToString(), Company_Info.CompanySerialNumber);
                 
-                if (File.Exists(FileName))
-                {
-                    UploadFileFTP(FileName, record[0].ToString(), record[3].ToString(), record[4].ToString());
-                    parser.TransFTPToDB(Company_Info, FileName);
-                }
+                //if (File.Exists(FileName))
+                //{
+                //    UploadFileFTP(FileName, record[0].ToString(), record[3].ToString(), record[4].ToString());
+                //    parser.TransFTPToDB(Company_Info, FileName);
+                //}
             }
 
             dblayer.CleanOutboxTable();

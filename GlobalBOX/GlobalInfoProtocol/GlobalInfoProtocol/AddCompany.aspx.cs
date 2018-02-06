@@ -43,42 +43,42 @@ namespace GlobalInfoProtocol
             String TermUse = Request["TermUse"];
             String MobilePhone = Request["MobilePhone"];
             String InformMyMobile = Request["InformMyMobile"];
-            //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx Parse Data");
+            Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx Parse Data");
 
-            //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx QueryString:\r\n" + Request.QueryString);
+            Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx QueryString:\r\n" + Request.QueryString);
 
             if ((LoginKey != null) && (LoginKey == "xezp3avnniqyjf45wso0ot45"))
             {
-                //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx LoginKey");
+                Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx LoginKey");
                 if ((CompanyName != null) && (CompanyName != ""))
                 {
-                    //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx CompanyName");
+                    Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx CompanyName");
                     if ((CountryID != null) && (CountryID != ""))
                     {
-                        //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx CountryID");
+                        Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx CountryID");
                         if ((CompanyVAT != null) && (CompanyVAT != ""))
                         {
-                            //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx CompanyVAT");
+                            Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx CompanyVAT");
                             if ((ReadCode != null) && (ReadCode != ""))
                             {
-                                //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx ReadCode");
+                                Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx ReadCode");
                                 if ((WriteCode != null) && (WriteCode != ""))
                                 {
-                                    //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx WriteCode");
+                                    Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx WriteCode");
                                     if ((EMail != null) && (EMail != ""))
                                     {
-                                        //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx EMail");
+                                        Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx EMail");
                                         if ((MAC != null) && (MAC != ""))
                                         {
-                                            //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx MAC");
+                                            Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx MAC");
                                             if ((CompanySerialNumber != null) && (CompanySerialNumber != ""))
                                             {
-                                                //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx Payment");
+                                                Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx Payment");
                                                 if ((Payment != null) && (Payment != ""))
                                                 {
                                                     if ((TermUse != null) && (TermUse != ""))
                                                     {
-                                                        //Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx Pass All Data");
+                                                        Logger.AddToLogger(Server.MapPath("."), "AddCompany.aspx Pass All Data");
                                                         //CompanyName = Uri.EscapeUriString(CompanyName);
                                                         //CompanyName = HttpUtility.UrlEncode(CompanyName);
                                                         //CompanyName = Uri.EscapeDataString(CompanyName);
@@ -112,7 +112,7 @@ namespace GlobalInfoProtocol
                                                         //Status
                                                         //CommercialUse
 
-                                                        //Logger.AddToLogger(Server.MapPath("."), dblayer.ErrorList);
+                                                        Logger.AddToLogger(Server.MapPath("."), dblayer.ErrorList);
                                                         //Response.Write("<br/>");
                                                         //Response.Write(dblayer.ErrorList);
 

@@ -24,8 +24,6 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <Use64BitIISExpress />
-    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -162,8 +160,6 @@
     <Compile Include="Advertisment.aspx.designer.cs">
       <DependentUpon>Advertisment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Authentication\RequestAuthentication.cs" />
-    <Compile Include="Authorization\RequestValidator.cs" />
     <Compile Include="BlockClientForCompany.aspx.cs">
       <DependentUpon>BlockClientForCompany.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -175,9 +171,7 @@
     <Compile Include="Classes\CMailBox.cs" />
     <Compile Include="Classes\Company.cs" />
     <Compile Include="Classes\DBLayer.cs" />
-    <Compile Include="Classes\Helper.cs" />
     <Compile Include="Classes\Logger.cs" />
-    <Compile Include="Crypto\CryptoService.cs" />
     <Compile Include="Default.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
       <DependentUpon>Default.aspx</DependentUpon>
@@ -206,7 +200,6 @@
     <Compile Include="EMailInvatation.aspx.designer.cs">
       <DependentUpon>EMailInvatation.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Email\EmailService.cs" />
     <Compile Include="GetBillingForThisMonth.aspx.cs">
       <DependentUpon>GetBillingForThisMonth.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -89,6 +89,9 @@ namespace GlobalInfoProtocol
                                                             billing.InCounter++;
                                                             dblayer.UpdateBilling(billing, Convert.ToDateTime(DateTime.Now.AddDays(-(DateTime.Now.Day) + 1).ToShortDateString()));
                                                         }
+
+                                                        //TODO:  ZManTK
+                                                        //TransFTPToDB
                                                     }
                                                 }
                                             }

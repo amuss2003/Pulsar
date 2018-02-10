@@ -1,61 +1,46 @@
 ﻿using System;
+using GlobalInfoProtocol.Classes;
+using GlobalInfoProtocol.Authorization;
 using System.Collections.Generic;
-
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Security.Cryptography;
-using System.IO;
-using System.Text;
 
 namespace GlobalInfoProtocol
 {
     public partial class Activation : System.Web.UI.Page
     {
+        // TODO: Why no LoginKey required ?
         protected void Page_Load(object sender, EventArgs e)
         {
+            ////TODO: HTTP 401 or Redirect
+            //if (!RequestAuthentication.Authenticate(Request))
+            //{
+            //    Logger.AddToLogger(Server.MapPath("."), "Activation.aspx ERROR: Request failed authentication.");
+            //    return;
+            //}
+
+            var requestValidator = new RequestValidator(error =>
+                Logger.AddToLogger(Server.MapPath("."), "Activation.aspx ERROR: " + error));
+
+            var propertiesToValidate = new List<string> { "P1", "P2", "P3" };
+
+            //TODO: HTTP 404 or Redirect
+            if (!requestValidator.ValidateDataFieldsInRequest(Request, propertiesToValidate))
+                return;
+
             DBLayer dblayer = new DBLayer();
             dblayer.CreateConnectionString(Server.MapPath("."));
 
-            String MAC = Request["P1"];
-            String EMail = Request["P2"];
-            String VAT = Request["P3"];
+            var mac = Helper.DecodeFrom64(Request["P1"]);
+            var email = Helper.DecodeFrom64(Request["P2"]);
+            var vat = Helper.DecodeFrom64(Request["P3"]);
 
-            if ((MAC != null) && (MAC != ""))
+            Company company = dblayer.GetCompanyByKey(email, mac, vat);
+            //Response.Write(dblayer.ErrorList + "</br>");
+            if (company != null)
             {
-                if ((EMail != null) && (EMail != ""))
-                {
-                    if ((VAT != null) && (VAT != ""))
-                    {
-                        MAC = DecodeFrom64(MAC);
-                        EMail = DecodeFrom64(EMail);
-                        VAT = DecodeFrom64(VAT);
-
-                        Company company = dblayer.GetCompanyByKey(EMail, MAC, VAT);
-                        //Response.Write(dblayer.ErrorList + "</br>");
-                        if (company != null)
-                        {
-                            company.Active = true;
-                            dblayer.UpdateCompany(company);
-                            Label1.Visible = true;
-                        }
-                    }
-                }
+                company.Active = true;
+                dblayer.UpdateCompany(company);
+                Label1.Visible = true;
             }
-        }
-
-        static public string EncodeTo64(string toEncode)
-        {
-            byte[] toEncodeAsBytes = System.Text.ASCIIEncoding.ASCII.GetBytes(toEncode);
-            string returnValue = System.Convert.ToBase64String(toEncodeAsBytes);
-            return returnValue;
-        }
-
-        static public string DecodeFrom64(string encodedData)
-        {
-            byte[] encodedDataAsBytes = System.Convert.FromBase64String(encodedData);
-            string returnValue = System.Text.ASCIIEncoding.ASCII.GetString(encodedDataAsBytes);
-            return returnValue;
         }
     }
 }

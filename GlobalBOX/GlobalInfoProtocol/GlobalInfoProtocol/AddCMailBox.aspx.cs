@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using GlobalInfoProtocol.Classes;
+using GlobalInfoProtocol.Authentication;
+using GlobalInfoProtocol.Authorization;
+using System.Collections.Generic;
 
 namespace GlobalInfoProtocol
 {
@@ -12,29 +10,33 @@ namespace GlobalInfoProtocol
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // TODO: HTTP 401 or Redirect
+            if (!RequestAuthentication.Authenticate(Request))
+            {
+                Logger.AddToLogger(Server.MapPath("."), "AddCMailBox.aspx ERROR: Request failed authentication.");
+                return;
+            }
+
+            var requestValidator = new RequestValidator(error =>
+                Logger.AddToLogger(Server.MapPath("."), "AddCMailBox.aspx ERROR: " + error));
+
+            var propertiesToValidate = new List<string> { "CMailBoxInstallID", "TermUse" };
+
+            //TODO: HTTP 404 or Redirect
+            if (!requestValidator.ValidateDataFieldsInRequest(Request, propertiesToValidate))
+                return;
+
             DBLayer dblayer = new DBLayer();
             dblayer.CreateConnectionString(Server.MapPath("."));
 
-            String LoginKey = Request["LoginKey"];
-
-            String CMailBoxInstallID = Request["CMailBoxInstallID"];
-            String Commercial = Request["TermUse"];
-
-            if ((LoginKey != null) && (LoginKey == "xezp3avnniqyjf45wso0ot45"))
+            CMailBox cMailBox = new CMailBox
             {
-                if ((CMailBoxInstallID != null) && (CMailBoxInstallID != ""))
-                {
-                    if ((Commercial != null) && (Commercial != ""))
-                    {
-                        CMailBox cMailBox = new CMailBox();
-                        cMailBox.CMailBoxInstallID = CMailBoxInstallID;
-                        cMailBox.CommercialUse = (Commercial.ToLower() == "company");
+                CMailBoxInstallID = Request["CMailBoxInstallID"],
+                CommercialUse = Request["Commercial"].ToLower() == "company"
+            };
 
-                        bool bSuccess = dblayer.AddCMailBox(cMailBox);
-                        Response.Write(bSuccess.ToString().ToLower());
-                    }
-                }
-            }
+            bool bSuccess = dblayer.AddCMailBox(cMailBox);
+            Response.Write(bSuccess.ToString().ToLower());
         }
     }
 }

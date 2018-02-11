@@ -21,6 +21,7 @@ using Pulsar.Forms;
 using System.Runtime.InteropServices;
 using System.Deployment.Application;
 using System.Security.Cryptography;
+using System.Configuration;
 
 namespace Pulsar
 {
@@ -416,7 +417,7 @@ namespace Pulsar
             {
                 //TransientStorage\117\0287\028753390
                 //string remoteUri = "http://192.168.10.250/GlobalInfoProtocol/TransientStorage/" + CountryID + "/" + CompanyVAT.Substring(0, 4) + "/" + CompanyVAT + "/";
-                string remoteUri = "http://212.150.1.51/GlobalInfoProtocol/TransientStorage/" + Company_Info.CompanyCountryID + "/" + Company_Info.CompanyVAT.Substring(0, 4) + "/" + Company_Info.CompanyVAT + "/";
+                string remoteUri = ConfigurationManager.AppSettings["ServerUrl"] + "TransientStorage/" + Company_Info.CompanyCountryID + "/" + Company_Info.CompanyVAT.Substring(0, 4) + "/" + Company_Info.CompanyVAT + "/";
                 //string fileName = TransactionGUID + ".pdf";
 
                 //TODO::

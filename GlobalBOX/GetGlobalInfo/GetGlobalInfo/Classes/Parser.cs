@@ -879,61 +879,63 @@ namespace Pulsar
 
         public DateTime ConvertToDDMMYYYY(String date)
         {
-            date = date.ToLower().Replace(" pm", "");
+            return DateTime.Parse(date);
 
-            if (date.Length == 10)
-            {
-                try
-                {
-                    return new DateTime(Int32.Parse(date.ToString().Substring(6, 4)), Int32.Parse(date.ToString().Substring(0, 2)), Int32.Parse(date.ToString().Substring(3, 2)), 0, 0, 0);
-                }
-                catch (Exception)
-                {
-                    return new DateTime(Int32.Parse(date.ToString().Substring(6, 4)), Int32.Parse(date.ToString().Substring(3, 2)), Int32.Parse(date.ToString().Substring(0, 2)), 0, 0, 0);
-                }
-            }
-            else
-            {
-                if (date.IndexOf(":") == -1)
-                {
-                    date += " 00:00:00";
-                }
+            //date = date.ToLower().Replace(" pm", "");
 
-                string[] parts = date.Split(delimitersSpace, StringSplitOptions.None);
-                string[] partsTime = parts[1].Split(delimitersColone, StringSplitOptions.None);
+            //if (date.Length == 10)
+            //{
+            //    try
+            //    {
+            //        return new DateTime(Int32.Parse(date.ToString().Substring(6, 4)), Int32.Parse(date.ToString().Substring(0, 2)), Int32.Parse(date.ToString().Substring(3, 2)), 0, 0, 0);
+            //    }
+            //    catch (Exception)
+            //    {
+            //        return new DateTime(Int32.Parse(date.ToString().Substring(6, 4)), Int32.Parse(date.ToString().Substring(3, 2)), Int32.Parse(date.ToString().Substring(0, 2)), 0, 0, 0);
+            //    }
+            //}
+            //else
+            //{
+            //    if (date.IndexOf(":") == -1)
+            //    {
+            //        date += " 00:00:00";
+            //    }
 
-                string[] partsDate = parts[0].Split(delimitersSlash, StringSplitOptions.None);
+            //    string[] parts = date.Split(delimitersSpace, StringSplitOptions.None);
+            //    string[] partsTime = parts[1].Split(delimitersColone, StringSplitOptions.None);
 
-                if (partsDate[0].Length == 1)
-                {
-                    partsDate[0] = "0" + partsDate[0];
-                }
+            //    string[] partsDate = parts[0].Split(delimitersSlash, StringSplitOptions.None);
 
-                if (partsDate[1].Length == 1)
-                {
-                    partsDate[1] = "0" + partsDate[1];
-                }
+            //    if (partsDate[0].Length == 1)
+            //    {
+            //        partsDate[0] = "0" + partsDate[0];
+            //    }
 
-                if (partsTime[0].Length == 1)
-                {
-                    partsTime[0] = "0" + partsTime[0];
-                }
+            //    if (partsDate[1].Length == 1)
+            //    {
+            //        partsDate[1] = "0" + partsDate[1];
+            //    }
 
-                if (partsTime[1].Length == 1)
-                {
-                    partsTime[1] = "0" + partsTime[1];
-                }
+            //    if (partsTime[0].Length == 1)
+            //    {
+            //        partsTime[0] = "0" + partsTime[0];
+            //    }
 
-                try
-                {
-                    return new DateTime(Int32.Parse(partsDate[2]), Int32.Parse(partsDate[0]), Int32.Parse(partsDate[1]), Int32.Parse(partsTime[0]), Int32.Parse(partsTime[1]), Int32.Parse(partsTime[2]));
-                }
-                catch (Exception)
-                {
-                    return new DateTime(Int32.Parse(partsDate[2]), Int32.Parse(partsDate[1]), Int32.Parse(partsDate[0]), Int32.Parse(partsTime[0]), Int32.Parse(partsTime[1]), Int32.Parse(partsTime[2]));
-                }
-            }
-            //return Convert.ToDateTime(date.ToString().Substring(0, 2) + @"/" + date.ToString().Substring(3, 2) + @"/" + date.ToString().Substring(6, 4));
+            //    if (partsTime[1].Length == 1)
+            //    {
+            //        partsTime[1] = "0" + partsTime[1];
+            //    }
+
+            //    try
+            //    {
+            //        return new DateTime(Int32.Parse(partsDate[2]), Int32.Parse(partsDate[0]), Int32.Parse(partsDate[1]), Int32.Parse(partsTime[0]), Int32.Parse(partsTime[1]), Int32.Parse(partsTime[2]));
+            //    }
+            //    catch (Exception)
+            //    {
+            //        return new DateTime(Int32.Parse(partsDate[2]), Int32.Parse(partsDate[1]), Int32.Parse(partsDate[0]), Int32.Parse(partsTime[0]), Int32.Parse(partsTime[1]), Int32.Parse(partsTime[2]));
+            //    }
+            //}
+            ////return Convert.ToDateTime(date.ToString().Substring(0, 2) + @"/" + date.ToString().Substring(3, 2) + @"/" + date.ToString().Substring(6, 4));
         }
 
         public int GetNumeric(String number)

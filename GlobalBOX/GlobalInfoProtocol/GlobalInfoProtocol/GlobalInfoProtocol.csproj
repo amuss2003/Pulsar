@@ -177,6 +177,7 @@
     <Compile Include="Classes\DBLayer.cs" />
     <Compile Include="Classes\Helper.cs" />
     <Compile Include="Classes\Logger.cs" />
+    <Compile Include="Classes\UploadFile.cs" />
     <Compile Include="Crypto\CryptoService.cs" />
     <Compile Include="Default.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>

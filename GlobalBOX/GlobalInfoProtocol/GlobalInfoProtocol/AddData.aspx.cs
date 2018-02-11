@@ -10,6 +10,7 @@ namespace GlobalInfoProtocol
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            bool bUploaded = false;
             //TODO: HTTP 401 or Redirect
             if (!RequestAuthentication.Authenticate(Request))
             {
@@ -17,8 +18,10 @@ namespace GlobalInfoProtocol
                 return;
             }
 
-            var requestValidator = new RequestValidator(error =>
-                Logger.AddToLogger(Server.MapPath("."), "AddData.aspx ERROR: " + error));
+            Action<string> loggingAction = error =>
+                Logger.AddToLogger(Server.MapPath("."), "AddData.aspx ERROR: " + error);
+
+            var requestValidator = new RequestValidator(loggingAction);
 
             var propertiesToValidate = new List<string>
             {
@@ -77,10 +80,13 @@ namespace GlobalInfoProtocol
                     dblayer.UpdateBilling(billing, 
                         Convert.ToDateTime(DateTime.Now.AddDays(-(DateTime.Now.Day) + 1).ToShortDateString()));
                 }
+
+                UploadFile uf = new UploadFile();
+                bUploaded = uf.Upload(Request, loggingAction, Server.MapPath("."), transactionGUID);
             }
 
-            Response.Write(transactionGUID + ", " + countryIDFrom + ", " + companyVATFrom + ", " +
-                countryIDTo + ", " + companyVATTo + ", " + data + ", " + writeCode);
+            //Response.Write(transactionGUID + ", " + countryIDFrom + ", " + companyVATFrom + ", " + countryIDTo + ", " + companyVATTo + ", " + data + ", " + writeCode + ", bUploaded" + bUploaded);
+            Response.Write("Uploaded: " + bUploaded);
         }
     }
 }

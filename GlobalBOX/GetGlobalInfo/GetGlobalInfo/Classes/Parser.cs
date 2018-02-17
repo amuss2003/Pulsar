@@ -274,6 +274,7 @@ namespace Pulsar
 
             web_content = null;
             WebClient client = new WebClient();
+            client.Encoding = Encoding.UTF8;
             try
             {
                 web_content = client.DownloadString(new Uri(URL + SqlCommand + "&LoginKey=" + KEY));

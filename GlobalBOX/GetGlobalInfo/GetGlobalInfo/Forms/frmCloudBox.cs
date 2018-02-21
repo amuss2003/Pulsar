@@ -235,7 +235,7 @@ namespace Pulsar
                 else if (in_mails_used + MailsToRead > 5)
                 {
                     bool payment = false;
-                    
+
                     payment = Payment(Company_Info, false);
                     if (!payment)
                     {
@@ -498,7 +498,7 @@ namespace Pulsar
                     {
                         return;
                     }
-                }                                
+                }
             }
 
             frmprocessrequest.Show();
@@ -1754,6 +1754,10 @@ namespace Pulsar
 
         private void lvwOutbox_DrawSubItem(object sender, DrawListViewSubItemEventArgs e)
         {
+            ListView lvw = (ListView)sender;
+
+            ShuratHaklada shurat_haklada = (ShuratHaklada)lvwOutbox.Items[e.ItemIndex].Tag;
+
             TextFormatFlags flags = TextFormatFlags.Left;
 
             using (StringFormat sf = new StringFormat())
@@ -1787,19 +1791,23 @@ namespace Pulsar
 
                 if (e.ColumnIndex == 0)
                 {
+                    Point pt;
                     // Draw the subitem text in red to highlight it. 
                     //e.Graphics.DrawString(e.SubItem.Text, this.Font, Brushes.Red, e.Bounds, sf);
                     if (e.Item.ImageIndex != -1)
-                    {
                         e.Graphics.DrawImage(e.Item.ImageList.Images[e.Item.ImageIndex], e.SubItem.Bounds.Location);
-                    }
 
-                    ShuratHaklada shurat_haklada = (ShuratHaklada)lvwOutbox.Items[e.ItemIndex].Tag;
+                    //ShuratHaklada shurat_haklada = (ShuratHaklada)lvwOutbox.Items[e.ItemIndex].Tag;
                     if (File.Exists(shurat_haklada.Attachment))
                     {
-                        Point pt = new Point(e.SubItem.Bounds.Location.X + e.Item.ImageList.Images[0].Width, e.SubItem.Bounds.Location.Y);
+                        pt = new Point(e.SubItem.Bounds.Location.X + e.Item.ImageList.Images[0].Width, e.SubItem.Bounds.Location.Y);
                         e.Graphics.DrawImage(e.Item.ImageList.Images[5], pt);
                     }
+
+                    pt = new Point(e.SubItem.Bounds.Location.X + e.Item.ImageList.Images[0].Width * 2, e.SubItem.Bounds.Location.Y);
+                    e.Graphics.DrawImage(e.Item.ImageList.Images[((String.IsNullOrEmpty(shurat_haklada.WriteCode)) ? 7 : 8)], pt); //Key image/ missing
+
+                    //TODO: ZManTK
                 }
                 else
                 {

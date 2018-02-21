@@ -1239,7 +1239,7 @@ namespace Pulsar
                         lvi.SubItems.Add(Convert.ToDateTime(reader.GetValue(4).ToString()).ToString("dd/MM/yy"));
                         lvi.SubItems.Add(Convert.ToDateTime(reader.GetValue(5).ToString()).ToString("dd/MM/yy"));
                         Company company = GetCompany(reader.GetValue(1).ToString());
-                        //lvi.SubItems.Add(company.CompanyName);
+                        lvi.SubItems.Add(company.CompanyName);                        
                         lvi.SubItems.Add(reader.GetValue(6).ToString());
                         double db = (Convert.ToDouble(reader.GetValue(8).ToString()) + Convert.ToDouble(reader.GetValue(10).ToString()));
                         lvi.SubItems.Add(db.ToString("0.00"));
@@ -1634,6 +1634,14 @@ namespace Pulsar
             shurat_haklada.CompamyInfoVAT = SafeString(reader[14].ToString());
 
             shurat_haklada.Readen = Convert.ToBoolean(reader[15].ToString());
+
+            Company company = GetCompany(shurat_haklada.CompanyID.ToString());
+            if (company != null)
+            {
+                shurat_haklada.CompanyVAT = company.CompanyVAT;
+                shurat_haklada.CompanyName = company.CompanyName;
+                shurat_haklada.WriteCode = company.WriteCode;
+            }
 
             shurat_haklada.DateSent = SafeDate(reader[16].ToString());
 

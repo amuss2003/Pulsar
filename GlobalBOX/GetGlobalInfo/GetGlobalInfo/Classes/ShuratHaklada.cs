@@ -29,5 +29,6 @@ namespace Pulsar.Classes
         public String CompanyName { get; set; }
         public int CountryID { get; set; }
         public String CompanyVAT { get; set; }
+        public String WriteCode { get; set; }
     }
 }

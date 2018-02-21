@@ -880,7 +880,8 @@ namespace Pulsar
 
         public DateTime ConvertToDDMMYYYY(String date)
         {
-            return DateTime.Parse(date);
+            //return DateTime.Parse(date);
+            return DateTime.Now;
 
             //date = date.ToLower().Replace(" pm", "");
 

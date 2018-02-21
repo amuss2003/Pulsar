@@ -172,9 +172,9 @@
             this.lblInboxDateTo = new System.Windows.Forms.Label();
             this.lblInboxDateFrom = new System.Windows.Forms.Label();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.tmrMail = new System.Windows.Forms.Timer(this.components);
             this.titleBar1 = new Pulsar.TitleBar();
             this.txtNumOfSearchLetters = new Pulsar.NumericTextBox();
-            this.tmrMail = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.localInfoProtocolDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inboxBindingSource)).BeginInit();
@@ -216,11 +216,12 @@
             this.lvwInbox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvwInbox.FullRowSelect = true;
             this.lvwInbox.HideSelection = false;
-            this.lvwInbox.Location = new System.Drawing.Point(3, 3);
+            this.lvwInbox.Location = new System.Drawing.Point(4, 5);
+            this.lvwInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lvwInbox.MultiSelect = false;
             this.lvwInbox.Name = "lvwInbox";
             this.lvwInbox.OwnerDraw = true;
-            this.lvwInbox.Size = new System.Drawing.Size(976, 220);
+            this.lvwInbox.Size = new System.Drawing.Size(1469, 336);
             this.lvwInbox.SmallImageList = this.imageList1;
             this.lvwInbox.TabIndex = 5;
             this.lvwInbox.UseCompatibleStateImageBehavior = false;
@@ -290,6 +291,8 @@
             this.imageList1.Images.SetKeyName(4, "icon_eye.gif");
             this.imageList1.Images.SetKeyName(5, "attachment-icon.png");
             this.imageList1.Images.SetKeyName(6, "request_icon.png");
+            this.imageList1.Images.SetKeyName(7, "ExistSecurityKey.ico");
+            this.imageList1.Images.SetKeyName(8, "MissingSecuritykey.ico");
             // 
             // btnSend
             // 
@@ -297,9 +300,10 @@
             this.btnSend.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSend.Image = global::Pulsar.Properties.Resources.outbox_icon;
             this.btnSend.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSend.Location = new System.Drawing.Point(413, 0);
+            this.btnSend.Location = new System.Drawing.Point(620, 0);
+            this.btnSend.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(113, 39);
+            this.btnSend.Size = new System.Drawing.Size(170, 60);
             this.btnSend.TabIndex = 3;
             this.btnSend.Text = "שלח דואר";
             this.btnSend.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -312,9 +316,10 @@
             this.btnGetData.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGetData.Image = global::Pulsar.Properties.Resources.inbox;
             this.btnGetData.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGetData.Location = new System.Drawing.Point(760, 1);
+            this.btnGetData.Location = new System.Drawing.Point(1140, 2);
+            this.btnGetData.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnGetData.Name = "btnGetData";
-            this.btnGetData.Size = new System.Drawing.Size(121, 39);
+            this.btnGetData.Size = new System.Drawing.Size(182, 60);
             this.btnGetData.TabIndex = 1;
             this.btnGetData.Text = "משוך דואר";
             this.btnGetData.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -327,9 +332,10 @@
             this.btnViewDataInbox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewDataInbox.Image = global::Pulsar.Properties.Resources.filter_data_date_32_Inbox;
             this.btnViewDataInbox.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnViewDataInbox.Location = new System.Drawing.Point(650, 1);
+            this.btnViewDataInbox.Location = new System.Drawing.Point(975, 2);
+            this.btnViewDataInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnViewDataInbox.Name = "btnViewDataInbox";
-            this.btnViewDataInbox.Size = new System.Drawing.Size(108, 39);
+            this.btnViewDataInbox.Size = new System.Drawing.Size(162, 60);
             this.btnViewDataInbox.TabIndex = 4;
             this.btnViewDataInbox.Text = "סנן דואר";
             this.btnViewDataInbox.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -339,11 +345,12 @@
             // dtpFromInbox
             // 
             this.dtpFromInbox.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFromInbox.Location = new System.Drawing.Point(190, 97);
+            this.dtpFromInbox.Location = new System.Drawing.Point(285, 149);
+            this.dtpFromInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtpFromInbox.Name = "dtpFromInbox";
             this.dtpFromInbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dtpFromInbox.RightToLeftLayout = true;
-            this.dtpFromInbox.Size = new System.Drawing.Size(96, 22);
+            this.dtpFromInbox.Size = new System.Drawing.Size(142, 30);
             this.dtpFromInbox.TabIndex = 2;
             this.dtpFromInbox.ValueChanged += new System.EventHandler(this.dtpFromInbox_ValueChanged);
             this.dtpFromInbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dtpInbox_KeyPress);
@@ -351,6 +358,7 @@
             // menuStrip1
             // 
             this.menuStrip1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2,
             this.toolStripMenuItem1,
@@ -358,7 +366,8 @@
             this.betaVer1000ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1016, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(1524, 34);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -367,13 +376,13 @@
             this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aquireToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(65, 20);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(89, 28);
             this.toolStripMenuItem2.Text = "Scanner";
             // 
             // aquireToolStripMenuItem
             // 
             this.aquireToolStripMenuItem.Name = "aquireToolStripMenuItem";
-            this.aquireToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.aquireToolStripMenuItem.Size = new System.Drawing.Size(143, 30);
             this.aquireToolStripMenuItem.Text = "Aquire";
             this.aquireToolStripMenuItem.Click += new System.EventHandler(this.aquireToolStripMenuItem_Click);
             // 
@@ -386,41 +395,41 @@
             this.dataStructureToolStripMenuItem,
             this.reportToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(64, 20);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(87, 28);
             this.toolStripMenuItem1.Text = "Settings";
             // 
             // actionTypeToolStripMenuItem
             // 
             this.actionTypeToolStripMenuItem.Name = "actionTypeToolStripMenuItem";
-            this.actionTypeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.actionTypeToolStripMenuItem.Size = new System.Drawing.Size(208, 30);
             this.actionTypeToolStripMenuItem.Text = "&Action Type";
             this.actionTypeToolStripMenuItem.Click += new System.EventHandler(this.actionTypeToolStripMenuItem_Click);
             // 
             // businessListToolStripMenuItem
             // 
             this.businessListToolStripMenuItem.Name = "businessListToolStripMenuItem";
-            this.businessListToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.businessListToolStripMenuItem.Size = new System.Drawing.Size(208, 30);
             this.businessListToolStripMenuItem.Text = "&Business List";
             this.businessListToolStripMenuItem.Click += new System.EventHandler(this.businessListToolStripMenuItem_Click);
             // 
             // requestsToolStripMenuItem
             // 
             this.requestsToolStripMenuItem.Name = "requestsToolStripMenuItem";
-            this.requestsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.requestsToolStripMenuItem.Size = new System.Drawing.Size(208, 30);
             this.requestsToolStripMenuItem.Text = "&Requests";
             this.requestsToolStripMenuItem.Click += new System.EventHandler(this.requestsToolStripMenuItem_Click);
             // 
             // dataStructureToolStripMenuItem
             // 
             this.dataStructureToolStripMenuItem.Name = "dataStructureToolStripMenuItem";
-            this.dataStructureToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dataStructureToolStripMenuItem.Size = new System.Drawing.Size(208, 30);
             this.dataStructureToolStripMenuItem.Text = "&Data Structure";
             this.dataStructureToolStripMenuItem.Click += new System.EventHandler(this.dataStructureToolStripMenuItem_Click);
             // 
             // reportToolStripMenuItem
             // 
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(208, 30);
             this.reportToolStripMenuItem.Text = "Report";
             this.reportToolStripMenuItem.Click += new System.EventHandler(this.reportToolStripMenuItem_Click);
             // 
@@ -430,20 +439,20 @@
             this.fileFormatToolStripMenuItem,
             this.importOutboxToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(59, 28);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // fileFormatToolStripMenuItem
             // 
             this.fileFormatToolStripMenuItem.Name = "fileFormatToolStripMenuItem";
-            this.fileFormatToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.fileFormatToolStripMenuItem.Size = new System.Drawing.Size(203, 30);
             this.fileFormatToolStripMenuItem.Text = "File &Format";
             this.fileFormatToolStripMenuItem.Click += new System.EventHandler(this.fileFormatToolStripMenuItem_Click);
             // 
             // importOutboxToolStripMenuItem
             // 
             this.importOutboxToolStripMenuItem.Name = "importOutboxToolStripMenuItem";
-            this.importOutboxToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.importOutboxToolStripMenuItem.Size = new System.Drawing.Size(203, 30);
             this.importOutboxToolStripMenuItem.Text = "Import Outbox";
             this.importOutboxToolStripMenuItem.Click += new System.EventHandler(this.importOutboxToolStripMenuItem_Click);
             // 
@@ -451,7 +460,7 @@
             // 
             this.betaVer1000ToolStripMenuItem.Image = global::Pulsar.Properties.Resources.email_transfer;
             this.betaVer1000ToolStripMenuItem.Name = "betaVer1000ToolStripMenuItem";
-            this.betaVer1000ToolStripMenuItem.Size = new System.Drawing.Size(161, 20);
+            this.betaVer1000ToolStripMenuItem.Size = new System.Drawing.Size(230, 28);
             this.betaVer1000ToolStripMenuItem.Text = "Pulsar Beta Ver 1.0130";
             // 
             // btnCreateActions
@@ -460,9 +469,10 @@
             this.btnCreateActions.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateActions.Image = global::Pulsar.Properties.Resources.ActionIcon;
             this.btnCreateActions.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCreateActions.Location = new System.Drawing.Point(299, 0);
+            this.btnCreateActions.Location = new System.Drawing.Point(448, 0);
+            this.btnCreateActions.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCreateActions.Name = "btnCreateActions";
-            this.btnCreateActions.Size = new System.Drawing.Size(112, 39);
+            this.btnCreateActions.Size = new System.Drawing.Size(168, 60);
             this.btnCreateActions.TabIndex = 2;
             this.btnCreateActions.Text = "צור תנועה";
             this.btnCreateActions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -506,9 +516,10 @@
             this.btnExit.BackgroundImage = global::Pulsar.Properties.Resources.exit;
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(12, 661);
+            this.btnExit.Location = new System.Drawing.Point(18, 1017);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(48, 39);
+            this.btnExit.Size = new System.Drawing.Size(72, 60);
             this.btnExit.TabIndex = 5;
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -534,10 +545,12 @@
             this.grpFilterInbox.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.grpFilterInbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpFilterInbox.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.grpFilterInbox.Location = new System.Drawing.Point(509, 15);
+            this.grpFilterInbox.Location = new System.Drawing.Point(764, 23);
+            this.grpFilterInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grpFilterInbox.Name = "grpFilterInbox";
+            this.grpFilterInbox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grpFilterInbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.grpFilterInbox.Size = new System.Drawing.Size(352, 218);
+            this.grpFilterInbox.Size = new System.Drawing.Size(528, 335);
             this.grpFilterInbox.TabIndex = 22;
             this.grpFilterInbox.TabStop = false;
             this.grpFilterInbox.Text = "מסנני חיתוך דואר נכנס";
@@ -547,9 +560,10 @@
             // 
             this.radYearInbox.AutoSize = true;
             this.radYearInbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radYearInbox.Location = new System.Drawing.Point(101, 17);
+            this.radYearInbox.Location = new System.Drawing.Point(152, 26);
+            this.radYearInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radYearInbox.Name = "radYearInbox";
-            this.radYearInbox.Size = new System.Drawing.Size(56, 20);
+            this.radYearInbox.Size = new System.Drawing.Size(80, 27);
             this.radYearInbox.TabIndex = 30;
             this.radYearInbox.Text = "השנה";
             this.radYearInbox.UseVisualStyleBackColor = true;
@@ -559,9 +573,10 @@
             // 
             this.radMonthInbox.AutoSize = true;
             this.radMonthInbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radMonthInbox.Location = new System.Drawing.Point(160, 17);
+            this.radMonthInbox.Location = new System.Drawing.Point(240, 26);
+            this.radMonthInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radMonthInbox.Name = "radMonthInbox";
-            this.radMonthInbox.Size = new System.Drawing.Size(61, 20);
+            this.radMonthInbox.Size = new System.Drawing.Size(89, 27);
             this.radMonthInbox.TabIndex = 29;
             this.radMonthInbox.Text = "החודש";
             this.radMonthInbox.UseVisualStyleBackColor = true;
@@ -571,9 +586,10 @@
             // 
             this.radWeekInbox.AutoSize = true;
             this.radWeekInbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radWeekInbox.Location = new System.Drawing.Point(226, 17);
+            this.radWeekInbox.Location = new System.Drawing.Point(339, 26);
+            this.radWeekInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radWeekInbox.Name = "radWeekInbox";
-            this.radWeekInbox.Size = new System.Drawing.Size(60, 20);
+            this.radWeekInbox.Size = new System.Drawing.Size(89, 27);
             this.radWeekInbox.TabIndex = 28;
             this.radWeekInbox.Text = "השבוע";
             this.radWeekInbox.UseVisualStyleBackColor = true;
@@ -584,9 +600,10 @@
             this.radDayInbox.AutoSize = true;
             this.radDayInbox.Checked = true;
             this.radDayInbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radDayInbox.Location = new System.Drawing.Point(294, 17);
+            this.radDayInbox.Location = new System.Drawing.Point(441, 26);
+            this.radDayInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radDayInbox.Name = "radDayInbox";
-            this.radDayInbox.Size = new System.Drawing.Size(48, 20);
+            this.radDayInbox.Size = new System.Drawing.Size(71, 27);
             this.radDayInbox.TabIndex = 27;
             this.radDayInbox.TabStop = true;
             this.radDayInbox.Text = "היום";
@@ -596,7 +613,8 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Pulsar.Properties.Resources.filter_data_date_32_Inbox;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(9, 18);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(32, 32);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -607,10 +625,11 @@
             // 
             this.cmbMonthsInbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMonthsInbox.FormattingEnabled = true;
-            this.cmbMonthsInbox.Location = new System.Drawing.Point(227, 70);
+            this.cmbMonthsInbox.Location = new System.Drawing.Point(340, 108);
+            this.cmbMonthsInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbMonthsInbox.Name = "cmbMonthsInbox";
             this.cmbMonthsInbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cmbMonthsInbox.Size = new System.Drawing.Size(59, 24);
+            this.cmbMonthsInbox.Size = new System.Drawing.Size(86, 31);
             this.cmbMonthsInbox.TabIndex = 1;
             this.cmbMonthsInbox.SelectedIndexChanged += new System.EventHandler(this.cmbMonths_SelectedIndexChanged);
             // 
@@ -618,10 +637,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(308, 73);
+            this.label3.Location = new System.Drawing.Point(462, 112);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label3.Size = new System.Drawing.Size(39, 16);
+            this.label3.Size = new System.Drawing.Size(58, 23);
             this.label3.TabIndex = 25;
             this.label3.Text = "חודש:";
             // 
@@ -629,10 +649,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(315, 46);
+            this.label4.Location = new System.Drawing.Point(472, 71);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label4.Size = new System.Drawing.Size(34, 16);
+            this.label4.Size = new System.Drawing.Size(49, 23);
             this.label4.TabIndex = 24;
             this.label4.Text = "שנה:";
             // 
@@ -640,10 +661,11 @@
             // 
             this.cmbYearsInbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbYearsInbox.FormattingEnabled = true;
-            this.cmbYearsInbox.Location = new System.Drawing.Point(227, 43);
+            this.cmbYearsInbox.Location = new System.Drawing.Point(340, 66);
+            this.cmbYearsInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbYearsInbox.Name = "cmbYearsInbox";
             this.cmbYearsInbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cmbYearsInbox.Size = new System.Drawing.Size(59, 24);
+            this.cmbYearsInbox.Size = new System.Drawing.Size(86, 31);
             this.cmbYearsInbox.TabIndex = 0;
             this.cmbYearsInbox.SelectedIndexChanged += new System.EventHandler(this.cmbYears_SelectedIndexChanged);
             // 
@@ -651,9 +673,10 @@
             // 
             this.btnExitFilterInbox.BackgroundImage = global::Pulsar.Properties.Resources.exit;
             this.btnExitFilterInbox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnExitFilterInbox.Location = new System.Drawing.Point(6, 173);
+            this.btnExitFilterInbox.Location = new System.Drawing.Point(9, 266);
+            this.btnExitFilterInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExitFilterInbox.Name = "btnExitFilterInbox";
-            this.btnExitFilterInbox.Size = new System.Drawing.Size(48, 39);
+            this.btnExitFilterInbox.Size = new System.Drawing.Size(72, 60);
             this.btnExitFilterInbox.TabIndex = 5;
             this.btnExitFilterInbox.UseVisualStyleBackColor = true;
             this.btnExitFilterInbox.Click += new System.EventHandler(this.button2_Click);
@@ -664,9 +687,10 @@
             this.btnFilterInbox.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFilterInbox.Image = global::Pulsar.Properties.Resources.ActionIcon;
             this.btnFilterInbox.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFilterInbox.Location = new System.Drawing.Point(60, 173);
+            this.btnFilterInbox.Location = new System.Drawing.Point(90, 266);
+            this.btnFilterInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnFilterInbox.Name = "btnFilterInbox";
-            this.btnFilterInbox.Size = new System.Drawing.Size(70, 39);
+            this.btnFilterInbox.Size = new System.Drawing.Size(105, 60);
             this.btnFilterInbox.TabIndex = 4;
             this.btnFilterInbox.Text = "בצע";
             this.btnFilterInbox.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -677,10 +701,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(286, 127);
+            this.label2.Location = new System.Drawing.Point(429, 195);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(62, 16);
+            this.label2.Size = new System.Drawing.Size(93, 23);
             this.label2.TabIndex = 11;
             this.label2.Text = "עד תאריך:";
             // 
@@ -688,37 +713,40 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(296, 101);
+            this.label1.Location = new System.Drawing.Point(444, 155);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(52, 16);
+            this.label1.Size = new System.Drawing.Size(78, 23);
             this.label1.TabIndex = 10;
             this.label1.Text = "מתאריך:";
             // 
             // dtpToInbox
             // 
             this.dtpToInbox.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpToInbox.Location = new System.Drawing.Point(190, 123);
+            this.dtpToInbox.Location = new System.Drawing.Point(285, 189);
+            this.dtpToInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtpToInbox.Name = "dtpToInbox";
             this.dtpToInbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dtpToInbox.RightToLeftLayout = true;
-            this.dtpToInbox.Size = new System.Drawing.Size(96, 22);
+            this.dtpToInbox.Size = new System.Drawing.Size(142, 30);
             this.dtpToInbox.TabIndex = 3;
             this.dtpToInbox.ValueChanged += new System.EventHandler(this.dtpToInbox_ValueChanged);
             this.dtpToInbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dtpInbox_KeyPress);
             // 
             // tabMain
             // 
-            this.tabMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabMain.Controls.Add(this.tabInbox);
             this.tabMain.Controls.Add(this.tabOutbox);
             this.tabMain.ImageList = this.imageList1;
-            this.tabMain.Location = new System.Drawing.Point(12, 51);
+            this.tabMain.Location = new System.Drawing.Point(18, 78);
+            this.tabMain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabMain.Name = "tabMain";
             this.tabMain.SelectedIndex = 0;
-            this.tabMain.Size = new System.Drawing.Size(990, 497);
+            this.tabMain.Size = new System.Drawing.Size(1485, 765);
             this.tabMain.TabIndex = 0;
             this.tabMain.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             this.tabMain.ParentChanged += new System.EventHandler(this.tabMain_ParentChanged);
@@ -729,19 +757,20 @@
             this.tabInbox.Controls.Add(this.grpDetails);
             this.tabInbox.Controls.Add(this.lvwInbox);
             this.tabInbox.ImageIndex = 0;
-            this.tabInbox.Location = new System.Drawing.Point(4, 23);
+            this.tabInbox.Location = new System.Drawing.Point(4, 29);
+            this.tabInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabInbox.Name = "tabInbox";
-            this.tabInbox.Padding = new System.Windows.Forms.Padding(3);
-            this.tabInbox.Size = new System.Drawing.Size(982, 470);
+            this.tabInbox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabInbox.Size = new System.Drawing.Size(1477, 732);
             this.tabInbox.TabIndex = 0;
             this.tabInbox.Text = "Inbox";
             this.tabInbox.UseVisualStyleBackColor = true;
             // 
             // lvwTochenTnuaInbox
             // 
-            this.lvwTochenTnuaInbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lvwTochenTnuaInbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lvwTochenTnuaInbox.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader22,
             this.columnHeader26,
@@ -754,11 +783,12 @@
             this.lvwTochenTnuaInbox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvwTochenTnuaInbox.FullRowSelect = true;
             this.lvwTochenTnuaInbox.HideSelection = false;
-            this.lvwTochenTnuaInbox.Location = new System.Drawing.Point(3, 281);
+            this.lvwTochenTnuaInbox.Location = new System.Drawing.Point(4, 432);
+            this.lvwTochenTnuaInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lvwTochenTnuaInbox.MultiSelect = false;
             this.lvwTochenTnuaInbox.Name = "lvwTochenTnuaInbox";
             this.lvwTochenTnuaInbox.RightToLeftLayout = true;
-            this.lvwTochenTnuaInbox.Size = new System.Drawing.Size(976, 186);
+            this.lvwTochenTnuaInbox.Size = new System.Drawing.Size(1462, 284);
             this.lvwTochenTnuaInbox.SmallImageList = this.imageList1;
             this.lvwTochenTnuaInbox.TabIndex = 28;
             this.lvwTochenTnuaInbox.UseCompatibleStateImageBehavior = false;
@@ -806,15 +836,17 @@
             // 
             // grpDetails
             // 
-            this.grpDetails.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.grpDetails.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.grpDetails.Controls.Add(this.chkConfirm2);
             this.grpDetails.Controls.Add(this.chkConfirm1);
             this.grpDetails.Controls.Add(this.chkConfirm0);
             this.grpDetails.Enabled = false;
-            this.grpDetails.Location = new System.Drawing.Point(3, 229);
+            this.grpDetails.Location = new System.Drawing.Point(4, 352);
+            this.grpDetails.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grpDetails.Name = "grpDetails";
-            this.grpDetails.Size = new System.Drawing.Size(977, 46);
+            this.grpDetails.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.grpDetails.Size = new System.Drawing.Size(1466, 71);
             this.grpDetails.TabIndex = 6;
             this.grpDetails.TabStop = false;
             this.grpDetails.Text = "Details";
@@ -824,9 +856,10 @@
             this.chkConfirm2.AutoSize = true;
             this.chkConfirm2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.chkConfirm2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkConfirm2.Location = new System.Drawing.Point(182, 19);
+            this.chkConfirm2.Location = new System.Drawing.Point(273, 29);
+            this.chkConfirm2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkConfirm2.Name = "chkConfirm2";
-            this.chkConfirm2.Size = new System.Drawing.Size(82, 20);
+            this.chkConfirm2.Size = new System.Drawing.Size(121, 27);
             this.chkConfirm2.TabIndex = 2;
             this.chkConfirm2.Text = "Confirm 3";
             this.chkConfirm2.UseVisualStyleBackColor = false;
@@ -838,9 +871,10 @@
             this.chkConfirm1.AutoSize = true;
             this.chkConfirm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.chkConfirm1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkConfirm1.Location = new System.Drawing.Point(94, 19);
+            this.chkConfirm1.Location = new System.Drawing.Point(141, 29);
+            this.chkConfirm1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkConfirm1.Name = "chkConfirm1";
-            this.chkConfirm1.Size = new System.Drawing.Size(82, 20);
+            this.chkConfirm1.Size = new System.Drawing.Size(121, 27);
             this.chkConfirm1.TabIndex = 1;
             this.chkConfirm1.Text = "Confirm 2";
             this.chkConfirm1.UseVisualStyleBackColor = false;
@@ -852,9 +886,10 @@
             this.chkConfirm0.AutoSize = true;
             this.chkConfirm0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.chkConfirm0.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkConfirm0.Location = new System.Drawing.Point(6, 19);
+            this.chkConfirm0.Location = new System.Drawing.Point(9, 29);
+            this.chkConfirm0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkConfirm0.Name = "chkConfirm0";
-            this.chkConfirm0.Size = new System.Drawing.Size(82, 20);
+            this.chkConfirm0.Size = new System.Drawing.Size(121, 27);
             this.chkConfirm0.TabIndex = 0;
             this.chkConfirm0.Text = "Confirm 1";
             this.chkConfirm0.UseVisualStyleBackColor = false;
@@ -868,19 +903,20 @@
             this.tabOutbox.Controls.Add(this.grpFilterOutbox);
             this.tabOutbox.Controls.Add(this.lvwOutbox);
             this.tabOutbox.ImageIndex = 1;
-            this.tabOutbox.Location = new System.Drawing.Point(4, 23);
+            this.tabOutbox.Location = new System.Drawing.Point(4, 29);
+            this.tabOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabOutbox.Name = "tabOutbox";
-            this.tabOutbox.Padding = new System.Windows.Forms.Padding(3);
-            this.tabOutbox.Size = new System.Drawing.Size(982, 470);
+            this.tabOutbox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabOutbox.Size = new System.Drawing.Size(1477, 732);
             this.tabOutbox.TabIndex = 1;
             this.tabOutbox.Text = "Outbox";
             this.tabOutbox.UseVisualStyleBackColor = true;
             // 
             // lvwTochenTnuaOutbox
             // 
-            this.lvwTochenTnuaOutbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lvwTochenTnuaOutbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lvwTochenTnuaOutbox.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader20,
             this.columnHeader23,
@@ -893,11 +929,12 @@
             this.lvwTochenTnuaOutbox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvwTochenTnuaOutbox.FullRowSelect = true;
             this.lvwTochenTnuaOutbox.HideSelection = false;
-            this.lvwTochenTnuaOutbox.Location = new System.Drawing.Point(3, 239);
+            this.lvwTochenTnuaOutbox.Location = new System.Drawing.Point(4, 368);
+            this.lvwTochenTnuaOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lvwTochenTnuaOutbox.MultiSelect = false;
             this.lvwTochenTnuaOutbox.Name = "lvwTochenTnuaOutbox";
             this.lvwTochenTnuaOutbox.RightToLeftLayout = true;
-            this.lvwTochenTnuaOutbox.Size = new System.Drawing.Size(976, 225);
+            this.lvwTochenTnuaOutbox.Size = new System.Drawing.Size(1462, 344);
             this.lvwTochenTnuaOutbox.SmallImageList = this.imageList1;
             this.lvwTochenTnuaOutbox.TabIndex = 27;
             this.lvwTochenTnuaOutbox.UseCompatibleStateImageBehavior = false;
@@ -969,10 +1006,12 @@
             this.grpFilterOutbox.Controls.Add(this.dtpFromOutbox);
             this.grpFilterOutbox.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.grpFilterOutbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpFilterOutbox.Location = new System.Drawing.Point(151, 15);
+            this.grpFilterOutbox.Location = new System.Drawing.Point(226, 23);
+            this.grpFilterOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grpFilterOutbox.Name = "grpFilterOutbox";
+            this.grpFilterOutbox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grpFilterOutbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.grpFilterOutbox.Size = new System.Drawing.Size(352, 218);
+            this.grpFilterOutbox.Size = new System.Drawing.Size(528, 335);
             this.grpFilterOutbox.TabIndex = 26;
             this.grpFilterOutbox.TabStop = false;
             this.grpFilterOutbox.Text = "מסנני חיתוך דואר יוצא";
@@ -982,9 +1021,10 @@
             // 
             this.radYearOutbox.AutoSize = true;
             this.radYearOutbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radYearOutbox.Location = new System.Drawing.Point(104, 19);
+            this.radYearOutbox.Location = new System.Drawing.Point(156, 29);
+            this.radYearOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radYearOutbox.Name = "radYearOutbox";
-            this.radYearOutbox.Size = new System.Drawing.Size(56, 20);
+            this.radYearOutbox.Size = new System.Drawing.Size(80, 27);
             this.radYearOutbox.TabIndex = 37;
             this.radYearOutbox.Text = "השנה";
             this.radYearOutbox.UseVisualStyleBackColor = true;
@@ -994,9 +1034,10 @@
             // 
             this.radMonthOutbox.AutoSize = true;
             this.radMonthOutbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radMonthOutbox.Location = new System.Drawing.Point(161, 19);
+            this.radMonthOutbox.Location = new System.Drawing.Point(242, 29);
+            this.radMonthOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radMonthOutbox.Name = "radMonthOutbox";
-            this.radMonthOutbox.Size = new System.Drawing.Size(61, 20);
+            this.radMonthOutbox.Size = new System.Drawing.Size(89, 27);
             this.radMonthOutbox.TabIndex = 36;
             this.radMonthOutbox.Text = "החודש";
             this.radMonthOutbox.UseVisualStyleBackColor = true;
@@ -1006,9 +1047,10 @@
             // 
             this.radWeekOutbox.AutoSize = true;
             this.radWeekOutbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radWeekOutbox.Location = new System.Drawing.Point(227, 19);
+            this.radWeekOutbox.Location = new System.Drawing.Point(340, 29);
+            this.radWeekOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radWeekOutbox.Name = "radWeekOutbox";
-            this.radWeekOutbox.Size = new System.Drawing.Size(60, 20);
+            this.radWeekOutbox.Size = new System.Drawing.Size(89, 27);
             this.radWeekOutbox.TabIndex = 35;
             this.radWeekOutbox.Text = "השבוע";
             this.radWeekOutbox.UseVisualStyleBackColor = true;
@@ -1019,9 +1061,10 @@
             this.radDayOutbox.AutoSize = true;
             this.radDayOutbox.Checked = true;
             this.radDayOutbox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radDayOutbox.Location = new System.Drawing.Point(294, 19);
+            this.radDayOutbox.Location = new System.Drawing.Point(441, 29);
+            this.radDayOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radDayOutbox.Name = "radDayOutbox";
-            this.radDayOutbox.Size = new System.Drawing.Size(48, 20);
+            this.radDayOutbox.Size = new System.Drawing.Size(71, 27);
             this.radDayOutbox.TabIndex = 34;
             this.radDayOutbox.TabStop = true;
             this.radDayOutbox.Text = "היום";
@@ -1031,7 +1074,8 @@
             // picReaden
             // 
             this.picReaden.Image = global::Pulsar.Properties.Resources.icon_eye;
-            this.picReaden.Location = new System.Drawing.Point(137, 89);
+            this.picReaden.Location = new System.Drawing.Point(206, 137);
+            this.picReaden.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.picReaden.Name = "picReaden";
             this.picReaden.Size = new System.Drawing.Size(20, 20);
             this.picReaden.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1041,7 +1085,8 @@
             // picTransferd
             // 
             this.picTransferd.Image = global::Pulsar.Properties.Resources.icon_download;
-            this.picTransferd.Location = new System.Drawing.Point(137, 66);
+            this.picTransferd.Location = new System.Drawing.Point(206, 102);
+            this.picTransferd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.picTransferd.Name = "picTransferd";
             this.picTransferd.Size = new System.Drawing.Size(20, 20);
             this.picTransferd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1051,7 +1096,8 @@
             // picWaiting
             // 
             this.picWaiting.Image = global::Pulsar.Properties.Resources.icon_ticket_history;
-            this.picWaiting.Location = new System.Drawing.Point(137, 43);
+            this.picWaiting.Location = new System.Drawing.Point(206, 66);
+            this.picWaiting.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.picWaiting.Name = "picWaiting";
             this.picWaiting.Size = new System.Drawing.Size(20, 20);
             this.picWaiting.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1064,9 +1110,10 @@
             this.chkReaden.Checked = true;
             this.chkReaden.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkReaden.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkReaden.Location = new System.Drawing.Point(79, 91);
+            this.chkReaden.Location = new System.Drawing.Point(118, 140);
+            this.chkReaden.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkReaden.Name = "chkReaden";
-            this.chkReaden.Size = new System.Drawing.Size(53, 20);
+            this.chkReaden.Size = new System.Drawing.Size(75, 27);
             this.chkReaden.TabIndex = 30;
             this.chkReaden.Text = "נקרא";
             this.chkReaden.UseVisualStyleBackColor = true;
@@ -1078,9 +1125,10 @@
             this.chkTransferd.Checked = true;
             this.chkTransferd.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkTransferd.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkTransferd.Location = new System.Drawing.Point(77, 68);
+            this.chkTransferd.Location = new System.Drawing.Point(116, 105);
+            this.chkTransferd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkTransferd.Name = "chkTransferd";
-            this.chkTransferd.Size = new System.Drawing.Size(55, 20);
+            this.chkTransferd.Size = new System.Drawing.Size(78, 27);
             this.chkTransferd.TabIndex = 29;
             this.chkTransferd.Text = "נשלח";
             this.chkTransferd.UseVisualStyleBackColor = true;
@@ -1092,9 +1140,10 @@
             this.chkWaiting.Checked = true;
             this.chkWaiting.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkWaiting.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkWaiting.Location = new System.Drawing.Point(74, 45);
+            this.chkWaiting.Location = new System.Drawing.Point(111, 69);
+            this.chkWaiting.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkWaiting.Name = "chkWaiting";
-            this.chkWaiting.Size = new System.Drawing.Size(57, 20);
+            this.chkWaiting.Size = new System.Drawing.Size(85, 27);
             this.chkWaiting.TabIndex = 28;
             this.chkWaiting.Text = "ממתין";
             this.chkWaiting.UseVisualStyleBackColor = true;
@@ -1103,7 +1152,8 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Pulsar.Properties.Resources.filter_data_date_32_Outbox;
-            this.pictureBox3.Location = new System.Drawing.Point(6, 12);
+            this.pictureBox3.Location = new System.Drawing.Point(9, 18);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(32, 32);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1114,10 +1164,11 @@
             // 
             this.cmbMonthsOutbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMonthsOutbox.FormattingEnabled = true;
-            this.cmbMonthsOutbox.Location = new System.Drawing.Point(227, 73);
+            this.cmbMonthsOutbox.Location = new System.Drawing.Point(340, 112);
+            this.cmbMonthsOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbMonthsOutbox.Name = "cmbMonthsOutbox";
             this.cmbMonthsOutbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cmbMonthsOutbox.Size = new System.Drawing.Size(59, 24);
+            this.cmbMonthsOutbox.Size = new System.Drawing.Size(86, 31);
             this.cmbMonthsOutbox.TabIndex = 1;
             this.cmbMonthsOutbox.SelectedIndexChanged += new System.EventHandler(this.cmbMonthsOutbox_SelectedIndexChanged);
             // 
@@ -1125,10 +1176,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(308, 76);
+            this.label5.Location = new System.Drawing.Point(462, 117);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label5.Size = new System.Drawing.Size(39, 16);
+            this.label5.Size = new System.Drawing.Size(58, 23);
             this.label5.TabIndex = 25;
             this.label5.Text = "חודש:";
             // 
@@ -1136,10 +1188,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(315, 49);
+            this.label6.Location = new System.Drawing.Point(472, 75);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label6.Size = new System.Drawing.Size(34, 16);
+            this.label6.Size = new System.Drawing.Size(49, 23);
             this.label6.TabIndex = 24;
             this.label6.Text = "שנה:";
             // 
@@ -1147,10 +1200,11 @@
             // 
             this.cmbYearsOutbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbYearsOutbox.FormattingEnabled = true;
-            this.cmbYearsOutbox.Location = new System.Drawing.Point(227, 46);
+            this.cmbYearsOutbox.Location = new System.Drawing.Point(340, 71);
+            this.cmbYearsOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbYearsOutbox.Name = "cmbYearsOutbox";
             this.cmbYearsOutbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cmbYearsOutbox.Size = new System.Drawing.Size(59, 24);
+            this.cmbYearsOutbox.Size = new System.Drawing.Size(86, 31);
             this.cmbYearsOutbox.TabIndex = 0;
             this.cmbYearsOutbox.SelectedIndexChanged += new System.EventHandler(this.cmbYearsOutbox_SelectedIndexChanged);
             // 
@@ -1158,9 +1212,10 @@
             // 
             this.btnExitFilterOutbox.BackgroundImage = global::Pulsar.Properties.Resources.exit;
             this.btnExitFilterOutbox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnExitFilterOutbox.Location = new System.Drawing.Point(6, 173);
+            this.btnExitFilterOutbox.Location = new System.Drawing.Point(9, 266);
+            this.btnExitFilterOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExitFilterOutbox.Name = "btnExitFilterOutbox";
-            this.btnExitFilterOutbox.Size = new System.Drawing.Size(48, 39);
+            this.btnExitFilterOutbox.Size = new System.Drawing.Size(72, 60);
             this.btnExitFilterOutbox.TabIndex = 5;
             this.btnExitFilterOutbox.UseVisualStyleBackColor = true;
             this.btnExitFilterOutbox.Click += new System.EventHandler(this.btnExitFilterOutbox_Click);
@@ -1171,9 +1226,10 @@
             this.btnFilterOutbox.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFilterOutbox.Image = global::Pulsar.Properties.Resources.ActionIcon;
             this.btnFilterOutbox.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFilterOutbox.Location = new System.Drawing.Point(60, 173);
+            this.btnFilterOutbox.Location = new System.Drawing.Point(90, 266);
+            this.btnFilterOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnFilterOutbox.Name = "btnFilterOutbox";
-            this.btnFilterOutbox.Size = new System.Drawing.Size(70, 39);
+            this.btnFilterOutbox.Size = new System.Drawing.Size(105, 60);
             this.btnFilterOutbox.TabIndex = 4;
             this.btnFilterOutbox.Text = "בצע";
             this.btnFilterOutbox.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1184,10 +1240,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(286, 130);
+            this.label7.Location = new System.Drawing.Point(429, 200);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label7.Size = new System.Drawing.Size(62, 16);
+            this.label7.Size = new System.Drawing.Size(93, 23);
             this.label7.TabIndex = 11;
             this.label7.Text = "עד תאריך:";
             // 
@@ -1195,21 +1252,23 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(296, 104);
+            this.label8.Location = new System.Drawing.Point(444, 160);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label8.Size = new System.Drawing.Size(52, 16);
+            this.label8.Size = new System.Drawing.Size(78, 23);
             this.label8.TabIndex = 10;
             this.label8.Text = "מתאריך:";
             // 
             // dtpToOutbox
             // 
             this.dtpToOutbox.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpToOutbox.Location = new System.Drawing.Point(190, 126);
+            this.dtpToOutbox.Location = new System.Drawing.Point(285, 194);
+            this.dtpToOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtpToOutbox.Name = "dtpToOutbox";
             this.dtpToOutbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dtpToOutbox.RightToLeftLayout = true;
-            this.dtpToOutbox.Size = new System.Drawing.Size(96, 22);
+            this.dtpToOutbox.Size = new System.Drawing.Size(142, 30);
             this.dtpToOutbox.TabIndex = 3;
             this.dtpToOutbox.ValueChanged += new System.EventHandler(this.dtpToOutbox_ValueChanged);
             this.dtpToOutbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dtpOutbox_KeyPress);
@@ -1217,11 +1276,12 @@
             // dtpFromOutbox
             // 
             this.dtpFromOutbox.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFromOutbox.Location = new System.Drawing.Point(190, 100);
+            this.dtpFromOutbox.Location = new System.Drawing.Point(285, 154);
+            this.dtpFromOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtpFromOutbox.Name = "dtpFromOutbox";
             this.dtpFromOutbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dtpFromOutbox.RightToLeftLayout = true;
-            this.dtpFromOutbox.Size = new System.Drawing.Size(96, 22);
+            this.dtpFromOutbox.Size = new System.Drawing.Size(142, 30);
             this.dtpFromOutbox.TabIndex = 2;
             this.dtpFromOutbox.ValueChanged += new System.EventHandler(this.dtpFromOutbox_ValueChanged);
             this.dtpFromOutbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dtpOutbox_KeyPress);
@@ -1243,12 +1303,13 @@
             this.lvwOutbox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.lvwOutbox.FullRowSelect = true;
             this.lvwOutbox.HideSelection = false;
-            this.lvwOutbox.Location = new System.Drawing.Point(3, 3);
+            this.lvwOutbox.Location = new System.Drawing.Point(4, 5);
+            this.lvwOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lvwOutbox.MultiSelect = false;
             this.lvwOutbox.Name = "lvwOutbox";
             this.lvwOutbox.OwnerDraw = true;
             this.lvwOutbox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lvwOutbox.Size = new System.Drawing.Size(976, 230);
+            this.lvwOutbox.Size = new System.Drawing.Size(1469, 352);
             this.lvwOutbox.SmallImageList = this.imageList1;
             this.lvwOutbox.TabIndex = 19;
             this.lvwOutbox.UseCompatibleStateImageBehavior = false;
@@ -1264,7 +1325,7 @@
             // columnHeader8
             // 
             this.columnHeader8.Text = "";
-            this.columnHeader8.Width = 36;
+            this.columnHeader8.Width = 64;
             // 
             // columnHeader13
             // 
@@ -1310,9 +1371,10 @@
             this.btnViewDataOutbox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewDataOutbox.Image = global::Pulsar.Properties.Resources.filter_data_date_32_Outbox;
             this.btnViewDataOutbox.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnViewDataOutbox.Location = new System.Drawing.Point(193, 0);
+            this.btnViewDataOutbox.Location = new System.Drawing.Point(290, 0);
+            this.btnViewDataOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnViewDataOutbox.Name = "btnViewDataOutbox";
-            this.btnViewDataOutbox.Size = new System.Drawing.Size(104, 39);
+            this.btnViewDataOutbox.Size = new System.Drawing.Size(156, 60);
             this.btnViewDataOutbox.TabIndex = 27;
             this.btnViewDataOutbox.Text = "סנן דואר";
             this.btnViewDataOutbox.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1332,9 +1394,10 @@
             this.btnAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAttachment.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAttachment.BackgroundImage")));
             this.btnAttachment.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnAttachment.Location = new System.Drawing.Point(7, 1);
+            this.btnAttachment.Location = new System.Drawing.Point(10, 2);
+            this.btnAttachment.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAttachment.Name = "btnAttachment";
-            this.btnAttachment.Size = new System.Drawing.Size(48, 39);
+            this.btnAttachment.Size = new System.Drawing.Size(72, 60);
             this.btnAttachment.TabIndex = 28;
             this.btnAttachment.UseVisualStyleBackColor = true;
             this.btnAttachment.Visible = false;
@@ -1346,9 +1409,10 @@
             this.btnDeleteInboxRecord.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteInboxRecord.Image = global::Pulsar.Properties.Resources.icon_delete;
             this.btnDeleteInboxRecord.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDeleteInboxRecord.Location = new System.Drawing.Point(416, 1);
+            this.btnDeleteInboxRecord.Location = new System.Drawing.Point(624, 2);
+            this.btnDeleteInboxRecord.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDeleteInboxRecord.Name = "btnDeleteInboxRecord";
-            this.btnDeleteInboxRecord.Size = new System.Drawing.Size(119, 39);
+            this.btnDeleteInboxRecord.Size = new System.Drawing.Size(178, 60);
             this.btnDeleteInboxRecord.TabIndex = 29;
             this.btnDeleteInboxRecord.Text = "מחק רשומה";
             this.btnDeleteInboxRecord.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1361,9 +1425,10 @@
             this.btnDeleteOutboxRecord.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteOutboxRecord.Image = global::Pulsar.Properties.Resources.icon_delete;
             this.btnDeleteOutboxRecord.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDeleteOutboxRecord.Location = new System.Drawing.Point(69, 0);
+            this.btnDeleteOutboxRecord.Location = new System.Drawing.Point(104, 0);
+            this.btnDeleteOutboxRecord.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDeleteOutboxRecord.Name = "btnDeleteOutboxRecord";
-            this.btnDeleteOutboxRecord.Size = new System.Drawing.Size(122, 39);
+            this.btnDeleteOutboxRecord.Size = new System.Drawing.Size(183, 60);
             this.btnDeleteOutboxRecord.TabIndex = 30;
             this.btnDeleteOutboxRecord.Text = "מחק רשומה";
             this.btnDeleteOutboxRecord.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1376,9 +1441,10 @@
             this.btnAddCompany.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddCompany.Image = global::Pulsar.Properties.Resources.icon_add;
             this.btnAddCompany.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAddCompany.Location = new System.Drawing.Point(57, 1);
+            this.btnAddCompany.Location = new System.Drawing.Point(86, 2);
+            this.btnAddCompany.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAddCompany.Name = "btnAddCompany";
-            this.btnAddCompany.Size = new System.Drawing.Size(100, 39);
+            this.btnAddCompany.Size = new System.Drawing.Size(150, 60);
             this.btnAddCompany.TabIndex = 31;
             this.btnAddCompany.Text = "הקם עסק";
             this.btnAddCompany.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1389,7 +1455,8 @@
             // picWaitingOutboxFilter
             // 
             this.picWaitingOutboxFilter.Image = global::Pulsar.Properties.Resources.icon_ticket_history;
-            this.picWaitingOutboxFilter.Location = new System.Drawing.Point(54, 1);
+            this.picWaitingOutboxFilter.Location = new System.Drawing.Point(81, 2);
+            this.picWaitingOutboxFilter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.picWaitingOutboxFilter.Name = "picWaitingOutboxFilter";
             this.picWaitingOutboxFilter.Size = new System.Drawing.Size(20, 20);
             this.picWaitingOutboxFilter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1404,7 +1471,8 @@
             // picReadenOutboxFilter
             // 
             this.picReadenOutboxFilter.Image = global::Pulsar.Properties.Resources.icon_eye;
-            this.picReadenOutboxFilter.Location = new System.Drawing.Point(2, 1);
+            this.picReadenOutboxFilter.Location = new System.Drawing.Point(3, 2);
+            this.picReadenOutboxFilter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.picReadenOutboxFilter.Name = "picReadenOutboxFilter";
             this.picReadenOutboxFilter.Size = new System.Drawing.Size(20, 20);
             this.picReadenOutboxFilter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1419,7 +1487,8 @@
             // picTransferdOutboxFilter
             // 
             this.picTransferdOutboxFilter.Image = global::Pulsar.Properties.Resources.icon_download;
-            this.picTransferdOutboxFilter.Location = new System.Drawing.Point(28, 1);
+            this.picTransferdOutboxFilter.Location = new System.Drawing.Point(42, 2);
+            this.picTransferdOutboxFilter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.picTransferdOutboxFilter.Name = "picTransferdOutboxFilter";
             this.picTransferdOutboxFilter.Size = new System.Drawing.Size(20, 20);
             this.picTransferdOutboxFilter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1437,9 +1506,10 @@
             this.btnTrasferToOutbox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrasferToOutbox.Image = global::Pulsar.Properties.Resources.TransferMailLeft;
             this.btnTrasferToOutbox.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTrasferToOutbox.Location = new System.Drawing.Point(288, 1);
+            this.btnTrasferToOutbox.Location = new System.Drawing.Point(432, 2);
+            this.btnTrasferToOutbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTrasferToOutbox.Name = "btnTrasferToOutbox";
-            this.btnTrasferToOutbox.Size = new System.Drawing.Size(126, 39);
+            this.btnTrasferToOutbox.Size = new System.Drawing.Size(189, 60);
             this.btnTrasferToOutbox.TabIndex = 40;
             this.btnTrasferToOutbox.Text = "העבר דואר";
             this.btnTrasferToOutbox.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1450,9 +1520,10 @@
             // 
             this.lblOutboxDateFrom.AutoSize = true;
             this.lblOutboxDateFrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.lblOutboxDateFrom.Location = new System.Drawing.Point(82, 5);
+            this.lblOutboxDateFrom.Location = new System.Drawing.Point(123, 8);
+            this.lblOutboxDateFrom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOutboxDateFrom.Name = "lblOutboxDateFrom";
-            this.lblOutboxDateFrom.Size = new System.Drawing.Size(75, 13);
+            this.lblOutboxDateFrom.Size = new System.Drawing.Size(101, 20);
             this.lblOutboxDateFrom.TabIndex = 41;
             this.lblOutboxDateFrom.Text = "00/00/0000";
             // 
@@ -1460,9 +1531,10 @@
             // 
             this.lblOutboxDateTo.AutoSize = true;
             this.lblOutboxDateTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.lblOutboxDateTo.Location = new System.Drawing.Point(171, 5);
+            this.lblOutboxDateTo.Location = new System.Drawing.Point(256, 8);
+            this.lblOutboxDateTo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOutboxDateTo.Name = "lblOutboxDateTo";
-            this.lblOutboxDateTo.Size = new System.Drawing.Size(75, 13);
+            this.lblOutboxDateTo.Size = new System.Drawing.Size(101, 20);
             this.lblOutboxDateTo.TabIndex = 42;
             this.lblOutboxDateTo.Text = "00/00/0000";
             // 
@@ -1470,9 +1542,10 @@
             // 
             this.lblOutboxDateSeperator.AutoSize = true;
             this.lblOutboxDateSeperator.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.lblOutboxDateSeperator.Location = new System.Drawing.Point(158, 5);
+            this.lblOutboxDateSeperator.Location = new System.Drawing.Point(237, 8);
+            this.lblOutboxDateSeperator.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOutboxDateSeperator.Name = "lblOutboxDateSeperator";
-            this.lblOutboxDateSeperator.Size = new System.Drawing.Size(11, 13);
+            this.lblOutboxDateSeperator.Size = new System.Drawing.Size(16, 20);
             this.lblOutboxDateSeperator.TabIndex = 43;
             this.lblOutboxDateSeperator.Text = "-";
             // 
@@ -1488,9 +1561,10 @@
             this.pnlOutboxFilter.Controls.Add(this.lblOutboxDateTo);
             this.pnlOutboxFilter.Controls.Add(this.picTransferdOutboxFilter);
             this.pnlOutboxFilter.Controls.Add(this.lblOutboxDateFrom);
-            this.pnlOutboxFilter.Location = new System.Drawing.Point(497, 50);
+            this.pnlOutboxFilter.Location = new System.Drawing.Point(746, 77);
+            this.pnlOutboxFilter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlOutboxFilter.Name = "pnlOutboxFilter";
-            this.pnlOutboxFilter.Size = new System.Drawing.Size(503, 21);
+            this.pnlOutboxFilter.Size = new System.Drawing.Size(754, 32);
             this.pnlOutboxFilter.TabIndex = 44;
             this.pnlOutboxFilter.Visible = false;
             // 
@@ -1499,10 +1573,11 @@
             this.radYearOutboxPnl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radYearOutboxPnl.AutoSize = true;
             this.radYearOutboxPnl.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.radYearOutboxPnl.Location = new System.Drawing.Point(257, 0);
+            this.radYearOutboxPnl.Location = new System.Drawing.Point(390, 0);
+            this.radYearOutboxPnl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radYearOutboxPnl.Name = "radYearOutboxPnl";
             this.radYearOutboxPnl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radYearOutboxPnl.Size = new System.Drawing.Size(56, 20);
+            this.radYearOutboxPnl.Size = new System.Drawing.Size(80, 27);
             this.radYearOutboxPnl.TabIndex = 47;
             this.radYearOutboxPnl.Text = "השנה";
             this.radYearOutboxPnl.UseVisualStyleBackColor = true;
@@ -1513,10 +1588,11 @@
             this.radMonthOutboxPnl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radMonthOutboxPnl.AutoSize = true;
             this.radMonthOutboxPnl.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.radMonthOutboxPnl.Location = new System.Drawing.Point(316, 0);
+            this.radMonthOutboxPnl.Location = new System.Drawing.Point(477, 0);
+            this.radMonthOutboxPnl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radMonthOutboxPnl.Name = "radMonthOutboxPnl";
             this.radMonthOutboxPnl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radMonthOutboxPnl.Size = new System.Drawing.Size(61, 20);
+            this.radMonthOutboxPnl.Size = new System.Drawing.Size(89, 27);
             this.radMonthOutboxPnl.TabIndex = 46;
             this.radMonthOutboxPnl.Text = "החודש";
             this.radMonthOutboxPnl.UseVisualStyleBackColor = true;
@@ -1527,10 +1603,11 @@
             this.radWeekOutboxPnl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radWeekOutboxPnl.AutoSize = true;
             this.radWeekOutboxPnl.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.radWeekOutboxPnl.Location = new System.Drawing.Point(383, 0);
+            this.radWeekOutboxPnl.Location = new System.Drawing.Point(576, 0);
+            this.radWeekOutboxPnl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radWeekOutboxPnl.Name = "radWeekOutboxPnl";
             this.radWeekOutboxPnl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radWeekOutboxPnl.Size = new System.Drawing.Size(60, 20);
+            this.radWeekOutboxPnl.Size = new System.Drawing.Size(89, 27);
             this.radWeekOutboxPnl.TabIndex = 45;
             this.radWeekOutboxPnl.Text = "השבוע";
             this.radWeekOutboxPnl.UseVisualStyleBackColor = true;
@@ -1542,10 +1619,11 @@
             this.radDayOutboxPnl.AutoSize = true;
             this.radDayOutboxPnl.Checked = true;
             this.radDayOutboxPnl.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.radDayOutboxPnl.Location = new System.Drawing.Point(451, 0);
+            this.radDayOutboxPnl.Location = new System.Drawing.Point(677, 0);
+            this.radDayOutboxPnl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radDayOutboxPnl.Name = "radDayOutboxPnl";
             this.radDayOutboxPnl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radDayOutboxPnl.Size = new System.Drawing.Size(48, 20);
+            this.radDayOutboxPnl.Size = new System.Drawing.Size(71, 27);
             this.radDayOutboxPnl.TabIndex = 44;
             this.radDayOutboxPnl.TabStop = true;
             this.radDayOutboxPnl.Text = "היום";
@@ -1564,9 +1642,10 @@
             this.pnlInboxButtons.Controls.Add(this.btnAttachment);
             this.pnlInboxButtons.Controls.Add(this.btnTrasferToOutbox);
             this.pnlInboxButtons.Controls.Add(this.btnDeleteInboxRecord);
-            this.pnlInboxButtons.Location = new System.Drawing.Point(121, 661);
+            this.pnlInboxButtons.Location = new System.Drawing.Point(182, 1017);
+            this.pnlInboxButtons.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlInboxButtons.Name = "pnlInboxButtons";
-            this.pnlInboxButtons.Size = new System.Drawing.Size(883, 40);
+            this.pnlInboxButtons.Size = new System.Drawing.Size(1324, 62);
             this.pnlInboxButtons.TabIndex = 46;
             // 
             // btnImportInbox
@@ -1575,9 +1654,10 @@
             this.btnImportInbox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImportInbox.Image = global::Pulsar.Properties.Resources.import;
             this.btnImportInbox.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImportInbox.Location = new System.Drawing.Point(227, 1);
+            this.btnImportInbox.Location = new System.Drawing.Point(340, 2);
+            this.btnImportInbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnImportInbox.Name = "btnImportInbox";
-            this.btnImportInbox.Size = new System.Drawing.Size(59, 39);
+            this.btnImportInbox.Size = new System.Drawing.Size(88, 60);
             this.btnImportInbox.TabIndex = 156;
             this.btnImportInbox.Text = "יבא";
             this.btnImportInbox.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1590,9 +1670,10 @@
             this.btnExport.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExport.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.Image")));
             this.btnExport.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnExport.Location = new System.Drawing.Point(159, 1);
+            this.btnExport.Location = new System.Drawing.Point(238, 2);
+            this.btnExport.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(66, 39);
+            this.btnExport.Size = new System.Drawing.Size(99, 60);
             this.btnExport.TabIndex = 47;
             this.btnExport.Text = "יצא";
             this.btnExport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1606,9 +1687,10 @@
             this.btnCreateInboxAction.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateInboxAction.Image = global::Pulsar.Properties.Resources.ActionIcon;
             this.btnCreateInboxAction.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCreateInboxAction.Location = new System.Drawing.Point(537, 1);
+            this.btnCreateInboxAction.Location = new System.Drawing.Point(806, 2);
+            this.btnCreateInboxAction.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCreateInboxAction.Name = "btnCreateInboxAction";
-            this.btnCreateInboxAction.Size = new System.Drawing.Size(111, 39);
+            this.btnCreateInboxAction.Size = new System.Drawing.Size(166, 60);
             this.btnCreateInboxAction.TabIndex = 46;
             this.btnCreateInboxAction.Text = "צור תנועה";
             this.btnCreateInboxAction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1623,9 +1705,10 @@
             this.pnlOutboxButtons.Controls.Add(this.btnDeleteOutboxRecord);
             this.pnlOutboxButtons.Controls.Add(this.btnCreateActions);
             this.pnlOutboxButtons.Controls.Add(this.btnViewDataOutbox);
-            this.pnlOutboxButtons.Location = new System.Drawing.Point(474, 661);
+            this.pnlOutboxButtons.Location = new System.Drawing.Point(711, 1017);
+            this.pnlOutboxButtons.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlOutboxButtons.Name = "pnlOutboxButtons";
-            this.pnlOutboxButtons.Size = new System.Drawing.Size(529, 40);
+            this.pnlOutboxButtons.Size = new System.Drawing.Size(794, 62);
             this.pnlOutboxButtons.TabIndex = 47;
             // 
             // btnImportOubox
@@ -1634,9 +1717,10 @@
             this.btnImportOubox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImportOubox.Image = global::Pulsar.Properties.Resources.import;
             this.btnImportOubox.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImportOubox.Location = new System.Drawing.Point(7, 0);
+            this.btnImportOubox.Location = new System.Drawing.Point(10, 0);
+            this.btnImportOubox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnImportOubox.Name = "btnImportOubox";
-            this.btnImportOubox.Size = new System.Drawing.Size(59, 39);
+            this.btnImportOubox.Size = new System.Drawing.Size(88, 60);
             this.btnImportOubox.TabIndex = 157;
             this.btnImportOubox.Text = "יבא";
             this.btnImportOubox.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1656,9 +1740,10 @@
             this.pnlInboxFilter.Controls.Add(this.label9);
             this.pnlInboxFilter.Controls.Add(this.lblInboxDateTo);
             this.pnlInboxFilter.Controls.Add(this.lblInboxDateFrom);
-            this.pnlInboxFilter.Location = new System.Drawing.Point(146, 50);
+            this.pnlInboxFilter.Location = new System.Drawing.Point(219, 77);
+            this.pnlInboxFilter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlInboxFilter.Name = "pnlInboxFilter";
-            this.pnlInboxFilter.Size = new System.Drawing.Size(503, 21);
+            this.pnlInboxFilter.Size = new System.Drawing.Size(754, 32);
             this.pnlInboxFilter.TabIndex = 49;
             // 
             // radYearInboxPnl
@@ -1666,10 +1751,11 @@
             this.radYearInboxPnl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radYearInboxPnl.AutoSize = true;
             this.radYearInboxPnl.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radYearInboxPnl.Location = new System.Drawing.Point(257, 1);
+            this.radYearInboxPnl.Location = new System.Drawing.Point(390, 2);
+            this.radYearInboxPnl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radYearInboxPnl.Name = "radYearInboxPnl";
             this.radYearInboxPnl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radYearInboxPnl.Size = new System.Drawing.Size(56, 20);
+            this.radYearInboxPnl.Size = new System.Drawing.Size(80, 27);
             this.radYearInboxPnl.TabIndex = 47;
             this.radYearInboxPnl.Text = "השנה";
             this.radYearInboxPnl.UseVisualStyleBackColor = true;
@@ -1680,10 +1766,11 @@
             this.radMonthInboxPnl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radMonthInboxPnl.AutoSize = true;
             this.radMonthInboxPnl.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radMonthInboxPnl.Location = new System.Drawing.Point(316, 1);
+            this.radMonthInboxPnl.Location = new System.Drawing.Point(477, 2);
+            this.radMonthInboxPnl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radMonthInboxPnl.Name = "radMonthInboxPnl";
             this.radMonthInboxPnl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radMonthInboxPnl.Size = new System.Drawing.Size(61, 20);
+            this.radMonthInboxPnl.Size = new System.Drawing.Size(89, 27);
             this.radMonthInboxPnl.TabIndex = 46;
             this.radMonthInboxPnl.Text = "החודש";
             this.radMonthInboxPnl.UseVisualStyleBackColor = true;
@@ -1694,10 +1781,11 @@
             this.radWeekInboxPnl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radWeekInboxPnl.AutoSize = true;
             this.radWeekInboxPnl.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radWeekInboxPnl.Location = new System.Drawing.Point(383, 1);
+            this.radWeekInboxPnl.Location = new System.Drawing.Point(576, 2);
+            this.radWeekInboxPnl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radWeekInboxPnl.Name = "radWeekInboxPnl";
             this.radWeekInboxPnl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radWeekInboxPnl.Size = new System.Drawing.Size(60, 20);
+            this.radWeekInboxPnl.Size = new System.Drawing.Size(89, 27);
             this.radWeekInboxPnl.TabIndex = 45;
             this.radWeekInboxPnl.Text = "השבוע";
             this.radWeekInboxPnl.UseVisualStyleBackColor = true;
@@ -1709,10 +1797,11 @@
             this.radDayInboxPnl.AutoSize = true;
             this.radDayInboxPnl.Checked = true;
             this.radDayInboxPnl.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radDayInboxPnl.Location = new System.Drawing.Point(451, 1);
+            this.radDayInboxPnl.Location = new System.Drawing.Point(677, 2);
+            this.radDayInboxPnl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radDayInboxPnl.Name = "radDayInboxPnl";
             this.radDayInboxPnl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radDayInboxPnl.Size = new System.Drawing.Size(48, 20);
+            this.radDayInboxPnl.Size = new System.Drawing.Size(71, 27);
             this.radDayInboxPnl.TabIndex = 44;
             this.radDayInboxPnl.TabStop = true;
             this.radDayInboxPnl.Text = "היום";
@@ -1723,9 +1812,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label9.Location = new System.Drawing.Point(158, 5);
+            this.label9.Location = new System.Drawing.Point(237, 8);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(11, 13);
+            this.label9.Size = new System.Drawing.Size(16, 20);
             this.label9.TabIndex = 43;
             this.label9.Text = "-";
             // 
@@ -1733,9 +1823,10 @@
             // 
             this.lblInboxDateTo.AutoSize = true;
             this.lblInboxDateTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.lblInboxDateTo.Location = new System.Drawing.Point(171, 5);
+            this.lblInboxDateTo.Location = new System.Drawing.Point(256, 8);
+            this.lblInboxDateTo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInboxDateTo.Name = "lblInboxDateTo";
-            this.lblInboxDateTo.Size = new System.Drawing.Size(75, 13);
+            this.lblInboxDateTo.Size = new System.Drawing.Size(101, 20);
             this.lblInboxDateTo.TabIndex = 42;
             this.lblInboxDateTo.Text = "00/00/0000";
             // 
@@ -1743,25 +1834,33 @@
             // 
             this.lblInboxDateFrom.AutoSize = true;
             this.lblInboxDateFrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.lblInboxDateFrom.Location = new System.Drawing.Point(82, 5);
+            this.lblInboxDateFrom.Location = new System.Drawing.Point(123, 8);
+            this.lblInboxDateFrom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInboxDateFrom.Name = "lblInboxDateFrom";
-            this.lblInboxDateFrom.Size = new System.Drawing.Size(75, 13);
+            this.lblInboxDateFrom.Size = new System.Drawing.Size(101, 20);
             this.lblInboxDateFrom.TabIndex = 41;
             this.lblInboxDateFrom.Text = "00/00/0000";
             // 
             // webBrowser1
             // 
             this.webBrowser1.AllowWebBrowserDrop = false;
-            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.webBrowser1.Location = new System.Drawing.Point(12, 554);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.webBrowser1.Location = new System.Drawing.Point(18, 852);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(30, 31);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.ScrollBarsEnabled = false;
-            this.webBrowser1.Size = new System.Drawing.Size(988, 100);
+            this.webBrowser1.Size = new System.Drawing.Size(1482, 154);
             this.webBrowser1.TabIndex = 50;
             this.webBrowser1.WebBrowserShortcutsEnabled = false;
+            // 
+            // tmrMail
+            // 
+            this.tmrMail.Enabled = true;
+            this.tmrMail.Interval = 10000;
+            this.tmrMail.Tick += new System.EventHandler(this.tmrMail_Tick);
             // 
             // titleBar1
             // 
@@ -1769,9 +1868,10 @@
             this.titleBar1.Company_Info = null;
             this.titleBar1.Dock = System.Windows.Forms.DockStyle.Top;
             this.titleBar1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleBar1.Location = new System.Drawing.Point(0, 24);
+            this.titleBar1.Location = new System.Drawing.Point(0, 34);
+            this.titleBar1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.titleBar1.Name = "titleBar1";
-            this.titleBar1.Size = new System.Drawing.Size(1016, 23);
+            this.titleBar1.Size = new System.Drawing.Size(1524, 29);
             this.titleBar1.TabIndex = 48;
             this.titleBar1.TabStop = false;
             // 
@@ -1783,21 +1883,15 @@
             this.txtNumOfSearchLetters.Location = new System.Drawing.Point(0, 0);
             this.txtNumOfSearchLetters.MaxLength = 2;
             this.txtNumOfSearchLetters.Name = "txtNumOfSearchLetters";
-            this.txtNumOfSearchLetters.Size = new System.Drawing.Size(18, 20);
+            this.txtNumOfSearchLetters.Size = new System.Drawing.Size(18, 26);
             this.txtNumOfSearchLetters.TabIndex = 0;
-            // 
-            // tmrMail
-            // 
-            this.tmrMail.Enabled = true;
-            this.tmrMail.Interval = 10000;
-            this.tmrMail.Tick += new System.EventHandler(this.tmrMail_Tick);
             // 
             // frmCloudBox
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(1016, 710);
+            this.ClientSize = new System.Drawing.Size(1524, 1092);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.pnlInboxFilter);
             this.Controls.Add(this.titleBar1);
@@ -1809,6 +1903,7 @@
             this.Controls.Add(this.tabMain);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmCloudBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pulsar";

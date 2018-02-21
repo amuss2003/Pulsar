@@ -154,10 +154,11 @@
             companyNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             companyNameLabel.AutoSize = true;
             companyNameLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            companyNameLabel.Location = new System.Drawing.Point(594, 126);
+            companyNameLabel.Location = new System.Drawing.Point(891, 194);
+            companyNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             companyNameLabel.Name = "companyNameLabel";
             companyNameLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            companyNameLabel.Size = new System.Drawing.Size(68, 15);
+            companyNameLabel.Size = new System.Drawing.Size(105, 21);
             companyNameLabel.TabIndex = 18;
             companyNameLabel.Text = "שם המערכת:";
             // 
@@ -166,10 +167,11 @@
             companyVATLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             companyVATLabel.AutoSize = true;
             companyVATLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            companyVATLabel.Location = new System.Drawing.Point(595, 152);
+            companyVATLabel.Location = new System.Drawing.Point(892, 234);
+            companyVATLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             companyVATLabel.Name = "companyVATLabel";
             companyVATLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            companyVATLabel.Size = new System.Drawing.Size(67, 15);
+            companyVATLabel.Size = new System.Drawing.Size(102, 21);
             companyVATLabel.TabIndex = 20;
             companyVATLabel.Text = "עוסק מורשה:";
             // 
@@ -178,10 +180,11 @@
             readCodeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             readCodeLabel.AutoSize = true;
             readCodeLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            readCodeLabel.Location = new System.Drawing.Point(590, 177);
+            readCodeLabel.Location = new System.Drawing.Point(885, 272);
+            readCodeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             readCodeLabel.Name = "readCodeLabel";
             readCodeLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            readCodeLabel.Size = new System.Drawing.Size(72, 15);
+            readCodeLabel.Size = new System.Drawing.Size(108, 21);
             readCodeLabel.TabIndex = 22;
             readCodeLabel.Text = "מפתח קריאה:";
             // 
@@ -190,10 +193,11 @@
             writeCodeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             writeCodeLabel.AutoSize = true;
             writeCodeLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            writeCodeLabel.Location = new System.Drawing.Point(589, 202);
+            writeCodeLabel.Location = new System.Drawing.Point(884, 311);
+            writeCodeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             writeCodeLabel.Name = "writeCodeLabel";
             writeCodeLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            writeCodeLabel.Size = new System.Drawing.Size(73, 15);
+            writeCodeLabel.Size = new System.Drawing.Size(109, 21);
             writeCodeLabel.TabIndex = 24;
             writeCodeLabel.Text = "מפתח כתיבה:";
             // 
@@ -202,10 +206,11 @@
             emailLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             emailLabel.AutoSize = true;
             emailLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            emailLabel.Location = new System.Drawing.Point(626, 227);
+            emailLabel.Location = new System.Drawing.Point(939, 349);
+            emailLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             emailLabel.Name = "emailLabel";
             emailLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            emailLabel.Size = new System.Drawing.Size(36, 15);
+            emailLabel.Size = new System.Drawing.Size(52, 21);
             emailLabel.TabIndex = 26;
             emailLabel.Text = "דוא\"ל:";
             // 
@@ -214,10 +219,11 @@
             maamLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             maamLabel.AutoSize = true;
             maamLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            maamLabel.Location = new System.Drawing.Point(596, 252);
+            maamLabel.Location = new System.Drawing.Point(894, 388);
+            maamLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             maamLabel.Name = "maamLabel";
             maamLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            maamLabel.Size = new System.Drawing.Size(66, 15);
+            maamLabel.Size = new System.Drawing.Size(101, 21);
             maamLabel.TabIndex = 28;
             maamLabel.Text = "אחוז המע\"מ:";
             // 
@@ -226,10 +232,11 @@
             lblSearchPath.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             lblSearchPath.AutoSize = true;
             lblSearchPath.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            lblSearchPath.Location = new System.Drawing.Point(583, 277);
+            lblSearchPath.Location = new System.Drawing.Point(874, 426);
+            lblSearchPath.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             lblSearchPath.Name = "lblSearchPath";
             lblSearchPath.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            lblSearchPath.Size = new System.Drawing.Size(79, 15);
+            lblSearchPath.Size = new System.Drawing.Size(116, 21);
             lblSearchPath.TabIndex = 29;
             lblSearchPath.Text = "מסלול מסמכים:";
             // 
@@ -238,10 +245,11 @@
             label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             label1.AutoSize = true;
             label1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label1.Location = new System.Drawing.Point(591, 303);
+            label1.Location = new System.Drawing.Point(886, 466);
+            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            label1.Size = new System.Drawing.Size(71, 15);
+            label1.Size = new System.Drawing.Size(104, 21);
             label1.TabIndex = 32;
             label1.Text = "מסלול נתונים:";
             // 
@@ -250,10 +258,11 @@
             label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             label6.AutoSize = true;
             label6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label6.Location = new System.Drawing.Point(597, 330);
+            label6.Location = new System.Drawing.Point(896, 508);
+            label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            label6.Size = new System.Drawing.Size(65, 15);
+            label6.Size = new System.Drawing.Size(99, 21);
             label6.TabIndex = 48;
             label6.Text = "צבע מערכת:";
             // 
@@ -262,10 +271,11 @@
             label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             label8.AutoSize = true;
             label8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label8.Location = new System.Drawing.Point(607, 353);
+            label8.Location = new System.Drawing.Point(910, 543);
+            label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label8.Name = "label8";
             label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            label8.Size = new System.Drawing.Size(55, 15);
+            label8.Size = new System.Drawing.Size(80, 21);
             label8.TabIndex = 52;
             label8.Text = "טלפון נייד:";
             // 
@@ -274,10 +284,11 @@
             this.lblCountry.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCountry.AutoSize = true;
             this.lblCountry.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCountry.Location = new System.Drawing.Point(625, 99);
+            this.lblCountry.Location = new System.Drawing.Point(938, 152);
+            this.lblCountry.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCountry.Name = "lblCountry";
             this.lblCountry.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblCountry.Size = new System.Drawing.Size(37, 15);
+            this.lblCountry.Size = new System.Drawing.Size(56, 21);
             this.lblCountry.TabIndex = 0;
             this.lblCountry.Text = "מדינה:";
             // 
@@ -290,11 +301,12 @@
             // txtCompanyName
             // 
             this.txtCompanyName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCompanyName.Location = new System.Drawing.Point(404, 123);
+            this.txtCompanyName.Location = new System.Drawing.Point(606, 189);
+            this.txtCompanyName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCompanyName.MaxLength = 75;
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtCompanyName.Size = new System.Drawing.Size(179, 20);
+            this.txtCompanyName.Size = new System.Drawing.Size(266, 26);
             this.txtCompanyName.TabIndex = 5;
             this.txtCompanyName.Enter += new System.EventHandler(this.txtCompanyName_Enter);
             this.txtCompanyName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
@@ -303,11 +315,12 @@
             // txtCompanyVAT
             // 
             this.txtCompanyVAT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCompanyVAT.Location = new System.Drawing.Point(483, 149);
+            this.txtCompanyVAT.Location = new System.Drawing.Point(724, 229);
+            this.txtCompanyVAT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCompanyVAT.MaxLength = 12;
             this.txtCompanyVAT.Name = "txtCompanyVAT";
             this.txtCompanyVAT.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtCompanyVAT.Size = new System.Drawing.Size(100, 20);
+            this.txtCompanyVAT.Size = new System.Drawing.Size(148, 26);
             this.txtCompanyVAT.TabIndex = 6;
             this.txtCompanyVAT.TextChanged += new System.EventHandler(this.txtCompanyVAT_TextChanged);
             this.txtCompanyVAT.Enter += new System.EventHandler(this.txt_Enter);
@@ -317,12 +330,13 @@
             // txtReadCode
             // 
             this.txtReadCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtReadCode.Location = new System.Drawing.Point(483, 174);
+            this.txtReadCode.Location = new System.Drawing.Point(724, 268);
+            this.txtReadCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtReadCode.MaxLength = 20;
             this.txtReadCode.Name = "txtReadCode";
             this.txtReadCode.PasswordChar = '*';
             this.txtReadCode.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtReadCode.Size = new System.Drawing.Size(100, 20);
+            this.txtReadCode.Size = new System.Drawing.Size(148, 26);
             this.txtReadCode.TabIndex = 7;
             this.txtReadCode.Enter += new System.EventHandler(this.txt_Enter);
             this.txtReadCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
@@ -331,11 +345,12 @@
             // txtWriteCode
             // 
             this.txtWriteCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtWriteCode.Location = new System.Drawing.Point(483, 199);
+            this.txtWriteCode.Location = new System.Drawing.Point(724, 306);
+            this.txtWriteCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtWriteCode.MaxLength = 20;
             this.txtWriteCode.Name = "txtWriteCode";
             this.txtWriteCode.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtWriteCode.Size = new System.Drawing.Size(100, 20);
+            this.txtWriteCode.Size = new System.Drawing.Size(148, 26);
             this.txtWriteCode.TabIndex = 8;
             this.txtWriteCode.Enter += new System.EventHandler(this.txt_Enter);
             this.txtWriteCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
@@ -344,11 +359,12 @@
             // txtEMail
             // 
             this.txtEMail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEMail.Location = new System.Drawing.Point(404, 224);
+            this.txtEMail.Location = new System.Drawing.Point(606, 345);
+            this.txtEMail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEMail.MaxLength = 50;
             this.txtEMail.Name = "txtEMail";
             this.txtEMail.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtEMail.Size = new System.Drawing.Size(179, 20);
+            this.txtEMail.Size = new System.Drawing.Size(266, 26);
             this.txtEMail.TabIndex = 9;
             this.txtEMail.Enter += new System.EventHandler(this.txtEMail_Enter);
             this.txtEMail.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
@@ -360,11 +376,12 @@
             this.cmbCountries.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCountries.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.cmbCountries.FormattingEnabled = true;
-            this.cmbCountries.Location = new System.Drawing.Point(404, 96);
+            this.cmbCountries.Location = new System.Drawing.Point(606, 148);
+            this.cmbCountries.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbCountries.MaxDropDownItems = 11;
             this.cmbCountries.Name = "cmbCountries";
             this.cmbCountries.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cmbCountries.Size = new System.Drawing.Size(139, 23);
+            this.cmbCountries.Size = new System.Drawing.Size(206, 29);
             this.cmbCountries.TabIndex = 4;
             this.cmbCountries.SelectedIndexChanged += new System.EventHandler(this.cmbCountries_SelectedIndexChanged);
             this.cmbCountries.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
@@ -372,12 +389,13 @@
             // txtCountryID
             // 
             this.txtCountryID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCountryID.Location = new System.Drawing.Point(546, 96);
+            this.txtCountryID.Location = new System.Drawing.Point(819, 148);
+            this.txtCountryID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCountryID.Multiline = true;
             this.txtCountryID.Name = "txtCountryID";
             this.txtCountryID.ReadOnly = true;
             this.txtCountryID.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtCountryID.Size = new System.Drawing.Size(37, 23);
+            this.txtCountryID.Size = new System.Drawing.Size(54, 33);
             this.txtCountryID.TabIndex = 3;
             this.txtCountryID.TabStop = false;
             // 
@@ -393,12 +411,12 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(100, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(137, 6);
             // 
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(140, 30);
             this.ExitToolStripMenuItem.Text = "י&ציאה";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
@@ -415,19 +433,19 @@
             // PDFToolStripMenuItem
             // 
             this.PDFToolStripMenuItem.Name = "PDFToolStripMenuItem";
-            this.PDFToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.PDFToolStripMenuItem.Size = new System.Drawing.Size(310, 30);
             this.PDFToolStripMenuItem.Text = "מסלול ספרית PDF";
             // 
             // DATAToolStripMenuItem
             // 
             this.DATAToolStripMenuItem.Name = "DATAToolStripMenuItem";
-            this.DATAToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.DATAToolStripMenuItem.Size = new System.Drawing.Size(310, 30);
             this.DATAToolStripMenuItem.Text = "מסלול ספרית DATA";
             // 
             // ToolStripMenuItemDefaultCompany
             // 
             this.ToolStripMenuItemDefaultCompany.Name = "ToolStripMenuItemDefaultCompany";
-            this.ToolStripMenuItemDefaultCompany.Size = new System.Drawing.Size(222, 22);
+            this.ToolStripMenuItemDefaultCompany.Size = new System.Drawing.Size(310, 30);
             this.ToolStripMenuItemDefaultCompany.Text = "חברת ברירת מחדל למשלוח";
             // 
             // lvwCompaniesInfoList
@@ -442,11 +460,12 @@
             this.lvwCompaniesInfoList.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvwCompaniesInfoList.FullRowSelect = true;
             this.lvwCompaniesInfoList.HideSelection = false;
-            this.lvwCompaniesInfoList.Location = new System.Drawing.Point(0, 22);
+            this.lvwCompaniesInfoList.Location = new System.Drawing.Point(0, 34);
+            this.lvwCompaniesInfoList.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lvwCompaniesInfoList.MultiSelect = false;
             this.lvwCompaniesInfoList.Name = "lvwCompaniesInfoList";
             this.lvwCompaniesInfoList.RightToLeftLayout = true;
-            this.lvwCompaniesInfoList.Size = new System.Drawing.Size(694, 345);
+            this.lvwCompaniesInfoList.Size = new System.Drawing.Size(1039, 529);
             this.lvwCompaniesInfoList.SmallImageList = this.imageList1;
             this.lvwCompaniesInfoList.TabIndex = 13;
             this.lvwCompaniesInfoList.UseCompatibleStateImageBehavior = false;
@@ -500,10 +519,11 @@
             this.pnlButtons.Controls.Add(this.btnExit);
             this.pnlButtons.Controls.Add(this.btnDelete);
             this.pnlButtons.Controls.Add(this.btnStartConnection);
-            this.pnlButtons.Location = new System.Drawing.Point(3, 480);
+            this.pnlButtons.Location = new System.Drawing.Point(4, 738);
+            this.pnlButtons.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlButtons.Name = "pnlButtons";
             this.pnlButtons.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.pnlButtons.Size = new System.Drawing.Size(627, 52);
+            this.pnlButtons.Size = new System.Drawing.Size(940, 80);
             this.pnlButtons.TabIndex = 40;
             // 
             // btnSettings
@@ -512,10 +532,11 @@
             this.btnSettings.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnSettings.Image = global::Pulsar.Properties.Resources.advancedsettings16;
             this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSettings.Location = new System.Drawing.Point(540, 3);
+            this.btnSettings.Location = new System.Drawing.Point(713, 7);
+            this.btnSettings.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnSettings.Size = new System.Drawing.Size(72, 47);
+            this.btnSettings.Size = new System.Drawing.Size(108, 72);
             this.btnSettings.TabIndex = 61;
             this.btnSettings.Text = "הגדר";
             this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -529,10 +550,11 @@
             this.btnStopConnection.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnStopConnection.Image = global::Pulsar.Properties.Resources.gear_stop_22;
             this.btnStopConnection.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStopConnection.Location = new System.Drawing.Point(49, 3);
+            this.btnStopConnection.Location = new System.Drawing.Point(73, 7);
+            this.btnStopConnection.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnStopConnection.Name = "btnStopConnection";
             this.btnStopConnection.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnStopConnection.Size = new System.Drawing.Size(141, 47);
+            this.btnStopConnection.Size = new System.Drawing.Size(212, 72);
             this.btnStopConnection.TabIndex = 19;
             this.btnStopConnection.Text = "סיים התקשרות";
             this.btnStopConnection.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -546,10 +568,11 @@
             this.btnShare.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnShare.Image = global::Pulsar.Properties.Resources.network_share_icon16;
             this.btnShare.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnShare.Location = new System.Drawing.Point(262, 3);
+            this.btnShare.Location = new System.Drawing.Point(292, 7);
+            this.btnShare.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnShare.Name = "btnShare";
             this.btnShare.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnShare.Size = new System.Drawing.Size(66, 47);
+            this.btnShare.Size = new System.Drawing.Size(99, 72);
             this.btnShare.TabIndex = 18;
             this.btnShare.Text = "שתף";
             this.btnShare.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -563,10 +586,11 @@
             this.btnUpdateCompany.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnUpdateCompany.Image = global::Pulsar.Properties.Resources.edit_icon;
             this.btnUpdateCompany.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUpdateCompany.Location = new System.Drawing.Point(402, 3);
+            this.btnUpdateCompany.Location = new System.Drawing.Point(504, 7);
+            this.btnUpdateCompany.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUpdateCompany.Name = "btnUpdateCompany";
             this.btnUpdateCompany.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnUpdateCompany.Size = new System.Drawing.Size(70, 47);
+            this.btnUpdateCompany.Size = new System.Drawing.Size(105, 72);
             this.btnUpdateCompany.TabIndex = 14;
             this.btnUpdateCompany.Text = "עדכן";
             this.btnUpdateCompany.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -579,10 +603,11 @@
             this.btnNewBusiness.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnNewBusiness.Image = global::Pulsar.Properties.Resources.icon_new;
             this.btnNewBusiness.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNewBusiness.Location = new System.Drawing.Point(193, 3);
+            this.btnNewBusiness.Location = new System.Drawing.Point(828, 7);
+            this.btnNewBusiness.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNewBusiness.Name = "btnNewBusiness";
             this.btnNewBusiness.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnNewBusiness.Size = new System.Drawing.Size(65, 47);
+            this.btnNewBusiness.Size = new System.Drawing.Size(98, 72);
             this.btnNewBusiness.TabIndex = 16;
             this.btnNewBusiness.Text = "הקם";
             this.btnNewBusiness.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -596,10 +621,11 @@
             this.btnSwitchCompany.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnSwitchCompany.Image = global::Pulsar.Properties.Resources.Reload16;
             this.btnSwitchCompany.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSwitchCompany.Location = new System.Drawing.Point(476, 3);
+            this.btnSwitchCompany.Location = new System.Drawing.Point(616, 7);
+            this.btnSwitchCompany.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSwitchCompany.Name = "btnSwitchCompany";
             this.btnSwitchCompany.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnSwitchCompany.Size = new System.Drawing.Size(60, 47);
+            this.btnSwitchCompany.Size = new System.Drawing.Size(90, 72);
             this.btnSwitchCompany.TabIndex = 14;
             this.btnSwitchCompany.Text = "בחר";
             this.btnSwitchCompany.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -612,9 +638,10 @@
             this.btnExit.BackgroundImage = global::Pulsar.Properties.Resources.exit;
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(-1, 3);
+            this.btnExit.Location = new System.Drawing.Point(-2, 7);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(45, 47);
+            this.btnExit.Size = new System.Drawing.Size(68, 72);
             this.btnExit.TabIndex = 17;
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -626,10 +653,11 @@
             this.btnDelete.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnDelete.Image = global::Pulsar.Properties.Resources.icon_delete;
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(332, 3);
+            this.btnDelete.Location = new System.Drawing.Point(398, 7);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnDelete.Size = new System.Drawing.Size(66, 47);
+            this.btnDelete.Size = new System.Drawing.Size(99, 72);
             this.btnDelete.TabIndex = 15;
             this.btnDelete.Text = "מחק";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -643,10 +671,11 @@
             this.btnStartConnection.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnStartConnection.Image = global::Pulsar.Properties.Resources.gear_run_22;
             this.btnStartConnection.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStartConnection.Location = new System.Drawing.Point(50, 3);
+            this.btnStartConnection.Location = new System.Drawing.Point(75, 6);
+            this.btnStartConnection.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnStartConnection.Name = "btnStartConnection";
             this.btnStartConnection.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnStartConnection.Size = new System.Drawing.Size(141, 47);
+            this.btnStartConnection.Size = new System.Drawing.Size(212, 72);
             this.btnStartConnection.TabIndex = 20;
             this.btnStartConnection.Text = "חדש התקשרות";
             this.btnStartConnection.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -660,8 +689,9 @@
             this.label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(694, 21);
+            this.label2.Size = new System.Drawing.Size(1041, 32);
             this.label2.TabIndex = 42;
             this.label2.Text = "רשימת מערכות";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -669,10 +699,12 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.panel2);
-            this.groupBox1.Location = new System.Drawing.Point(9, 5);
+            this.groupBox1.Location = new System.Drawing.Point(14, 8);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox1.Size = new System.Drawing.Size(684, 450);
+            this.groupBox1.Size = new System.Drawing.Size(1026, 692);
             this.groupBox1.TabIndex = 43;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "מערכת";
@@ -680,9 +712,9 @@
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.chkInformMyMobile);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label7);
@@ -726,18 +758,20 @@
             this.panel2.Controls.Add(this.cmbCountries);
             this.panel2.Controls.Add(this.txtCompanyVAT);
             this.panel2.Controls.Add(this.txtCompanyName);
-            this.panel2.Location = new System.Drawing.Point(6, 17);
+            this.panel2.Location = new System.Drawing.Point(9, 26);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(670, 427);
+            this.panel2.Size = new System.Drawing.Size(1005, 657);
             this.panel2.TabIndex = 41;
             // 
             // chkInformMyMobile
             // 
             this.chkInformMyMobile.AutoSize = true;
             this.chkInformMyMobile.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkInformMyMobile.Location = new System.Drawing.Point(415, 377);
+            this.chkInformMyMobile.Location = new System.Drawing.Point(622, 580);
+            this.chkInformMyMobile.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkInformMyMobile.Name = "chkInformMyMobile";
-            this.chkInformMyMobile.Size = new System.Drawing.Size(169, 19);
+            this.chkInformMyMobile.Size = new System.Drawing.Size(250, 25);
             this.chkInformMyMobile.TabIndex = 55;
             this.chkInformMyMobile.Text = "ידע אותי במסרון על חיוב חודשי";
             this.chkInformMyMobile.UseVisualStyleBackColor = true;
@@ -749,9 +783,10 @@
             this.label9.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(281, 329);
+            this.label9.Location = new System.Drawing.Point(422, 506);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(166, 17);
+            this.label9.Size = new System.Drawing.Size(252, 23);
             this.label9.TabIndex = 54;
             this.label9.Text = "צבע שורת המערכת במסך הראשי.";
             this.label9.Visible = false;
@@ -763,9 +798,10 @@
             this.label7.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(230, 353);
+            this.label7.Location = new System.Drawing.Point(345, 543);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(217, 17);
+            this.label7.Size = new System.Drawing.Size(324, 23);
             this.label7.TabIndex = 53;
             this.label7.Text = "משמש לקבלת אינפורמציה בדבר חיוב חודשי.";
             this.label7.Visible = false;
@@ -776,19 +812,21 @@
             this.txtMobilePhone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMobilePhone.Disabled = false;
             this.txtMobilePhone.InputType = Pulsar.NumericTextBox.NumericType.IntegerInput;
-            this.txtMobilePhone.Location = new System.Drawing.Point(453, 351);
+            this.txtMobilePhone.Location = new System.Drawing.Point(680, 540);
+            this.txtMobilePhone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMobilePhone.MaxLength = 18;
             this.txtMobilePhone.Name = "txtMobilePhone";
             this.txtMobilePhone.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtMobilePhone.Size = new System.Drawing.Size(131, 20);
+            this.txtMobilePhone.Size = new System.Drawing.Size(194, 26);
             this.txtMobilePhone.TabIndex = 17;
             // 
             // btnColorPicker
             // 
             this.btnColorPicker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnColorPicker.Location = new System.Drawing.Point(453, 326);
+            this.btnColorPicker.Location = new System.Drawing.Point(680, 502);
+            this.btnColorPicker.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnColorPicker.Name = "btnColorPicker";
-            this.btnColorPicker.Size = new System.Drawing.Size(24, 23);
+            this.btnColorPicker.Size = new System.Drawing.Size(36, 35);
             this.btnColorPicker.TabIndex = 16;
             this.btnColorPicker.Text = "...";
             this.btnColorPicker.UseVisualStyleBackColor = true;
@@ -797,9 +835,10 @@
             // lblSystemColor
             // 
             this.lblSystemColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSystemColor.Location = new System.Drawing.Point(483, 329);
+            this.lblSystemColor.Location = new System.Drawing.Point(724, 506);
+            this.lblSystemColor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSystemColor.Name = "lblSystemColor";
-            this.lblSystemColor.Size = new System.Drawing.Size(100, 17);
+            this.lblSystemColor.Size = new System.Drawing.Size(149, 25);
             this.lblSystemColor.TabIndex = 15;
             // 
             // lblPersonal
@@ -809,21 +848,23 @@
             this.lblPersonal.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblPersonal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblPersonal.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPersonal.Location = new System.Drawing.Point(151, 61);
+            this.lblPersonal.Location = new System.Drawing.Point(226, 94);
+            this.lblPersonal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPersonal.Name = "lblPersonal";
-            this.lblPersonal.Size = new System.Drawing.Size(350, 17);
+            this.lblPersonal.Size = new System.Drawing.Size(529, 23);
             this.lblPersonal.TabIndex = 45;
             this.lblPersonal.Text = "שימוש פרטי מאפשר גישה מצומצמת של התוכנה ולא מאפשר שליחת דואר.";
             this.lblPersonal.Visible = false;
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Location = new System.Drawing.Point(-7, 90);
+            this.label4.Location = new System.Drawing.Point(-10, 138);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(684, 2);
+            this.label4.Size = new System.Drawing.Size(1026, 3);
             this.label4.TabIndex = 47;
             // 
             // lblBuisness
@@ -833,9 +874,10 @@
             this.lblBuisness.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblBuisness.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblBuisness.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBuisness.Location = new System.Drawing.Point(235, 35);
+            this.lblBuisness.Location = new System.Drawing.Point(352, 54);
+            this.lblBuisness.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuisness.Name = "lblBuisness";
-            this.lblBuisness.Size = new System.Drawing.Size(270, 17);
+            this.lblBuisness.Size = new System.Drawing.Size(409, 23);
             this.lblBuisness.TabIndex = 44;
             this.lblBuisness.Text = "שימוש עסקי מאפשר שימוש בגירסה המלאה של התוכנה. ";
             this.lblBuisness.Visible = false;
@@ -847,9 +889,10 @@
             this.lblCompanyNameTip.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblCompanyNameTip.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblCompanyNameTip.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCompanyNameTip.Location = new System.Drawing.Point(270, 125);
+            this.lblCompanyNameTip.Location = new System.Drawing.Point(405, 192);
+            this.lblCompanyNameTip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCompanyNameTip.Name = "lblCompanyNameTip";
-            this.lblCompanyNameTip.Size = new System.Drawing.Size(128, 17);
+            this.lblCompanyNameTip.Size = new System.Drawing.Size(193, 23);
             this.lblCompanyNameTip.TabIndex = 40;
             this.lblCompanyNameTip.Text = "שם בית העסק / גוף פרטי.";
             this.lblCompanyNameTip.Visible = false;
@@ -859,9 +902,10 @@
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(570, 13);
+            this.label3.Location = new System.Drawing.Point(855, 20);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 16);
+            this.label3.Size = new System.Drawing.Size(137, 24);
             this.label3.TabIndex = 43;
             this.label3.Text = "מטרת השימוש:";
             // 
@@ -870,9 +914,10 @@
             this.radPersonal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radPersonal.AutoSize = true;
             this.radPersonal.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radPersonal.Location = new System.Drawing.Point(511, 58);
+            this.radPersonal.Location = new System.Drawing.Point(772, 89);
+            this.radPersonal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radPersonal.Name = "radPersonal";
-            this.radPersonal.Size = new System.Drawing.Size(93, 20);
+            this.radPersonal.Size = new System.Drawing.Size(134, 28);
             this.radPersonal.TabIndex = 2;
             this.radPersonal.Text = "שימוש פרטי";
             this.radPersonal.UseVisualStyleBackColor = true;
@@ -887,9 +932,10 @@
             this.lblDataPathTip.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblDataPathTip.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblDataPathTip.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDataPathTip.Location = new System.Drawing.Point(125, 303);
+            this.lblDataPathTip.Location = new System.Drawing.Point(188, 466);
+            this.lblDataPathTip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDataPathTip.Name = "lblDataPathTip";
-            this.lblDataPathTip.Size = new System.Drawing.Size(96, 17);
+            this.lblDataPathTip.Size = new System.Drawing.Size(139, 23);
             this.lblDataPathTip.TabIndex = 39;
             this.lblDataPathTip.Text = "מסלול יבוא נתונים.";
             this.lblDataPathTip.Visible = false;
@@ -900,9 +946,10 @@
             this.radCompany.AutoSize = true;
             this.radCompany.Checked = true;
             this.radCompany.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radCompany.Location = new System.Drawing.Point(511, 32);
+            this.radCompany.Location = new System.Drawing.Point(773, 49);
+            this.radCompany.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radCompany.Name = "radCompany";
-            this.radCompany.Size = new System.Drawing.Size(93, 20);
+            this.radCompany.Size = new System.Drawing.Size(133, 28);
             this.radCompany.TabIndex = 1;
             this.radCompany.TabStop = true;
             this.radCompany.Text = "שימוש עסקי";
@@ -918,9 +965,10 @@
             this.lblDocPathTip.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblDocPathTip.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblDocPathTip.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDocPathTip.Location = new System.Drawing.Point(64, 277);
+            this.lblDocPathTip.Location = new System.Drawing.Point(96, 426);
+            this.lblDocPathTip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDocPathTip.Name = "lblDocPathTip";
-            this.lblDocPathTip.Size = new System.Drawing.Size(157, 17);
+            this.lblDocPathTip.Size = new System.Drawing.Size(231, 23);
             this.lblDocPathTip.TabIndex = 38;
             this.lblDocPathTip.Text = "מסלול מסמכים סרוקים או PDF.";
             this.lblDocPathTip.Visible = false;
@@ -932,9 +980,10 @@
             this.lblVatTip.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblVatTip.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblVatTip.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVatTip.Location = new System.Drawing.Point(429, 251);
+            this.lblVatTip.Location = new System.Drawing.Point(644, 386);
+            this.lblVatTip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVatTip.Name = "lblVatTip";
-            this.lblVatTip.Size = new System.Drawing.Size(101, 17);
+            this.lblVatTip.Size = new System.Drawing.Size(152, 23);
             this.lblVatTip.TabIndex = 37;
             this.lblVatTip.Text = "אחוז המע\"מ הנוכחי.";
             this.lblVatTip.Visible = false;
@@ -946,9 +995,10 @@
             this.lblEMailTip.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblEMailTip.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblEMailTip.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEMailTip.Location = new System.Drawing.Point(251, 226);
+            this.lblEMailTip.Location = new System.Drawing.Point(376, 348);
+            this.lblEMailTip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEMailTip.Name = "lblEMailTip";
-            this.lblEMailTip.Size = new System.Drawing.Size(147, 17);
+            this.lblEMailTip.Size = new System.Drawing.Size(221, 23);
             this.lblEMailTip.TabIndex = 36;
             this.lblEMailTip.Text = "תיבת הדואר של החברה שלך.";
             this.lblEMailTip.Visible = false;
@@ -960,9 +1010,10 @@
             this.lblWriteCodeTip.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblWriteCodeTip.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblWriteCodeTip.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWriteCodeTip.Location = new System.Drawing.Point(129, 201);
+            this.lblWriteCodeTip.Location = new System.Drawing.Point(194, 309);
+            this.lblWriteCodeTip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWriteCodeTip.Name = "lblWriteCodeTip";
-            this.lblWriteCodeTip.Size = new System.Drawing.Size(348, 17);
+            this.lblWriteCodeTip.Size = new System.Drawing.Size(521, 23);
             this.lblWriteCodeTip.TabIndex = 35;
             this.lblWriteCodeTip.Text = "מפתח המאפשר לגופים אחרים להכניס חומר לתא האישי שלך. (מינימום 6)";
             this.lblWriteCodeTip.Visible = false;
@@ -974,9 +1025,10 @@
             this.lblReadCodeTip.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblReadCodeTip.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblReadCodeTip.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReadCodeTip.Location = new System.Drawing.Point(91, 177);
+            this.lblReadCodeTip.Location = new System.Drawing.Point(136, 272);
+            this.lblReadCodeTip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblReadCodeTip.Name = "lblReadCodeTip";
-            this.lblReadCodeTip.Size = new System.Drawing.Size(386, 17);
+            this.lblReadCodeTip.Size = new System.Drawing.Size(583, 23);
             this.lblReadCodeTip.TabIndex = 34;
             this.lblReadCodeTip.Text = "מפתח סודי לשימושך בלבד. משמש למשיכת הדואר מהתא האישי שלך. (מינימום 9)";
             this.lblReadCodeTip.Visible = false;
@@ -988,9 +1040,10 @@
             this.lblVATNumberTip.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.lblVATNumberTip.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblVATNumberTip.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVATNumberTip.Location = new System.Drawing.Point(346, 152);
+            this.lblVATNumberTip.Location = new System.Drawing.Point(519, 234);
+            this.lblVATNumberTip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVATNumberTip.Name = "lblVATNumberTip";
-            this.lblVATNumberTip.Size = new System.Drawing.Size(131, 17);
+            this.lblVATNumberTip.Size = new System.Drawing.Size(199, 23);
             this.lblVATNumberTip.TabIndex = 33;
             this.lblVATNumberTip.Text = "מספר העוסק מורשה / ת.ז.";
             this.lblVATNumberTip.Visible = false;
@@ -998,9 +1051,10 @@
             // btnBrowseDataPath
             // 
             this.btnBrowseDataPath.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnBrowseDataPath.Location = new System.Drawing.Point(227, 299);
+            this.btnBrowseDataPath.Location = new System.Drawing.Point(340, 460);
+            this.btnBrowseDataPath.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBrowseDataPath.Name = "btnBrowseDataPath";
-            this.btnBrowseDataPath.Size = new System.Drawing.Size(24, 23);
+            this.btnBrowseDataPath.Size = new System.Drawing.Size(36, 35);
             this.btnBrowseDataPath.TabIndex = 14;
             this.btnBrowseDataPath.Text = "...";
             this.btnBrowseDataPath.UseVisualStyleBackColor = true;
@@ -1011,12 +1065,13 @@
             // txtDataPath
             // 
             this.txtDataPath.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDataPath.Location = new System.Drawing.Point(257, 301);
+            this.txtDataPath.Location = new System.Drawing.Point(386, 463);
+            this.txtDataPath.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDataPath.MaxLength = 50;
             this.txtDataPath.Name = "txtDataPath";
             this.txtDataPath.ReadOnly = true;
             this.txtDataPath.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtDataPath.Size = new System.Drawing.Size(326, 20);
+            this.txtDataPath.Size = new System.Drawing.Size(487, 26);
             this.txtDataPath.TabIndex = 13;
             this.txtDataPath.TabStop = false;
             this.txtDataPath.Enter += new System.EventHandler(this.txt_Enter);
@@ -1025,9 +1080,10 @@
             // btnBrowseSearch
             // 
             this.btnBrowseSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnBrowseSearch.Location = new System.Drawing.Point(227, 273);
+            this.btnBrowseSearch.Location = new System.Drawing.Point(340, 420);
+            this.btnBrowseSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBrowseSearch.Name = "btnBrowseSearch";
-            this.btnBrowseSearch.Size = new System.Drawing.Size(24, 23);
+            this.btnBrowseSearch.Size = new System.Drawing.Size(36, 35);
             this.btnBrowseSearch.TabIndex = 12;
             this.btnBrowseSearch.Text = "...";
             this.btnBrowseSearch.UseVisualStyleBackColor = true;
@@ -1038,12 +1094,13 @@
             // txtSearchPath
             // 
             this.txtSearchPath.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSearchPath.Location = new System.Drawing.Point(257, 275);
+            this.txtSearchPath.Location = new System.Drawing.Point(386, 423);
+            this.txtSearchPath.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSearchPath.MaxLength = 50;
             this.txtSearchPath.Name = "txtSearchPath";
             this.txtSearchPath.ReadOnly = true;
             this.txtSearchPath.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtSearchPath.Size = new System.Drawing.Size(326, 20);
+            this.txtSearchPath.Size = new System.Drawing.Size(487, 26);
             this.txtSearchPath.TabIndex = 11;
             this.txtSearchPath.TabStop = false;
             this.txtSearchPath.Enter += new System.EventHandler(this.txt_Enter);
@@ -1055,11 +1112,12 @@
             this.txtMaam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMaam.Disabled = false;
             this.txtMaam.InputType = Pulsar.NumericTextBox.NumericType.DecimalInput;
-            this.txtMaam.Location = new System.Drawing.Point(536, 249);
+            this.txtMaam.Location = new System.Drawing.Point(804, 383);
+            this.txtMaam.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMaam.MaxLength = 5;
             this.txtMaam.Name = "txtMaam";
             this.txtMaam.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtMaam.Size = new System.Drawing.Size(47, 20);
+            this.txtMaam.Size = new System.Drawing.Size(68, 26);
             this.txtMaam.TabIndex = 10;
             this.txtMaam.Enter += new System.EventHandler(this.txt_Enter);
             this.txtMaam.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
@@ -1072,9 +1130,10 @@
             this.btnUpdate.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnUpdate.Image = global::Pulsar.Properties.Resources.edit_icon;
             this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUpdate.Location = new System.Drawing.Point(183, 479);
+            this.btnUpdate.Location = new System.Drawing.Point(274, 737);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(70, 47);
+            this.btnUpdate.Size = new System.Drawing.Size(105, 72);
             this.btnUpdate.TabIndex = 18;
             this.btnUpdate.Text = "עדכן";
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1087,9 +1146,10 @@
             this.btnExitCreateBox.BackgroundImage = global::Pulsar.Properties.Resources.exit;
             this.btnExitCreateBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnExitCreateBox.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExitCreateBox.Location = new System.Drawing.Point(9, 479);
+            this.btnExitCreateBox.Location = new System.Drawing.Point(14, 737);
+            this.btnExitCreateBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExitCreateBox.Name = "btnExitCreateBox";
-            this.btnExitCreateBox.Size = new System.Drawing.Size(45, 47);
+            this.btnExitCreateBox.Size = new System.Drawing.Size(68, 72);
             this.btnExitCreateBox.TabIndex = 21;
             this.btnExitCreateBox.UseVisualStyleBackColor = true;
             this.btnExitCreateBox.Click += new System.EventHandler(this.btnExitCreateBox_Click);
@@ -1100,10 +1160,11 @@
             this.btnCreateBox.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnCreateBox.Image = global::Pulsar.Properties.Resources.ActionIcon16;
             this.btnCreateBox.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCreateBox.Location = new System.Drawing.Point(122, 479);
+            this.btnCreateBox.Location = new System.Drawing.Point(183, 737);
+            this.btnCreateBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCreateBox.Name = "btnCreateBox";
             this.btnCreateBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnCreateBox.Size = new System.Drawing.Size(55, 47);
+            this.btnCreateBox.Size = new System.Drawing.Size(82, 72);
             this.btnCreateBox.TabIndex = 19;
             this.btnCreateBox.Text = "צור";
             this.btnCreateBox.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1116,10 +1177,11 @@
             this.btnCancel.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnCancel.Image = global::Pulsar.Properties.Resources.icon_new;
             this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancel.Location = new System.Drawing.Point(58, 479);
+            this.btnCancel.Location = new System.Drawing.Point(87, 737);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnCancel.Size = new System.Drawing.Size(60, 47);
+            this.btnCancel.Size = new System.Drawing.Size(90, 72);
             this.btnCancel.TabIndex = 20;
             this.btnCancel.Text = "נקה";
             this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1134,9 +1196,10 @@
             this.pnlNewBusiness.Controls.Add(this.btnCancel);
             this.pnlNewBusiness.Controls.Add(this.btnCreateBox);
             this.pnlNewBusiness.Controls.Add(this.btnUpdate);
-            this.pnlNewBusiness.Location = new System.Drawing.Point(10, 31);
+            this.pnlNewBusiness.Location = new System.Drawing.Point(15, 48);
+            this.pnlNewBusiness.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlNewBusiness.Name = "pnlNewBusiness";
-            this.pnlNewBusiness.Size = new System.Drawing.Size(699, 535);
+            this.pnlNewBusiness.Size = new System.Drawing.Size(1048, 823);
             this.pnlNewBusiness.TabIndex = 44;
             this.pnlNewBusiness.Visible = false;
             // 
@@ -1150,18 +1213,20 @@
             this.pnlBusinessTable.Controls.Add(this.serverStatus1);
             this.pnlBusinessTable.Controls.Add(this.label2);
             this.pnlBusinessTable.Controls.Add(this.lvwCompaniesInfoList);
-            this.pnlBusinessTable.Location = new System.Drawing.Point(10, 31);
+            this.pnlBusinessTable.Location = new System.Drawing.Point(15, 48);
+            this.pnlBusinessTable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlBusinessTable.Name = "pnlBusinessTable";
-            this.pnlBusinessTable.Size = new System.Drawing.Size(696, 532);
+            this.pnlBusinessTable.Size = new System.Drawing.Size(1044, 818);
             this.pnlBusinessTable.TabIndex = 45;
             // 
             // picLogo
             // 
             this.picLogo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.picLogo.Image = global::Pulsar.Properties.Resources.pulsar128;
-            this.picLogo.Location = new System.Drawing.Point(636, 480);
+            this.picLogo.Location = new System.Drawing.Point(954, 738);
+            this.picLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(54, 54);
+            this.picLogo.Size = new System.Drawing.Size(81, 83);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLogo.TabIndex = 44;
             this.picLogo.TabStop = false;
@@ -1169,14 +1234,15 @@
             // webBrowser1
             // 
             this.webBrowser1.AllowWebBrowserDrop = false;
-            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.webBrowser1.Location = new System.Drawing.Point(0, 375);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.webBrowser1.Location = new System.Drawing.Point(0, 577);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(30, 31);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.ScrollBarsEnabled = false;
-            this.webBrowser1.Size = new System.Drawing.Size(694, 100);
+            this.webBrowser1.Size = new System.Drawing.Size(1041, 154);
             this.webBrowser1.TabIndex = 51;
             this.webBrowser1.WebBrowserShortcutsEnabled = false;
             // 
@@ -1190,9 +1256,11 @@
             this.grpShare.Controls.Add(this.txtShareByEMail);
             this.grpShare.Controls.Add(this.label5);
             this.grpShare.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpShare.Location = new System.Drawing.Point(65, 66);
+            this.grpShare.Location = new System.Drawing.Point(98, 102);
+            this.grpShare.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grpShare.Name = "grpShare";
-            this.grpShare.Size = new System.Drawing.Size(585, 276);
+            this.grpShare.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.grpShare.Size = new System.Drawing.Size(878, 425);
             this.grpShare.TabIndex = 44;
             this.grpShare.TabStop = false;
             this.grpShare.Text = "שתף";
@@ -1204,10 +1272,11 @@
             this.button1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button1.Image = global::Pulsar.Properties.Resources.earth_hand_internet_share_icon24;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(178, 223);
+            this.button1.Location = new System.Drawing.Point(267, 343);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
             this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.button1.Size = new System.Drawing.Size(133, 47);
+            this.button1.Size = new System.Drawing.Size(200, 72);
             this.button1.TabIndex = 23;
             this.button1.Text = "שיתוף חברתי";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1218,9 +1287,10 @@
             // 
             this.btnOutlookContactsEmail.Image = global::Pulsar.Properties.Resources.search_green;
             this.btnOutlookContactsEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnOutlookContactsEmail.Location = new System.Drawing.Point(6, 14);
+            this.btnOutlookContactsEmail.Location = new System.Drawing.Point(9, 22);
+            this.btnOutlookContactsEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnOutlookContactsEmail.Name = "btnOutlookContactsEmail";
-            this.btnOutlookContactsEmail.Size = new System.Drawing.Size(180, 25);
+            this.btnOutlookContactsEmail.Size = new System.Drawing.Size(270, 38);
             this.btnOutlookContactsEmail.TabIndex = 22;
             this.btnOutlookContactsEmail.Text = "Outlook Contacts EMail";
             this.btnOutlookContactsEmail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1229,20 +1299,21 @@
             // 
             // lvwOutlookContacts
             // 
-            this.lvwOutlookContacts.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lvwOutlookContacts.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lvwOutlookContacts.CheckBoxes = true;
             this.lvwOutlookContacts.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader7,
             this.columnHeader8,
             this.columnHeader9});
             this.lvwOutlookContacts.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lvwOutlookContacts.Location = new System.Drawing.Point(7, 45);
+            this.lvwOutlookContacts.Location = new System.Drawing.Point(10, 69);
+            this.lvwOutlookContacts.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lvwOutlookContacts.Name = "lvwOutlookContacts";
             this.lvwOutlookContacts.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lvwOutlookContacts.RightToLeftLayout = true;
-            this.lvwOutlookContacts.Size = new System.Drawing.Size(571, 164);
+            this.lvwOutlookContacts.Size = new System.Drawing.Size(854, 250);
             this.lvwOutlookContacts.TabIndex = 21;
             this.lvwOutlookContacts.UseCompatibleStateImageBehavior = false;
             this.lvwOutlookContacts.View = System.Windows.Forms.View.Details;
@@ -1270,9 +1341,10 @@
             this.btnCloseShare.BackgroundImage = global::Pulsar.Properties.Resources.exit;
             this.btnCloseShare.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnCloseShare.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCloseShare.Location = new System.Drawing.Point(7, 223);
+            this.btnCloseShare.Location = new System.Drawing.Point(10, 343);
+            this.btnCloseShare.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCloseShare.Name = "btnCloseShare";
-            this.btnCloseShare.Size = new System.Drawing.Size(45, 47);
+            this.btnCloseShare.Size = new System.Drawing.Size(68, 72);
             this.btnCloseShare.TabIndex = 20;
             this.btnCloseShare.UseVisualStyleBackColor = true;
             this.btnCloseShare.Click += new System.EventHandler(this.btnCloseShare_Click);
@@ -1283,10 +1355,11 @@
             this.btnSendShare.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnSendShare.Image = global::Pulsar.Properties.Resources.network_share_icon16;
             this.btnSendShare.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSendShare.Location = new System.Drawing.Point(56, 223);
+            this.btnSendShare.Location = new System.Drawing.Point(84, 343);
+            this.btnSendShare.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSendShare.Name = "btnSendShare";
             this.btnSendShare.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnSendShare.Size = new System.Drawing.Size(116, 47);
+            this.btnSendShare.Size = new System.Drawing.Size(174, 72);
             this.btnSendShare.TabIndex = 19;
             this.btnSendShare.Text = "שלח שיתוף";
             this.btnSendShare.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1296,9 +1369,10 @@
             // txtShareByEMail
             // 
             this.txtShareByEMail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtShareByEMail.Location = new System.Drawing.Point(318, 17);
+            this.txtShareByEMail.Location = new System.Drawing.Point(477, 26);
+            this.txtShareByEMail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtShareByEMail.Name = "txtShareByEMail";
-            this.txtShareByEMail.Size = new System.Drawing.Size(213, 22);
+            this.txtShareByEMail.Size = new System.Drawing.Size(318, 30);
             this.txtShareByEMail.TabIndex = 1;
             this.txtShareByEMail.Enter += new System.EventHandler(this.txtShareByEMail_Enter);
             // 
@@ -1306,9 +1380,10 @@
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(537, 20);
+            this.label5.Location = new System.Drawing.Point(806, 31);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 16);
+            this.label5.Size = new System.Drawing.Size(59, 23);
             this.label5.TabIndex = 0;
             this.label5.Text = "דוא\"ל:";
             // 
@@ -1317,7 +1392,8 @@
             this.serverStatus1.BackColor = System.Drawing.Color.Transparent;
             this.serverStatus1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("serverStatus1.BackgroundImage")));
             this.serverStatus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.serverStatus1.Location = new System.Drawing.Point(4, 5);
+            this.serverStatus1.Location = new System.Drawing.Point(6, 8);
+            this.serverStatus1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.serverStatus1.Name = "serverStatus1";
             this.serverStatus1.parser = null;
             this.serverStatus1.ServerOnline = false;
@@ -1332,11 +1408,13 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.מערכתToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(718, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(1077, 35);
             this.menuStrip1.TabIndex = 46;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1345,28 +1423,29 @@
             this.מערכתToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuUpgrade});
             this.מערכתToolStripMenuItem.Name = "מערכתToolStripMenuItem";
-            this.מערכתToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.מערכתToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
             this.מערכתToolStripMenuItem.Text = "מערכת";
             // 
             // mnuUpgrade
             // 
             this.mnuUpgrade.Name = "mnuUpgrade";
-            this.mnuUpgrade.Size = new System.Drawing.Size(107, 22);
+            this.mnuUpgrade.Size = new System.Drawing.Size(142, 30);
             this.mnuUpgrade.Text = "שדרוג";
             this.mnuUpgrade.Click += new System.EventHandler(this.mnuUpgrade_Click);
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(718, 575);
+            this.ClientSize = new System.Drawing.Size(1077, 885);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pnlBusinessTable);
             this.Controls.Add(this.pnlNewBusiness);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;

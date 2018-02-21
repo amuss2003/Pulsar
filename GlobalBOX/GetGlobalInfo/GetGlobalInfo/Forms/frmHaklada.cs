@@ -208,36 +208,50 @@ namespace Pulsar
 
         private bool ValidateForm()
         {
-            if (txtSchumPaturMmam.Text.Trim() == "")
+            if (!checkText(txtSchumPaturMmam))
                 txtSchumPaturMmam.Text = "0";
 
-            if (cmbActionType.SelectedIndex == -1)
+            if (!checkComboSelection(cmbActionType))
+                return false;
+
+            if (!checkComboSelection(companyNameComboBox))
+                return false;
+
+            if (!checkComboSelection(companyVATComboBox))
+                return false;
+
+            if (!checkText(txtMisparMismach))
+                return false;
+
+            if (!checkText(txtSchumKolelMaam))
+                return false;
+
+            return true;
+        }
+
+        private bool checkText(TextBox txt)
+        {
+            if (txt.Text.Trim() == "")
             {
-                cmbActionType.Focus();
-                cmbActionType.BackColor = Color.Pink;
+                txt.Focus();
+                txt.BackColor = Color.Pink;
                 return false;
             }
-            else
-                cmbActionType.BackColor = Color.White;
 
-            //if (txtMisparMismach.Text == "")
-            //{
-            //    txtMisparMismach.Focus();
-            //    txtMisparMismach.BackColor = Color.Pink;
-            //    return false;
-            //}
-            //else
-            //    txtMisparMismach.BackColor = Color.White;
+            txt.BackColor = Color.White;
+            return true;
+        }
 
-            if (txtSchumKolelMaam.Text == "")
+        private bool checkComboSelection(ComboBox cmb)
+        {
+            if (cmb.SelectedIndex == -1)
             {
-                txtSchumKolelMaam.Focus();
-                txtSchumKolelMaam.BackColor = Color.Pink;
+                cmb.Focus();
+                cmb.BackColor = Color.Pink;
                 return false;
             }
-            else
-                txtSchumKolelMaam.BackColor = Color.White;
-
+            
+            cmb.BackColor = Color.White;
             return true;
         }
 
@@ -307,6 +321,16 @@ namespace Pulsar
             if (result == DialogResult.OK) // Test result.
             {
                 attachmnentTextBox.Text = ofdAttachment.FileName;
+                DirectoryInfo di = new DirectoryInfo(Path.GetDirectoryName(ofdAttachment.FileName));
+                var fi = di.GetFiles(ofdAttachment.FileName);
+                if(fi.Length == 1)
+                {
+                    if(fi[0].Length > 1024 * 512)
+                    {
+                        MessageBox.Show("File Size to large more than 512K", "File Size", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
             }
         }
 
